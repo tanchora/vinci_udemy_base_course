@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Lecture_8_Value" id="index" text="Наполняем сайт. Встраиваем интерактивные элементы" linkedElements="65085453-c78f-4dfe-909c-94b3b3944d17 0c385d36-3e73-45ce-a9bb-48c1dff5f31e c78ad207-742a-4784-aacf-91310cebf8ff" sectionStyle="Default" markdownContent="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" pageTemplate="./../templ.1.vinci">
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Lecture_8_Value" id="index" text="Наполняем сайт" linkedElements="65085453-c78f-4dfe-909c-94b3b3944d17 0c385d36-3e73-45ce-a9bb-48c1dff5f31e c78ad207-742a-4784-aacf-91310cebf8ff" sectionStyle="Default" markdownContent="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" pageTemplate="./../templ.1.vinci">
   <appearance>
     <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
       <entries xsi:type="org.nasdanika.ncore:Property" value="none" name="text-decoration"/>
     </attributes>
   </appearance>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Встраиваем произвольный код" id="65085453-c78f-4dfe-909c-94b3b3944d17" text="&lt;img src=&quot;img/path7.png&quot; alt=&quot;Встраиваем произвольный код&quot;>" linkedElements="ed3ecf62-b825-4214-8488-487c8921084f 44d54727-9f89-450e-b1e7-3b480d90b4e7 221f45a1-d4f7-4a93-b727-0de579bc0b27 80ee4f55-ec49-4d13-aeb9-e96c57b332da" activatorType="None"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Встраиваем произвольный код" id="65085453-c78f-4dfe-909c-94b3b3944d17" text="&lt;img src=&quot;img/path7.png&quot; alt=&quot;Встраиваем произвольный код&quot;>  Встраиваем интерактивные элементы" linkedElements="ed3ecf62-b825-4214-8488-487c8921084f 44d54727-9f89-450e-b1e7-3b480d90b4e7 221f45a1-d4f7-4a93-b727-0de579bc0b27 80ee4f55-ec49-4d13-aeb9-e96c57b332da" activatorType="None"/>
   <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Контент-элемент Value" id="ed3ecf62-b825-4214-8488-487c8921084f" text="Контент-элемент Value" linkedElements="ab6dded9-bdd3-485b-b02b-6eaf3624f25c">
     <appearance background="Dark">
       <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
