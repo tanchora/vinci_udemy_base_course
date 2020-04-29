@@ -5,7 +5,7 @@
       <entries xsi:type="org.nasdanika.ncore:Property" value="none" name="text-decoration"/>
     </attributes>
   </appearance>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Встраиваем произвольный код" id="65085453-c78f-4dfe-909c-94b3b3944d17" text="&lt;img src=&quot;img/path7.png&quot; alt=&quot;Встраиваем произвольный код&quot;>  Встраиваем интерактивные элементы" linkedElements="ed3ecf62-b825-4214-8488-487c8921084f 44d54727-9f89-450e-b1e7-3b480d90b4e7 221f45a1-d4f7-4a93-b727-0de579bc0b27 80ee4f55-ec49-4d13-aeb9-e96c57b332da" activatorType="None"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Встраиваем произвольный код" id="65085453-c78f-4dfe-909c-94b3b3944d17" text="&lt;img src=&quot;img/path7.png&quot; alt=&quot;Встраиваем интерактивные элементы и произвольный код&quot;>  Встраиваем интерактивные элементы  и произвольный код" linkedElements="ed3ecf62-b825-4214-8488-487c8921084f 44d54727-9f89-450e-b1e7-3b480d90b4e7 221f45a1-d4f7-4a93-b727-0de579bc0b27 80ee4f55-ec49-4d13-aeb9-e96c57b332da" activatorType="None"/>
   <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Контент-элемент Value" id="ed3ecf62-b825-4214-8488-487c8921084f" text="Контент-элемент Value" linkedElements="ab6dded9-bdd3-485b-b02b-6eaf3624f25c">
     <appearance background="Dark">
       <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
