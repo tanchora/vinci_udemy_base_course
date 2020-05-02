@@ -17,5 +17,9 @@ Nasdanika Vinci базируется на популярнейшей IDE Eclipse
 
 Модель данных хранит текстовый контент и код, расширяющий статический функционал сайта, что позволяет использовать Nasdanika Vinci для создания прототипов сайтов и командной разработки. Для управления сайтом при данном способе созданияв не требуется установка и администрирование базы данных.
 
+
+[Лекция 1. Что такое генератор статических сайтов Nasdanika Vinci?] (https://tanchora.github.io/vinci_udemy_base_course/courseprogram/Lecture_1_websitegenerator/index.html)
+
 [Лекция 7. Наполняем сайт контентом. Секции страницы:  Секции страницы: таблицы & action group](https://tanchora.github.io/vinci_udemy_base_course/courseprogram/Lecture_7_Section_p.2/index.html)  
+
 [Лекция 8. Наполняем сайт контентом. Встраиваем интерактивные элементы](https://tanchora.github.io/vinci_udemy_base_course/courseprogram/Lecture_8_Value/index.html)
