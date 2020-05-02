@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Lecture_1_websitegenerator" id="index" text="Что такое генератор статических сайтов Nasdanika Vinci?" linkedElements="65085453-c78f-4dfe-909c-94b3b3944d17 0c385d36-3e73-45ce-a9bb-48c1dff5f31e c78ad207-742a-4784-aacf-91310cebf8ff e8f22979-134c-4088-a771-3493b470d43e" sectionStyle="Default" markdownContent="" pageTemplate="./../templ.1.vinci">
+  <appearance>
+    <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
+      <entries xsi:type="org.nasdanika.ncore:Property" value="none" name="text-decoration"/>
+    </attributes>
+  </appearance>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Рисуем mind-map → получаем сайт" id="65085453-c78f-4dfe-909c-94b3b3944d17" text="Рисуем mind-map → получаем сайт" linkedElements="ed3ecf62-b825-4214-8488-487c8921084f 44d54727-9f89-450e-b1e7-3b480d90b4e7 b1f2b412-27c1-4e88-9784-b9b17591eb75 d2ad6763-fb25-4cb0-9a51-e16d607ab9a5 76e1b3e3-74f6-4420-b6d9-27a16b05bf97" activatorType="None"/>
+  <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Maind-map" id="ed3ecf62-b825-4214-8488-487c8921084f" text="Модель сайта: maind-map или иерархическое дерево" linkedElements="ab6dded9-bdd3-485b-b02b-6eaf3624f25c f92223a4-abd7-4093-877b-5c2ddd1314de">
+    <appearance background="Dark">
+      <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
+        <entries xsi:type="org.nasdanika.ncore:Property" value="1.25rem" name="font-size"/>
+      </attributes>
+      <text color="Light" weight="Bold"/>
+    </appearance>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Что это такое?" id="ab6dded9-bdd3-485b-b02b-6eaf3624f25c" text="Что это такое?" markdownContent="Для создания структурированного описания используется способ оформления мыслей в виде интеллект-карты (mind-map).  Этот метод описания основан на естественным для человека способе мыслить: от какой либо  центральной идеи ответвляются развивающие и конкретизирующие ее детали и дочерние идеи. &#xD;&#xA;&#xD;&#xA;![Описание солнечной системы в виде mind-map](img/solarsystem.jpg &quot;Практически любое явление мы можем описать в виде maind-map  или иерархического дерева. Начав описывать солнечную систему, мы в конце концов можем построить ментальную карту до описания самих себя, и продолжать строить карту, описывая различные аспекты нашей жизни&quot;)&#xD;&#xA;&#xD;&#xA;Мы встречаемся с таким способом оформлять свои мысли каждый день и на каждом шагу.&#xD;&#xA;Если идем магазин, то составляем список покупок, который является своего рода&#xD;&#xA;ментальной картой. Если планируем ремонт, поездку в путешествие или любой другой&#xD;&#xA;проект - мы составляем иерархический список необходимых действий, которые тоже являются ментальной картой. Когда мы пишем курсовую или дипломную работу,&#xD;&#xA;книгу, техническое задание - это тоже ментальная карта, имеющая собственную&#xD;&#xA;систему навигации (оглавление), собственную систему ссылок на внутренние или внешние ресурсы (сноски , списки литературы). &#xD;&#xA;&#xD;&#xA;Таким образом, если у вас есть какая-либо идея, то при ее обдумывании вы так или иначе будете &#xD;&#xA;составлять ментальную карту. Либо у себя в голове, либо нарисуете ее на бумажке, либо установите какую ни будь специальную программу для создания mind map. &#xD;&#xA;&#xD;&#xA;И в том случае, если для создания структурированного описания какой-либо идеи вы выберете Nasdanika Vinci, то уже на самом первом этапе обдумывания вы сможете преобразовать ментальную карту в работоспособный сайт с рабочей системой навигации, с возможностью просмотра на&#xD;&#xA;устройствах различного размера и с преднастроеным оформлением страниц.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;![Вот такой получится сайт](img/symplsite.jpg &quot;Из ментальной карты генерируется вот такой сайт  - с боковой и горизонтальной системой навигации, деревом разделов и преднастроенным оформлением&quot;)&#xD;&#xA;&#xD;&#xA;Вы можете изменять созданную вами ментальную карту, добавлять или удалять ее элементы, изменять их содержание, оформление, и при любом изменении генерировать новый вариант сайта и смотреть: устраивает вас получившийся результат или нет. &#xD;&#xA;&#xD;&#xA;"/>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Примеры моделей" id="f92223a4-abd7-4093-877b-5c2ddd1314de" text="Примеры моделей"/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Содержание  -  первично!" id="44d54727-9f89-450e-b1e7-3b480d90b4e7" text="Содержание  -  первично!" linkedElements="543d04ed-394f-4e11-9836-239a8e0e6004">
+    <appearance background="Dark">
+      <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
+        <entries xsi:type="org.nasdanika.ncore:Property" value="1.25rem" name="font-size"/>
+      </attributes>
+      <text color="Light" weight="Bold"/>
+    </appearance>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Навигационный каркас и контент" id="543d04ed-394f-4e11-9836-239a8e0e6004" text="Навигационный каркас и контент" markdownContent="Существующие популярные системы создания и управления сайтами рассчитаны на то, что создатель сайта в первую очередь думает о взаимном расположении различных блоков на странице, о дизайне, шрифтах ,то есть - о внешнем виде сайта, но не о его содержании. При&#xD;&#xA;использовании же Nasdanika Vinci необходимо исходить из принципа: &#xD;&#xA;&quot;Содержание - первично! А дизайн - вторичен.&quot;&#xD;&#xA;&#xD;&#xA;Создатель сайта должен в первую очередь думать о логической взаимосвязи его разделов, а информации, которая будет размещена в этих разделах. Предполагается, что сначала должен быть создан логический навигационный каркас сайта а уж затем можно приступить к его расширенному оформлению и поиску наиболее выгодного способа представления информации. &#xD;&#xA;&#xD;&#xA;Вообще, цель создателей Nasdanika Vinci заключалась в том, чтобы любой специалист в какой-либо предметной области могут донести свои знания до человечества без необходимости изучать веб верстку и веб-дизайн. "/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Дизайн -  вторичен. Но тоже важен." id="b1f2b412-27c1-4e88-9784-b9b17591eb75" text="Дизайн -  вторичен. Но тоже важен." linkedElements="18880af3-37e2-4a54-becb-fc04061ee343 852540c1-9049-4ee3-96b3-8690bf3dd656 b19493df-390f-47ab-aa27-61773086ac58 a609cb8f-bb7d-41fa-bf94-b96da4d0e6c5">
+    <appearance background="Dark">
+      <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
+        <entries xsi:type="org.nasdanika.ncore:Property" value="1.25rem" name="font-size"/>
+      </attributes>
+      <text color="Light" weight="Bold"/>
+    </appearance>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Bootstrap элементы" id="18880af3-37e2-4a54-becb-fc04061ee343" text="Bootstrap элементы" markdownContent=""/>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Bootswatch темы" id="852540c1-9049-4ee3-96b3-8690bf3dd656" text="Bootswatch темы"/>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Использование собственных стилей" id="b19493df-390f-47ab-aa27-61773086ac58" text="Использование собственных стилей"/>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Оформление отдельных элеменнтов модели" id="a609cb8f-bb7d-41fa-bf94-b96da4d0e6c5" text="Оформление отдельных элеменнтов модели"/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Автономность" id="d2ad6763-fb25-4cb0-9a51-e16d607ab9a5" text="Автономность" linkedElements="fcf4882e-3046-4e20-93fc-c35a8fa70b70">
+    <appearance background="Dark">
+      <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
+        <entries xsi:type="org.nasdanika.ncore:Property" value="1.25rem" name="font-size"/>
+      </attributes>
+      <text color="Light" weight="Bold"/>
+    </appearance>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Всё свое ношу с собой" id="fcf4882e-3046-4e20-93fc-c35a8fa70b70" text="Всё свое ношу с собой" markdownContent="Важнейшим отличием Nasdanika Vinci  от популярных конструкторов сайтов является его автономность: вы не загружаете свои данные на какие-либо сторонние сервера,&#xD;&#xA;что очень важно, например, при описании внутрикорпоративных бизнес-процессов. Вы&#xD;&#xA;можете разрабатывать сайт на своем локальном компьютере, публиковать полученный сайт в локальной сети предприятия или передавать модель сайта другим людям которые могут либо самостоятельно сгенерировать из неё сайт, либо внести изменения в вашу модель и потом уже сгенерировать из нее свой вариант сайта.&#xD;&#xA;&#xD;&#xA;И при этом вам не нужно предоставлять им доступ каким-то вашим личным ресурсам. И вы не зависите от доступа в интернет, ваша работа не остановится из-за отсутствия связи. "/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Обучающие материалы и документация" id="76e1b3e3-74f6-4420-b6d9-27a16b05bf97" text="Обучающие материалы и документация" linkedElements="ecf9fb05-e679-491d-8529-c03612c2e08b">
+    <appearance background="Dark">
+      <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
+        <entries xsi:type="org.nasdanika.ncore:Property" value="1.25rem" name="font-size"/>
+      </attributes>
+      <text color="Light" weight="Bold"/>
+    </appearance>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Базовый курс" id="ecf9fb05-e679-491d-8529-c03612c2e08b" text="Базовый курс" sectionStyle="Card tab" activator="./../Lecture_7_Section_p.2/24f35b44-7367-488c-9dc4-87d6b38b7747.html" markdownContent="После прохождения базового курса вы получите знания, которые позволят вам создать работоспособный многостраничный веб-сайт, настраивать навигационный каркас сайта, оформлять содержание страниц в виде вкладок, таблиц, карточек и других элементов. Кроме того, в рамках&#xD;&#xA;курса мы изучим базовые навыки настройки внешнего вида отдельных элементов сайта&#xD;&#xA;и научимся встраивать Google формы и календари.&#xD;&#xA;Также мы узнаем, как опубликовать сайт на бесплатном хостинге.  &#xD;&#xA;&#xD;&#xA;Более глубокое изучение этого инструмента позволит вам выходить за рамки преднастроенного поведения: изменять тему оформления сайта, подключать к нему собственные css стили, скрипты и динамический контент и многое другое.&#xD;&#xA;То есть, вы можете использовать все плюсы, предоставляемые современными технологиями веб-разработки, если вложите некоторые усилия в изучении Nasdanika Vinci  и соответствующих технологий. "/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Заключительное слово. Вспомогательные материалы" id="0c385d36-3e73-45ce-a9bb-48c1dff5f31e" text="" role="Context" activatorType="None" markdownContent="&#xD;&#xA;">
+    <appearance>
+      <text color="Light" weight="Bold"/>
+    </appearance>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="ссылка на сайт разработчика" id="c78ad207-742a-4784-aacf-91310cebf8ff" text="nasdanika.org " activator="https://nasdanika.org/"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Об авторе" id="e8f22979-134c-4088-a771-3493b470d43e" text="Об авторе"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Что такое генератор" id="58d2cc7c-d9f2-4e9d-a0bc-839ca97d9328" text="Что такое генератор статических сайтов? " role="Section" sectionStyle="Pill">
+    <appearance>
+      <margin size="3" breakpoint="Large" bottom="false" left="false" right="false"/>
+      <padding size="3" breakpoint="Large" bottom="false" left="false" right="false"/>
+    </appearance>
+    <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="про генератор. добавить картинки" style="true" markdown="&#xD;&#xA;Генератор - это такое устройство, которое превращает одни вещи в другие, принципиально иные вещи. &#xD;&#xA;&#xD;&#xA;Так, например, корова является генератором молока.  Растения являются генераторами крахмала из углекислого газа, воды и солнечной энергии. &#xD;&#xA;&#xD;&#xA;Nasdanika Vinci генерирует многостраничные статические сайты. &#xD;&#xA;&#xD;&#xA;Под многостраничным статическим сайтом мы подразумеваем набор страниц формате html, имеющих общую систему навигации, общий стиль оформления элементов страницы и кросссылочную структуру. К этому набору страниц прилагаются ресурсы, которые используются в качестве контента сайта. Например файлы изображений. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Для того чтобы создавать сайты [начального уровня](https://nasdanika.org &quot;например, такие же как тот, на  который Вы сейчас смотрите&quot;) нам нет необходимости уметь пользоваться языком разметки html, знать что такое css и как должны применяться каскадные стили, что такое адаптивная верстка и так далее.&#xD;&#xA;&#xD;&#xA;Мы можем получить функциональный и сколь угодно сложно структурированный сайт из структурированного словесного описания какой-либо идеи, задачи, предметной области. В общем, любого явления нашей с вами объективной реальности. &#xD;&#xA;&#xD;&#xA;Генерация сайта из ментальной карты происходит по определенным правилам. Посвятив некоторое время их изучению, пользователь сможет изменять внешний вид, и положение элементов на страницах сайта изменением нескольких настроек. При этом, внесенные изменения применяются ко всем страницам. Вам не нужно следить за актуальностью внешнего вида каждой отдельной страницы и за корректностью ссылок на другие разделы сайта.&#xD;&#xA;&#xD;&#xA;-----&#xD;&#xA;&#xD;&#xA;[__Далее__](ab6dded9-bdd3-485b-b02b-6eaf3624f25c.html &quot;читать про структурированное описание сайта&quot;)&#xD;&#xA;">
+      <appearance>
+        <margin size="3" breakpoint="Large" left="false" right="false"/>
+        <padding size="3" breakpoint="Large" left="false" right="false"/>
+      </appearance>
+    </content>
+  </elements>
+  <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="Джамботрон с первой фразой " style="true" markdown="Предлагаемый Вашему вниманию  курс посвящён созданию сложно структурированных информационных  сайтов с помощью  генератора статических сайтов __Nasdanika Vinci__">
+    <appearance>
+      <attributes xsi:type="org.nasdanika.ncore:Property" value="jumbotron" name="class"/>
+      <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
+        <entries xsi:type="org.nasdanika.ncore:Property" value="2rem" name="font-size"/>
+      </attributes>
+      <text/>
+    </appearance>
+  </content>
+  <content xsi:type="org.nasdanika.ncore:Value" title="Первая  лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0gFxXMV9O0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
+</org.nasdanika.vinci.app:Action>
