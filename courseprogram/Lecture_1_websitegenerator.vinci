@@ -10,12 +10,11 @@
       <margin size="4" top="false" bottom="false" left="false"/>
       <padding size="4" top="false" bottom="false" left="false"/>
     </appearance>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Содержание курса" id="dba05d1b-a374-49d0-af8c-fd1cce2ed94d" text="Содержание курса" linkedElements="6a6dffd2-e962-4ae2-8bb6-086edb10e745 a13e76e9-dcd9-4642-bba7-7a3f5a9f2f8d d0eb0d10-ae59-47e4-8f41-ce20555568d0 528a31bb-c58b-4178-b617-dadddfa6315c 2d0b03af-ca9b-4c3f-921c-23edfc3ae20b cbf28641-eb71-4259-89e4-11e64c669358 0407963b-7e78-43cc-bbb9-ada29bb84acf e4760335-90df-4d26-8a5e-92462cba92d4 43e2fb05-c4f9-43ef-90f8-3deb83832f56 1506bb81-19d5-4a2f-acb4-53502afe2aa5" role="Context" activatorType="None">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Содержание курса" id="dba05d1b-a374-49d0-af8c-fd1cce2ed94d" text="Содержание курса" role="Context" activatorType="None">
       <appearance>
         <margin size="4" breakpoint="Medium" top="false" bottom="false"/>
         <padding size="4" breakpoint="Medium" top="false" bottom="false"/>
       </appearance>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 1. Что такое Nasdanika Vinci?" id="6a6dffd2-e962-4ae2-8bb6-086edb10e745" text="Лекция 1. Что такое Nasdanika Vinci?" role="Context" activator="./../Lecture_9_Appearance/index.html"/>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 2  Установка " description="" id="a13e76e9-dcd9-4642-bba7-7a3f5a9f2f8d" text="Лекция 2  Установка Nasdanika Vinci" role="Context" activator="./../Lecture_2_Installation/index.html"/>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 3 Создание нового проекта в IDE Eclipse. Создание простейшей модели и генерация сайта." description="" id="d0eb0d10-ae59-47e4-8f41-ce20555568d0" text="Лекция 3. Создание нового проекта в IDE Eclipse. Создание простейшей модели и генерация сайта." role="Context" activator="./../Lecture_7_Section_p.2/index.html"/>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 4.Описание структуры сайта в виде mind-map.  Создаем сайт с левой вертикальной навигацией" id="528a31bb-c58b-4178-b617-dadddfa6315c" text="Лекция 4.Описание структуры сайта в виде mind-map.  Создаем сайт с левой вертикальной навигацией" role="Context"/>
@@ -25,6 +24,17 @@
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 10 Публикация" id="1506bb81-19d5-4a2f-acb4-53502afe2aa5" text="Лекция 10 Публикация" role="Context" activator="./../Lecture_10_Publication/index.html"/>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 8. Наполняем сайт. Встраиваем интерактивные элементы и произвольный код." id="e4760335-90df-4d26-8a5e-92462cba92d4" text="Лекция 8. Наполняем сайт. Встраиваем интерактивные элементы и произвольный код." role="Context"/>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 9 Appearance" id="43e2fb05-c4f9-43ef-90f8-3deb83832f56" text="Лекция 9 Оформление сайта. Цвет, текст  и отступы" role="Context" activator="./../Lecture_9_Appearance/index.html"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#ec294346-3f29-4aac-9ca7-468ccfca49aa"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#4169a3da-0c8b-4adb-8c7a-09426629458f"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#a13e76e9-dcd9-4642-bba7-7a3f5a9f2f8d"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#d0eb0d10-ae59-47e4-8f41-ce20555568d0"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#528a31bb-c58b-4178-b617-dadddfa6315c"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#2d0b03af-ca9b-4c3f-921c-23edfc3ae20b"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#cbf28641-eb71-4259-89e4-11e64c669358"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#0407963b-7e78-43cc-bbb9-ada29bb84acf"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#e4760335-90df-4d26-8a5e-92462cba92d4"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#43e2fb05-c4f9-43ef-90f8-3deb83832f56"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#1506bb81-19d5-4a2f-acb4-53502afe2aa5"/>
     </elements>
   </elements>
   <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Mind-map" id="ed3ecf62-b825-4214-8488-487c8921084f" text="Модель сайта: mind-map или иерархическое дерево" linkedElements="ab6dded9-bdd3-485b-b02b-6eaf3624f25c f92223a4-abd7-4093-877b-5c2ddd1314de">

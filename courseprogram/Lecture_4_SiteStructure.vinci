@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" title="Lecture_4_Site Structure" description="Description of the site structure as a mind-map. " id="index" text="Описание структуры сайта в виде mind-map" linkedElements="a075f0da-f569-4186-857f-b691782ab1d7 fe741801-890c-45b9-8872-4e136fd66a0a 8572d2a8-a4e2-413c-8809-44d321059b4b" markdownContent="" pageTemplate="./../templ.1.vinci">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Создаем сайт с левой вертикальной навигационной панелью" description="Creating a site with the left vertical navigation panel." id="a075f0da-f569-4186-857f-b691782ab1d7" text="Создаем сайт с левой вертикальной навигационной панелью" icon="fas fa-sitemap">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Содержание курса" id="cd96968d-1742-4400-a2e2-0423cc564acf" text="Содержание курса" role="Context" activatorType="None">
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#4169a3da-0c8b-4adb-8c7a-09426629458f"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#d13024ab-34f0-4c56-8d9e-580c03ca6659"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#f557c4fa-3e08-4380-bbfa-c17e33a99cc6"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#fafc948d-3597-4c60-bc7e-96c76db740cc"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#91dd3a00-a668-4376-aa81-4b7e204bf500"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#fd07ebc1-837d-463e-9c55-7c0c0a67f324"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#28099477-f050-4110-b548-f870be73d629"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#2e847356-faea-40e6-9fe9-dc8253cfa7cd"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#e096f76e-634f-4dc5-9129-777549943750"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#5f52bf5f-62b3-44ed-b78d-a77505a17a33"/>
+    </elements>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="ссылка на сайт разработчика" id="fe741801-890c-45b9-8872-4e136fd66a0a" text="nasdanika.org " activator="https://nasdanika.org/"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Об авторе" id="8572d2a8-a4e2-413c-8809-44d321059b4b" text="Об авторе"/>
+  <content xsi:type="org.nasdanika.ncore:Value" title="Четвертая лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xytSnmOJM-Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
+</org.nasdanika.vinci.app:Action>

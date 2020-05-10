@@ -14,6 +14,7 @@
     <semanticResources>courseprogram/Lecture_9_Appearance.vinci</semanticResources>
     <semanticResources>courseprogram/soderjanie.vinci</semanticResources>
     <semanticResources>templ.start.vinci</semanticResources>
+    <semanticResources>courseprogram/Lecture_4_SiteStructure.vinci</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_kZaZcIkmEeqT-OdzlrtRDg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_y-P74YkmEeqT-OdzlrtRDg" name="courseprogram" repPath="#_y-PU0IkmEeqT-OdzlrtRDg">
@@ -65,6 +66,14 @@
         <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_1_websitegenerator.vinci#index"/>
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_yifycpAVEeq52qoJaZs9Cg" name="soderjanie" repPath="#_yifycJAVEeq52qoJaZs9Cg">
+        <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/soderjanie.vinci#393e0fed-70f9-4ca7-b685-d689615d99b9"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_ulSwgZKbEeqP9J9ad7t-jw" name="L4_Structure" repPath="#_ulSJcJKbEeqP9J9ad7t-jw">
+        <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#index"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_mn5KMZKdEeqP9J9ad7t-jw" name="soderjanie" repPath="#_mn4jIJKdEeqP9J9ad7t-jw">
         <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
         <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/soderjanie.vinci#393e0fed-70f9-4ca7-b685-d689615d99b9"/>
       </ownedRepresentationDescriptors>
@@ -1721,6 +1730,14 @@
     <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
   </org.nasdanika.sirius.tree:AdapterFactoryTree>
   <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_yifycJAVEeq52qoJaZs9Cg">
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/soderjanie.vinci#393e0fed-70f9-4ca7-b685-d689615d99b9"/>
+    <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+  </org.nasdanika.sirius.tree:AdapterFactoryTree>
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_ulSJcJKbEeqP9J9ad7t-jw">
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#index"/>
+    <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+  </org.nasdanika.sirius.tree:AdapterFactoryTree>
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_mn4jIJKdEeqP9J9ad7t-jw">
     <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/soderjanie.vinci#393e0fed-70f9-4ca7-b685-d689615d99b9"/>
     <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
   </org.nasdanika.sirius.tree:AdapterFactoryTree>
