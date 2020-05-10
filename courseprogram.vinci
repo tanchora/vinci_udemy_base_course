@@ -1,47 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" title="Создаём web-портфолио с генератором сайтов Nasdanika Vinci" id="index" text="Создаём web-портфолио с генератором сайтов Nasdanika Vinci" linkedElements="9fea50da-d3c0-42ab-94d5-82e70c5bc816 2bebc657-88ef-45d8-a163-ed350cc68e0f 59a50270-cde7-4de5-8b52-9e339d5630f5 9570f51e-bf39-42c2-8382-b77ee9808c76 2d494d77-f44d-4c60-9d4d-99ae65d05d0e 46e020cf-c9c8-413a-9ff2-0791a05d74fb" sectionStyle="Default" sectionColumns="2" pageTemplate="./templ.1.vinci">
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="нав. бар" id="9fea50da-d3c0-42ab-94d5-82e70c5bc816" text="" icon="fas fa-book-open" sectionStyle="Card"/>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Первый абзац" id="2bebc657-88ef-45d8-a163-ed350cc68e0f" text="" linkedElements="d33035ac-23be-4798-a784-459899ac072c bd007e7b-3c28-4723-938c-253c03c95576" role="Section" sectionStyle="Card" sectionColumns="2">
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" title="Создаём web-портфолио с генератором сайтов Nasdanika Vinci" id="index" text="Создаём web-портфолио с генератором сайтов Nasdanika Vinci" linkedElements="9fea50da-d3c0-42ab-94d5-82e70c5bc816 7d260877-5903-4b9a-9b6e-65474dc80b43 4d41d35d-3a41-4722-8cb1-2327b76b39c0 7b69a71b-4cdd-43ba-a7b8-10c4a75b56fe ac94f369-74ba-4045-ab41-ba6f54f5a629" sectionStyle="Default" sectionColumns="1" pageTemplate="./templ.start.vinci">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="нав. бар" id="9fea50da-d3c0-42ab-94d5-82e70c5bc816" text="" icon="fas fa-book-open" sectionStyle="Card" activatorType="None"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Подготовка к работе" id="7d260877-5903-4b9a-9b6e-65474dc80b43" text="Подготовка к работе" linkedElements="d33035ac-23be-4798-a784-459899ac072c 8960d9f5-084c-4ec3-bcfc-3aebe5f881d6 ee609129-9677-496b-8e73-3c3121694ef2" role="Section" sectionStyle="Action group">
     <appearance>
-      <text alignment="Center"/>
+      <margin size="3" top="false" left="false" right="false"/>
     </appearance>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 1" id="d33035ac-23be-4798-a784-459899ac072c" text="Лекция 1" role="Section">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 1" id="d33035ac-23be-4798-a784-459899ac072c" text="Лекция 1 " linkedElements="b6109ebe-0bbc-49e3-b580-9688aa7a2ed6" role="Section" sectionStyle="Tab" markdownContent="">
+      <appearance>
+        <margin size="3" top="false" left="false" right="false"/>
+      </appearance>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" id="b6109ebe-0bbc-49e3-b580-9688aa7a2ed6" text="&lt;b>Что такое генератор статических сайтов Nasdanika Vinci?&lt;/b>" role="Context" activator="./Lecture_1_websitegenerator/index.html"/>
+      <content xsi:type="org.nasdanika.ncore:Value" title="отбивка" value="&lt;p>&lt;/p>"/>
       <content xsi:type="org.nasdanika.ncore:Value" title="Первая  лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0gFxXMV9O0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 2" id="bd007e7b-3c28-4723-938c-253c03c95576" text="Лекция 2" role="Section">
-      <content xsi:type="org.nasdanika.ncore:Value" title="Лекция на ю-тубе" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FFsjtuOS1Yo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 2" id="8960d9f5-084c-4ec3-bcfc-3aebe5f881d6" text="Лекция 2 " role="Section" markdownContent="">
+      <appearance>
+        <margin size="3" top="false" left="false" right="false"/>
+      </appearance>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" id="82ae4478-db26-491f-b8f1-669fad719c6c" text="&lt;b>Установка Nasdanika Tool Suit. Знакомство с интерфейсом IDE Eclipse&lt;/b>" role="Context" activator="./Lecture_2_Installation/index.html"/>
+      <content xsi:type="org.nasdanika.ncore:Value" title="отбивка" value="&lt;p>&lt;/p>"/>
+      <content xsi:type="org.nasdanika.ncore:Value" title="Вторая лекция" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FFsjtuOS1Yo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
-  </elements>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Второй абзац" id="59a50270-cde7-4de5-8b52-9e339d5630f5" text="" linkedElements="ee609129-9677-496b-8e73-3c3121694ef2 2e35e29b-1c29-4947-8bca-31cee3cfef42" role="Section" sectionStyle="Card" sectionColumns="2">
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 3" id="ee609129-9677-496b-8e73-3c3121694ef2" text="Лекция 3" role="Section">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" id="f0e292e2-e8dc-4d13-920b-9fafd7f5c2ad" text="&lt;b>Создание новго проекта в IDE  Eclipse. Создание и импорт моделей.&lt;/b> " role="Context" activator="./Lecture_2_Installation/index.html"/>
+      <content xsi:type="org.nasdanika.ncore:Value" title="отбивка" value="&lt;p>&lt;/p>"/>
       <content xsi:type="org.nasdanika.ncore:Value" title="третья  лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NsHWuncNZKU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title=" Построение  модели (навигационного каркаса)" id="4d41d35d-3a41-4722-8cb1-2327b76b39c0" text=" Построение  модели (навигационного каркаса)" role="Section">
+    <appearance>
+      <margin size="3" left="false" right="false"/>
+    </appearance>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 4" id="2e35e29b-1c29-4947-8bca-31cee3cfef42" text="Лекция 4" role="Section">
+      <appearance>
+        <margin size="3" top="false" left="false" right="false"/>
+      </appearance>
       <content xsi:type="org.nasdanika.ncore:Value" title="Четвертая лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xytSnmOJM-Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
-  </elements>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Третий абзац" id="9570f51e-bf39-42c2-8382-b77ee9808c76" text="Третий абзац" linkedElements="2adb2ff8-8a94-45ea-b17a-4281e044d1e8 6d17d076-cd38-4ad9-b8c0-1b263bb2f342" role="Section" sectionStyle="Card" sectionColumns="2">
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 5" id="2adb2ff8-8a94-45ea-b17a-4281e044d1e8" text="Лекция 5" role="Section">
-      <content xsi:type="org.nasdanika.ncore:Value" title="Пятая лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NsHWuncNZKU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
+      <appearance>
+        <margin size="3" top="false" left="false" right="false"/>
+      </appearance>
+      <content xsi:type="org.nasdanika.ncore:Value" title="Пятая лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/AzA4yL39krA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 6" id="6d17d076-cd38-4ad9-b8c0-1b263bb2f342" text="Лекция 1" role="Section">
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Наполнение сайта" id="7b69a71b-4cdd-43ba-a7b8-10c4a75b56fe" text="Наполнение сайта" linkedElements="6d17d076-cd38-4ad9-b8c0-1b263bb2f342 4cf00402-1fa7-4aa6-a873-ca56a8b925c2 1eab4a3a-2e8d-44bf-b214-d1ad9f2b599a" role="Section">
+    <appearance>
+      <margin size="3" left="false" right="false"/>
+    </appearance>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 6" id="6d17d076-cd38-4ad9-b8c0-1b263bb2f342" text="Лекция 6" role="Section">
+      <appearance>
+        <margin size="3" top="false" left="false" right="false"/>
+      </appearance>
       <content xsi:type="org.nasdanika.ncore:Value" title="Шестая  лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Vh4lTDKMGM0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
-  </elements>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Четвертый абзац" id="2d494d77-f44d-4c60-9d4d-99ae65d05d0e" text="" linkedElements="4cf00402-1fa7-4aa6-a873-ca56a8b925c2 1eab4a3a-2e8d-44bf-b214-d1ad9f2b599a" role="Section" sectionStyle="Card" sectionColumns="2">
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 7" id="4cf00402-1fa7-4aa6-a873-ca56a8b925c2" text="Лекция 7" role="Section">
-      <content xsi:type="org.nasdanika.ncore:Value" title="Первая  лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0gFxXMV9O0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
+      <appearance>
+        <margin size="3" top="false" left="false" right="false"/>
+      </appearance>
+      <content xsi:type="org.nasdanika.ncore:Value" title="Седьмая лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-sHDrtPhzeI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 8" id="1eab4a3a-2e8d-44bf-b214-d1ad9f2b599a" text="Лекция 8" role="Section">
-      <content xsi:type="org.nasdanika.ncore:Value" title="Первая  лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0gFxXMV9O0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
+      <appearance>
+        <margin size="3" top="false" left="false" right="false"/>
+      </appearance>
+      <content xsi:type="org.nasdanika.ncore:Value" title="Восьмая лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vSNOX9wlj-k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
   </elements>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Пятый абзац" id="46e020cf-c9c8-413a-9ff2-0791a05d74fb" linkedElements="3ce0b9dd-0c9c-4b3a-9f9e-9905f22a8a97 afa34de2-bf2c-4471-8390-4028c7628359" role="Section" sectionStyle="Card" sectionColumns="2">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Оформление и публикация" id="ac94f369-74ba-4045-ab41-ba6f54f5a629" text="Оформление и публикация" linkedElements="3ce0b9dd-0c9c-4b3a-9f9e-9905f22a8a97 afa34de2-bf2c-4471-8390-4028c7628359" role="Section">
+    <appearance>
+      <margin size="3" left="false" right="false"/>
+    </appearance>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 9" id="3ce0b9dd-0c9c-4b3a-9f9e-9905f22a8a97" text="Лекция 9" role="Section">
-      <content xsi:type="org.nasdanika.ncore:Value" title="Первая  лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0gFxXMV9O0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
+      <appearance>
+        <margin size="3" top="false" left="false" right="false"/>
+      </appearance>
+      <content xsi:type="org.nasdanika.ncore:Value" title="Девятая лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Fq2SMQJF-Yk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 10" id="afa34de2-bf2c-4471-8390-4028c7628359" text="Лекция 10" role="Section">
-      <content xsi:type="org.nasdanika.ncore:Value" title="Первая  лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0gFxXMV9O0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
+      <appearance>
+        <margin size="3" top="false" left="false" right="false"/>
+      </appearance>
     </elements>
   </elements>
 </org.nasdanika.vinci.app:Action>

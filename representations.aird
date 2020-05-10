@@ -13,6 +13,7 @@
     <semanticResources>courseprogram/Lecture_9_Appearance/ScarletFlower-Appearance_start.vinci</semanticResources>
     <semanticResources>courseprogram/Lecture_9_Appearance.vinci</semanticResources>
     <semanticResources>courseprogram/soderjanie.vinci</semanticResources>
+    <semanticResources>templ.start.vinci</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_kZaZcIkmEeqT-OdzlrtRDg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_y-P74YkmEeqT-OdzlrtRDg" name="courseprogram" repPath="#_y-PU0IkmEeqT-OdzlrtRDg">
