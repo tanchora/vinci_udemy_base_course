@@ -3,8 +3,8 @@
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="Содержание" id="9fea50da-d3c0-42ab-94d5-82e70c5bc816" text=" Содержание" icon="fas fa-book-open" sectionStyle="Default">
     <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="courseprogram/soderjanie.vinci#ae455ffd-71a9-4218-8ab4-d20de8fea4de"/>
     <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="courseprogram/soderjanie.vinci#65eb4df2-f4c9-4faf-9d6c-6544475a08eb"/>
-    <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="courseprogram/soderjanie.vinci#b0b20ee3-9414-44f9-8a35-2a7efcca7fe0"/>
     <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="courseprogram/soderjanie.vinci#f532e334-acaf-4c5d-aa44-7a5ea305d9ce"/>
+    <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="courseprogram/soderjanie.vinci#b0b20ee3-9414-44f9-8a35-2a7efcca7fe0"/>
     <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#7d260877-5903-4b9a-9b6e-65474dc80b43"/>
     <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#4d41d35d-3a41-4722-8cb1-2327b76b39c0"/>
     <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#7b69a71b-4cdd-43ba-a7b8-10c4a75b56fe"/>
@@ -14,24 +14,36 @@
     <appearance>
       <margin size="3" top="false" left="false" right="false"/>
     </appearance>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 1" id="d33035ac-23be-4798-a784-459899ac072c" text="Лекция 1 " linkedElements="b6109ebe-0bbc-49e3-b580-9688aa7a2ed6" role="Section" sectionStyle="Tab" markdownContent="">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 1" id="d33035ac-23be-4798-a784-459899ac072c" color="Dark" text="Лекция 1 " linkedElements="b6109ebe-0bbc-49e3-b580-9688aa7a2ed6" role="Section" sectionStyle="Tab" markdownContent="">
       <appearance>
         <margin size="3" top="false" left="false" right="false"/>
       </appearance>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" id="b6109ebe-0bbc-49e3-b580-9688aa7a2ed6" text="&lt;b>Что такое генератор статических сайтов Nasdanika Vinci?&lt;/b>" role="Context" activator="./Lecture_1_websitegenerator/index.html"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" id="b6109ebe-0bbc-49e3-b580-9688aa7a2ed6" color="" text="&lt;b>Что такое генератор статических сайтов Nasdanika Vinci?&lt;/b>" tooltip="Сайт-конспект лекции, в котором подробно, с картинками рассматриваются те моменты, которые в видео освещены повхностно" role="Context" activator="./Lecture_1_websitegenerator/index.html">
+        <appearance>
+          <text color="Dark"/>
+        </appearance>
+      </elements>
       <content xsi:type="org.nasdanika.ncore:Value" title="отбивка" value="&lt;p>&lt;/p>"/>
       <content xsi:type="org.nasdanika.ncore:Value" title="Первая  лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0gFxXMV9O0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 2" id="8960d9f5-084c-4ec3-bcfc-3aebe5f881d6" text="Лекция 2 " role="Section" markdownContent="">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 2" id="8960d9f5-084c-4ec3-bcfc-3aebe5f881d6" color="Dark" text="Лекция 2 " role="Section" markdownContent="">
       <appearance>
         <margin size="3" top="false" left="false" right="false"/>
       </appearance>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" id="82ae4478-db26-491f-b8f1-669fad719c6c" text="&lt;b>Установка Nasdanika Tool Suit. Знакомство с интерфейсом IDE Eclipse&lt;/b>" role="Context" activator="./Lecture_2_Installation/index.html"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" id="82ae4478-db26-491f-b8f1-669fad719c6c" text="&lt;b>Установка Nasdanika Tool Suit. Знакомство с интерфейсом IDE Eclipse&lt;/b>" tooltip="Сайт-конспект лекции, в котором подробно, с картинками рассматриваются те моменты, которые в видео освещены повхностно" role="Context" activator="./Lecture_2_Installation/index.html">
+        <appearance>
+          <text color="Dark"/>
+        </appearance>
+      </elements>
       <content xsi:type="org.nasdanika.ncore:Value" title="отбивка" value="&lt;p>&lt;/p>"/>
       <content xsi:type="org.nasdanika.ncore:Value" title="Вторая лекция" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FFsjtuOS1Yo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 3" id="ee609129-9677-496b-8e73-3c3121694ef2" text="Лекция 3" role="Section">
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" id="f0e292e2-e8dc-4d13-920b-9fafd7f5c2ad" text="&lt;b>Создание новго проекта в IDE  Eclipse. Создание и импорт моделей.&lt;/b> " role="Context" activator="./Lecture_3_NewProject/index.html"/>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 3" id="ee609129-9677-496b-8e73-3c3121694ef2" color="Dark" text="Лекция 3" role="Section">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" id="f0e292e2-e8dc-4d13-920b-9fafd7f5c2ad" text="&lt;b>Создание новго проекта в IDE  Eclipse. Создание и импорт моделей.&lt;/b> " tooltip="Сайт-конспект лекции, в котором подробно, с картинками рассматриваются те моменты, которые в видео освещены повхностно" role="Context" activator="./Lecture_3_NewProject/index.html">
+        <appearance>
+          <text color="Dark"/>
+        </appearance>
+      </elements>
       <content xsi:type="org.nasdanika.ncore:Value" title="отбивка" value="&lt;p>&lt;/p>"/>
       <content xsi:type="org.nasdanika.ncore:Value" title="третья  лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NsHWuncNZKU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
@@ -40,15 +52,19 @@
     <appearance>
       <margin size="3" left="false" right="false"/>
     </appearance>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 4" id="2e35e29b-1c29-4947-8bca-31cee3cfef42" text="Лекция 4" role="Section">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 4" id="2e35e29b-1c29-4947-8bca-31cee3cfef42" color="Dark" text="Лекция 4" role="Section">
       <appearance>
         <margin size="3" top="false" left="false" right="false"/>
       </appearance>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" description="Description of the site structure as a mind-map.. Creating a site with the left vertical navigation panel." id="ddd93399-82a3-45b1-9ea5-1fd4c3bccd60" text="&lt;b>Описание структуры сайта в виде mind-map.  Создаем сайт с левой вертикальной навигацией&lt;/b> " role="Context" activator="./Lecture_2_Installation/index.html"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" description="Description of the site structure as a mind-map.. Creating a site with the left vertical navigation panel." id="ddd93399-82a3-45b1-9ea5-1fd4c3bccd60" text="&lt;b>Описание структуры сайта в виде mind-map.  Создаем сайт с левой вертикальной навигацией&lt;/b> " role="Context" activator="./Lecture_2_Installation/index.html">
+        <appearance>
+          <text color="Dark"/>
+        </appearance>
+      </elements>
       <content xsi:type="org.nasdanika.ncore:Value" title="отбивка" value="&lt;p>&lt;/p>"/>
       <content xsi:type="org.nasdanika.ncore:Value" title="Четвертая лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xytSnmOJM-Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 5" id="2adb2ff8-8a94-45ea-b17a-4281e044d1e8" text="Лекция 5" role="Section">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 5" id="2adb2ff8-8a94-45ea-b17a-4281e044d1e8" color="Dark" text="Лекция 5" role="Section">
       <appearance>
         <margin size="3" top="false" left="false" right="false"/>
       </appearance>
@@ -60,14 +76,14 @@
     <appearance>
       <margin size="3" left="false" right="false"/>
     </appearance>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 6" id="6d17d076-cd38-4ad9-b8c0-1b263bb2f342" text="Лекция 6" role="Section">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 6" id="6d17d076-cd38-4ad9-b8c0-1b263bb2f342" color="Dark" text="Лекция 6" role="Section">
       <appearance>
         <margin size="3" top="false" left="false" right="false"/>
       </appearance>
       <content xsi:type="org.nasdanika.ncore:Value" title="отбивка" value="&lt;p>&lt;/p>"/>
       <content xsi:type="org.nasdanika.ncore:Value" title="Шестая  лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Vh4lTDKMGM0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 7" id="4cf00402-1fa7-4aa6-a873-ca56a8b925c2" text="Лекция 7" role="Section">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 7" id="4cf00402-1fa7-4aa6-a873-ca56a8b925c2" color="Dark" text="Лекция 7" role="Section">
       <appearance>
         <margin size="3" top="false" left="false" right="false"/>
       </appearance>
@@ -75,7 +91,7 @@
       <content xsi:type="org.nasdanika.ncore:Value" title="отбивка" value="&lt;p>&lt;/p>"/>
       <content xsi:type="org.nasdanika.ncore:Value" title="Седьмая лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-sHDrtPhzeI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 8" id="1eab4a3a-2e8d-44bf-b214-d1ad9f2b599a" text="Лекция 8" role="Section">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 8" id="1eab4a3a-2e8d-44bf-b214-d1ad9f2b599a" color="Dark" text="Лекция 8" role="Section">
       <appearance>
         <margin size="3" top="false" left="false" right="false"/>
       </appearance>
@@ -88,7 +104,7 @@
     <appearance>
       <margin size="3" left="false" right="false"/>
     </appearance>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 9" id="3ce0b9dd-0c9c-4b3a-9f9e-9905f22a8a97" text="Лекция 9" role="Section">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 9" id="3ce0b9dd-0c9c-4b3a-9f9e-9905f22a8a97" color="Dark" text="Лекция 9" role="Section">
       <appearance>
         <margin size="3" top="false" left="false" right="false"/>
       </appearance>
@@ -96,7 +112,7 @@
       <content xsi:type="org.nasdanika.ncore:Value" title="отбивка" value="&lt;p>&lt;/p>"/>
       <content xsi:type="org.nasdanika.ncore:Value" title="Девятая лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Fq2SMQJF-Yk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 10" id="afa34de2-bf2c-4471-8390-4028c7628359" text="Лекция 10" role="Section">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 10" id="afa34de2-bf2c-4471-8390-4028c7628359" color="Dark" text="Лекция 10" role="Section">
       <appearance>
         <margin size="3" top="false" left="false" right="false"/>
       </appearance>

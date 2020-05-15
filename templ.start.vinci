@@ -24,16 +24,12 @@
       <appearance background="Light">
         <padding size="2" top="false" bottom="false" right="false"/>
       </appearance>
-      <width breakpoint="Medium" width="2"/>
-      <width breakpoint="Large" width="3"/>
     </navigationPanel>
     <contentPanel>
       <appearance>
         <padding size="2" breakpoint="Large" top="false"/>
         <padding size="4" breakpoint="Large" bottom="false" left="false" right="false"/>
       </appearance>
-      <width breakpoint="Medium" width="10"/>
-      <width breakpoint="Large" width="9"/>
     </contentPanel>
     <footer>
       <appearance background="Dark">
