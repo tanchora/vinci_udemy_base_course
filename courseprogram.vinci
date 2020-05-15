@@ -31,7 +31,7 @@
       <content xsi:type="org.nasdanika.ncore:Value" title="Вторая лекция" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FFsjtuOS1Yo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 3" id="ee609129-9677-496b-8e73-3c3121694ef2" text="Лекция 3" role="Section">
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" id="f0e292e2-e8dc-4d13-920b-9fafd7f5c2ad" text="&lt;b>Создание новго проекта в IDE  Eclipse. Создание и импорт моделей.&lt;/b> " role="Context" activator="./Lecture_4_SiteStructure/index.html"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" id="f0e292e2-e8dc-4d13-920b-9fafd7f5c2ad" text="&lt;b>Создание новго проекта в IDE  Eclipse. Создание и импорт моделей.&lt;/b> " role="Context" activator="./Lecture_3_NewProject/index.html"/>
       <content xsi:type="org.nasdanika.ncore:Value" title="отбивка" value="&lt;p>&lt;/p>"/>
       <content xsi:type="org.nasdanika.ncore:Value" title="третья  лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NsHWuncNZKU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
