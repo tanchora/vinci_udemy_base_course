@@ -62,10 +62,10 @@
         <div class="nsd-app-navbar col bg-primary navbar-dark bg-dark">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <span data-nsd-action="a075f0da-f569-4186-857f-b691782ab1d7" class="nsd-action navbar-brand">Создание модели сайта. Импорт готовых моделей</span>
-            <button type="button" data-toggle="collapse" data-target="#nsd-u" class="navbar-toggler">
+            <button type="button" data-toggle="collapse" data-target="#nsd-1m" class="navbar-toggler">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="nsd-u" class="collapse navbar-collapse">
+            <div id="nsd-1m" class="collapse navbar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">Содержание курса</a>
@@ -94,8 +94,7 @@
             <a href="e7eedbd1-8cf0-4628-b657-bc8c42a6f186.html" class="list-group-item list-group-action list-group-item-dark">Создание нового проекта</a>
             <a href="ebb7989e-0380-477f-a821-20c5850834f0.html" class="list-group-item list-group-action list-group-item-dark">Создание Vinci-модели сайта</a>
             <a href="4986d897-9787-4d44-8406-0303f88bd118.html" class="list-group-item list-group-action active list-group-item-dark">Импорт модели</a>
-            <a href="e44952ff-3bfe-4717-9a71-d3522feea4f4.html" class="list-group-item list-group-action list-group-item-dark">Что такое  Viewpoint </a>
-            <a href="dbd6fa36-5660-4038-92ef-843400291c31.html" class="list-group-item list-group-action list-group-item-dark">Импорт модели в пустой проект. Настройка Viewpoint</a>
+            <a href="e44952ff-3bfe-4717-9a71-d3522feea4f4.html" class="list-group-item list-group-action list-group-item-dark">Настраиваем  Viewpoint и создаём репрезентации</a>
           </div>
         </div>
         <div class="nsd-app-content-panel col-md-10 col-lg-9 pb-lg-2 pl-lg-2 pr-lg-2 pt-lg-4">
@@ -113,18 +112,19 @@
 <p>Очевидно, что после разработки общей структуры сайта целесообразно детализацию каждого конкретного раздела поручить специалистам, которые хорошо знакомы с процессом и имеют доступ к актуальным должностным инструкциям. Для этого люди &ldquo;на местах&rdquo; могут разработать собственные модели, которые затем будут связаны с основной, центральной моделью.</p>
 <p>Итак, представим себе ситуацию, что какие-то либи разработали собственные модели и прислали их нам, как файлы. Нам необходимо собрать эти файлы в единый проект. У нас есть три способа сделать это:</p>
 <ol>
-<li>Импортировать файлы в проект</li>
 <li>Вставить файлы в проект из буфера обмена</li>
 <li>Переместить фалы в папку проекта (или подчиненные папки) используя файловую систему.</li>
+<li>Импортировать файлы в проект</li>
 </ol>
 <p>Мы должны понимать, что в области <strong>Model Explorer</strong> действуют те же правила и доступны те же операции, что и в файловой системе компьютера. То есть, мы можем выделить папку проекта и вставить в него какие либо файлы из буфера обмена.</p>
 <p>То же самое мы можем сделать в файловой системе, но тогда Eclipse &ldquo;не увидит&rdquo; эти файлы, пока мы не обновим проект или ту папку, в которую они были добавлены.  Обновить папку можно через контекстное меню, либо нажав кнопку <strong>F5</strong>.</p>
 <p><img src="img/Refresh.jpg" alt="Обновление папки" title="Для обновления папки выделим ее, щелкнем правой кнопкой мыши и в контекстном меню выберем Refresh. Или выделим папку и нажмем кнопку F5" /></p>
-<p>Для того чтобы импортировать проект, в контекстном меню необходимо выбрать пункт <strong>Import</strong>.  В диалоговом окне открываем пункт General находим пункт file system.</p>
+<p>Для того чтобы импортировать проект, в контекстном меню необходимо выбрать пункт <strong>Import</strong>.</p>
 <p><img src="img/Import01.jpg" alt="" /></p>
+<p>В диалоговом окне открываем пункт <strong>General</strong> находим пункт <strong>File system</strong>.</p>
 <p>Далее программа просит указать: из какой папки мы хотим импортировать файлы. Выбираем папку.</p>
 <p><img src="img/Import02.jpg" alt="" /></p>
-<p>Нажимаем кнопочку Next и файловой  системе выбираем файл, который хотим импортировать.</p>
+<p>Нажимаем кнопочку Next и в файловой  системе выбираем файл, который хотим импортировать.</p>
 <p><img src="img/Import03.jpg" alt="" /> <img src="img/Import04.jpg" alt="" /></p>
 <p>Таким же образом мы можем импортировать файл любого типа: изображения, стили и так далее.</p></div>
               </div>

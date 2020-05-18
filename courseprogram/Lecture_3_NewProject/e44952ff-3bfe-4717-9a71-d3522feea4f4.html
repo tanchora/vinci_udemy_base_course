@@ -39,7 +39,7 @@
     $('.nsd-app-footer').addClass(['text-center']);
 });
 </script><meta name="yandex-verification" content="7379f2eb997a0f8b" />
-    <title>Что такое Viewpoint - Создание нового проекта в IDE Eclipse.</title>
+    <title>Настраиваем Viewpoint и создаём репрезентации - Создание нового проекта в IDE Eclipse.</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.8/themes/default/style.min.css"/>
@@ -62,10 +62,10 @@
         <div class="nsd-app-navbar col bg-primary navbar-dark bg-dark">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <span data-nsd-action="a075f0da-f569-4186-857f-b691782ab1d7" class="nsd-action navbar-brand">Создание модели сайта. Импорт готовых моделей</span>
-            <button type="button" data-toggle="collapse" data-target="#nsd-v" class="navbar-toggler">
+            <button type="button" data-toggle="collapse" data-target="#nsd-1n" class="navbar-toggler">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="nsd-v" class="collapse navbar-collapse">
+            <div id="nsd-1n" class="collapse navbar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">Содержание курса</a>
@@ -94,15 +94,44 @@
             <a href="e7eedbd1-8cf0-4628-b657-bc8c42a6f186.html" class="list-group-item list-group-action list-group-item-dark">Создание нового проекта</a>
             <a href="ebb7989e-0380-477f-a821-20c5850834f0.html" class="list-group-item list-group-action list-group-item-dark">Создание Vinci-модели сайта</a>
             <a href="4986d897-9787-4d44-8406-0303f88bd118.html" class="list-group-item list-group-action list-group-item-dark">Импорт модели</a>
-            <a href="e44952ff-3bfe-4717-9a71-d3522feea4f4.html" class="list-group-item list-group-action active list-group-item-dark">Что такое  Viewpoint </a>
-            <a href="dbd6fa36-5660-4038-92ef-843400291c31.html" class="list-group-item list-group-action list-group-item-dark">Импорт модели в пустой проект. Настройка Viewpoint</a>
+            <a href="e44952ff-3bfe-4717-9a71-d3522feea4f4.html" class="list-group-item list-group-action active list-group-item-dark">Настраиваем  Viewpoint и создаём репрезентации</a>
           </div>
         </div>
         <div class="nsd-app-content-panel col-md-10 col-lg-9 pb-lg-2 pl-lg-2 pr-lg-2 pt-lg-4">
           <div class="container-fluid">
             <div class="row">
               <div class="col nsd-app-content-panel-header-col">
-                <h2 data-nsd-action="e44952ff-3bfe-4717-9a71-d3522feea4f4" class="nsd-action nsd-app-content-panel-header">Что такое  Viewpoint </h2>
+                <h2 data-nsd-action="e44952ff-3bfe-4717-9a71-d3522feea4f4" class="nsd-action nsd-app-content-panel-header">Настраиваем  Viewpoint и создаём репрезентации</h2>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-body-row">
+              <div class="col nsd-app-content-panel-body">
+                <div class="markdown-body"><p>В разделе, описывающем создание Vinci модели упоминалось, что мастер создания автоматически открывает репрезентацию модели, которую мы договорились называть <a href="./../Lecture_2_Installation/5f8c460a-bcd3-439b-9dc5-c7d24722a506.html" title="Что такое репрезентация и какие они бывают рассказывалось во втором уроке курса. Если забыли - переходите по ссылке.">дерево элементов</a>.</p>
+<p>Однако, если мы импортировали модель в  проект, нам нужно будет самостоятельно создать репрезентации для этой модели.</p>
+<hr />
+<p>Для создания репрезентации необходимо в области <strong>Model Explorer</strong> выделить корневой объект модели -&gt; <img src="./../MRC01.svg" alt="Щелкаем правой кнопкой мыши" title="Щелкаем правой кнопкой мыши" /> -&gt; в контекстном меню выбрать <strong>New Representation</strong> и выбрать тип репрезентации.</p>
+<hr />
+<p>Однако, если модель была импортирована в новый, пустой проект, в котором никогда не создавался файл модели, то создать репрезентацию без дополнительных настроек у нас не получится.</p>
+<p><img src="img/netviewpoint.jpg" alt="не настроен Viewpoint" title="Мы не можем создать нужные нам репрезентации, потому что не настроен Viewpoint" /></p>
+<hr />
+<p><strong>Viewpoint</strong> - в буквальном переводе с английского - <strong>Точка зрения</strong>.  В нашем случае, это механизм, который позволяет нам смотреть на модель как на mind-map (диаграмму элементов) или как на иерархическое дерево элементов.</p>
+<hr />
+<p>Таким образом, нам необходимо подключить <strong>Viewpoint</strong>.</p>
+<p>Для этого выделяем папку проекта -&gt;  <img src="./../MRC01.svg" alt="Щелкаем правой кнопкой мыши" title="Щелкаем правой кнопкой мыши" /> -&gt; выбираем <strong>Viewpoints Selection</strong>. В открывшемся диалоговом окне устанавливаем галочку в чек-бокс <strong>Vinci</strong>.</p>
+<p><img src="img/ViewpointsSelection.jpg" alt="Viewpoints Selection" title="Программа покажет: какие Viewpoints нам доступны  " /> <img src="img/SelectesViewpoints.jpg" alt="Vinci Viewpoint " title="Видим, что доступен только один Viewpoint - Vinci" /></p>
+<p>После того как мы подключили <strong>Vinci Viewpoint</strong> в контекстном меню появится возможность создавать репрезентации в виде дерева элементов и в виде диаграммы.</p>
+<p><img src="img/CreateRepresentation01.jpg" alt="Создаем дерево элементов" title="Создаем дерево элементов" /> <img src="img/NewVinciAdapterFactoryTree.jpg" alt="Присваиваем ему имя" title="Присваиваем ему имя" /></p>
+<p><img src="img/NewActionDiagram.jpg" alt="Создаем Mind-map" title="Создаем Action Diagram, называем её Mind-Map" /></p>
+<p>Обратите внимание, что около файла <strong>representation.aird</strong>  появится стрелочка, которую мы можем раскрыть и посмотреть: какие репрезентации существуют в нашем проекте.</p>
+<p><img src="img/OpenRepresentationaird.jpg" alt="Где хранятся репрезентации" title="Репрезентации хранятся в файле representation.aird " /></p>
+<p>То есть, если вы случайно закрыли свою репрезентацию, то найти ее можно в структуре файла <strong>representation.aird</strong>.  Снова открыть ее можно из контекстного меню или двойным щелчком мышки.</p>
+<p><img src="img/OpenRepresentationaird02.jpg" alt="" /></p>
+<hr />
+<blockquote>
+<p>Обратите внимание! В этом курсе к каждому уроку будет прилагаться файл модели, чтобы вы смогли разобраться в настройках, даже если у вас не получилось сделать модель в процессе урока. И этот файл модели вы можете импортировать в проект теми способами, которые мы рассмотрели в этом и предыдущем разделах.</p>
+</blockquote>
+<hr />
+<p>На этом подготовка к работе закончена и мы можем перейти <a href="./../Lecture_4_SiteStructure/index.html">к построению модели  сайта &gt;&gt;</a></p></div>
               </div>
             </div>
           </div>
