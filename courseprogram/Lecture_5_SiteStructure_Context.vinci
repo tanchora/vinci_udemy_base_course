@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Lecture_5_SiteStructure_Context" description="Description of the site structure as a mind-map. " id="index" text="  Описание структуры сайта в виде mind-map" icon="fas fa-sitemap " linkedElements="a075f0da-f569-4186-857f-b691782ab1d7 fe741801-890c-45b9-8872-4e136fd66a0a" markdownContent="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" pageTemplate="./../templ.1.vinci">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="  Часть 2. Роль элемента модели. Контекстный (горизонтальный) навигационный каркас. " description="Creating a site with the left vertical navigation panel." id="a075f0da-f569-4186-857f-b691782ab1d7" color="Dark" text="  Часть 2. Роль элемента модели. Контекстный (горизонтальный) навигационный каркас. " icon="./img/vert.svg" tooltip="" linkedElements="cd96968d-1742-4400-a2e2-0423cc564acf 7c5be373-fdd7-42f6-9272-fa765a9bf9f7 8b6a6fb5-e9c6-4f64-9741-e352b9bfb802 89cfb4bb-d16f-4869-beae-a6d84783edf6" activatorType="None">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Содержание курса" id="cd96968d-1742-4400-a2e2-0423cc564acf" text="Содержание курса" role="Context" activatorType="None">
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#4169a3da-0c8b-4adb-8c7a-09426629458f"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#d13024ab-34f0-4c56-8d9e-580c03ca6659"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#f557c4fa-3e08-4380-bbfa-c17e33a99cc6"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#fafc948d-3597-4c60-bc7e-96c76db740cc"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#91dd3a00-a668-4376-aa81-4b7e204bf500"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#fd07ebc1-837d-463e-9c55-7c0c0a67f324"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#28099477-f050-4110-b548-f870be73d629"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#2e847356-faea-40e6-9fe9-dc8253cfa7cd"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#e096f76e-634f-4dc5-9129-777549943750"/>
+      <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#5f52bf5f-62b3-44ed-b78d-a77505a17a33"/>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Настройка Role" id="7c5be373-fdd7-42f6-9272-fa765a9bf9f7" color="Dark" text="  Теория. &lt;br>Настройка Role" icon="fab fa-leanpub fas fa-theater-masks" tooltip="Рассматривается ">
+      <appearance background="Dark">
+        <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
+          <entries xsi:type="org.nasdanika.ncore:Property" value="1.25rem" name="font-size"/>
+        </attributes>
+        <text color="Light" weight="Bold"/>
+      </appearance>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Navigation (по умолчанию)" id="a95f8b86-10b1-4093-abbf-dcea04a519f7" color="Dark" text="Navigation (по умолчанию)" markdownContent="Роль - это важнейший атрибут, который определяет поведение элемента модели. Например, ролью определяется то, в каком блоке страницы будет располагаться элемент и, в некоторых случаях то, каково будет “поведение” его дочерних и родительских элементов..&#xD;&#xA;&#xD;&#xA;У каждой Action может быть только одна роль.&#xD;&#xA;&#xD;&#xA;В текущей версии Nasdanika Vinci Action может иметь одну из пяти ролей: Navigation, Context, Section, Content left и Content Right . (В будущем предполагается использование двух дополнительных ролей под которые зарезервированы значения View и Edit ).&#xD;&#xA;&#xD;&#xA;Роли назначаются в свойствах Action:&#xD;&#xA;">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="! Обратите внимание" id="bd392b4a-412d-4582-8d2d-ab2fa74569c9" text="! Обратите внимание" role="Context"/>
+      </elements>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Context " id="74b88939-b617-484e-b42b-7fb7d22f8d7a" color="Dark" text="Context (Контекстные разделы)" markdownContent="Роль - это важнейший атрибут, который определяет поведение элемента модели. Например, ролью определяется то, в каком блоке страницы будет располагаться элемент и, в некоторых случаях то, каково будет “поведение” его дочерних и родительских элементов..&#xD;&#xA;&#xD;&#xA;У каждой Action может быть только одна роль.&#xD;&#xA;&#xD;&#xA;В текущей версии Nasdanika Vinci Action может иметь одну из пяти ролей: Navigation, Context, Section, Content left и Content Right . (В будущем предполагается использование двух дополнительных ролей под которые зарезервированы значения View и Edit ).&#xD;&#xA;&#xD;&#xA;Роли назначаются в свойствах Action:&#xD;&#xA;">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="! Обратите внимание" id="4b911ad1-c084-4d4a-b8c0-6c0e9ce764d3" text="! Обратите внимание" role="Context"/>
+      </elements>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Section" id="987d70bf-66bc-477f-ad4d-574f58f3f2c4" color="Dark" text="Section (секции контент-панели)" markdownContent="Роль - это важнейший атрибут, который определяет поведение элемента модели. Например, ролью определяется то, в каком блоке страницы будет располагаться элемент и, в некоторых случаях то, каково будет “поведение” его дочерних и родительских элементов..&#xD;&#xA;&#xD;&#xA;У каждой Action может быть только одна роль.&#xD;&#xA;&#xD;&#xA;В текущей версии Nasdanika Vinci Action может иметь одну из пяти ролей: Navigation, Context, Section, Content left и Content Right . (В будущем предполагается использование двух дополнительных ролей под которые зарезервированы значения View и Edit ).&#xD;&#xA;&#xD;&#xA;Роли назначаются в свойствах Action:&#xD;&#xA;">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="! Обратите внимание" id="346779c4-f677-437d-aaa5-f51df9ec39d1" text="! Обратите внимание" role="Context"/>
+      </elements>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Иерархия элементов модели" id="8b6a6fb5-e9c6-4f64-9741-e352b9bfb802" color="Dark" text="  Теория. &lt;br> Иерархия элементов модели" icon="fab fa-leanpub" linkedElements="884759c5-f2ff-4383-abd9-053b2c02c2a9 5062f98c-6ced-427a-b88c-d641e55c1360 bda382d3-2d3c-466a-9a1f-4f5e193d3570 e5cb1b35-3627-4d60-9344-16504ef2280a">
+      <appearance background="Dark">
+        <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
+          <entries xsi:type="org.nasdanika.ncore:Property" value="1.25rem" name="font-size"/>
+        </attributes>
+        <text color="Light" weight="Bold"/>
+      </appearance>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Корневой элемент модели" id="884759c5-f2ff-4383-abd9-053b2c02c2a9" color="Dark" text="Корневой элемент модели"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Дети и внуки корневого элемента" id="5062f98c-6ced-427a-b88c-d641e55c1360" color="Dark" text="Дети и внуки корневого элемента"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Представление элементов на диаграмме и в дереве" id="bda382d3-2d3c-466a-9a1f-4f5e193d3570" color="Dark" text="Представление иерархии элементов на диаграмме и в дереве"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Физические и логические дети и внуки" id="e5cb1b35-3627-4d60-9344-16504ef2280a" color="Dark" text="Физические и логические дети и внуки" markdownContent="Генеральская и Полковничья улица где живут полковники и Генералы&#xD;&#xA;если полковника производят в генералы, то он должен переехать на генеральскую улицу, но это происходит не сразу. Но не смотря на то, что он живет на несоответствующей его званию улице, на параде он будет ехать среди генералов.&#xD;&#xA;&#xD;&#xA;При этом, на самом деле он остался тем же самым челочеком, который был полковником, а когда-то - младшим лейтенантом. И все ссылки, которые сделаны на этого человека  никуда не делись и не потерялись. &#xD;&#xA;"/>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Практика. &lt;br>Горизонтальная (контекстная) навигация" id="89cfb4bb-d16f-4869-beae-a6d84783edf6" color="Secondary" text="Практика. &lt;br>Горизонтальная (контекстная) навигация" icon="fas fa-hammer">
+      <appearance background="Dark">
+        <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
+          <entries xsi:type="org.nasdanika.ncore:Property" value="1.25rem" name="font-size"/>
+        </attributes>
+        <text color="Light" weight="Bold"/>
+      </appearance>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Основная горизонтальная навигационная панель (Principal Nav Bar)" id="551790e5-723c-4051-9297-e8a8f9542205" color="Dark" text=" Основная горизонтальная навигационная панель"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Горизонтальная навигация в контент-панели" id="dc18c057-8f80-4f02-ad4d-fc0e7bddb939" color="Dark" text="Горизонтальная навигация в контент-панели"/>
+    </elements>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="ссылка на сайт разработчика" id="fe741801-890c-45b9-8872-4e136fd66a0a" text="nasdanika.org " activator="https://nasdanika.org/"/>
+  <content xsi:type="org.nasdanika.ncore:Value" title="пятая лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/AzA4yL39krA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
+  <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="Вступительное слово" description="как отображается дескр маркдауна?" style="true" markdown="В этом уроке мы приступаем к построению навигационного каркаса сайта. Узнаем как создать диаграмму связей элементов (разделов) сайта и  как разместить созданные нами разделы сайта (или, что то же самое - элементы модели) в горизонтальной навигационной панели. &#xD;&#xA;&#xD;&#xA;Кроме того, мы узнаем как настроить элементы модели так, чтобы они отображались в шапке (хедере), в подвале (футере) сайта. &#xD;&#xA;&#xD;&#xA;Рассмотрим важнейшую настройку элемента модели - Role. Роль определяет, какую функцию элемент модели будет выполнять на страницах сайта: он может формировать основной навигационный каркас сайта или создавать контекстные страницы, либо - формировать различные секции и блоки в контент-панели страницы.&#xD;&#xA;&#xD;&#xA;"/>
+</org.nasdanika.vinci.app:Action>
