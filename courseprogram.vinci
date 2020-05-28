@@ -48,7 +48,7 @@
       <content xsi:type="org.nasdanika.ncore:Value" title="третья  лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NsHWuncNZKU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
   </elements>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title=" Построение  модели (навигационного каркаса)" id="4d41d35d-3a41-4722-8cb1-2327b76b39c0" text=" Построение  модели (навигационного каркаса)" role="Section">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Описание структуры сайта в виде mind-map" id="4d41d35d-3a41-4722-8cb1-2327b76b39c0" text=" Описание структуры сайта в виде mind-map" icon="fas fa-sitemap  " role="Section">
     <appearance>
       <margin size="3" left="false" right="false"/>
     </appearance>
@@ -56,7 +56,7 @@
       <appearance>
         <margin size="3" top="false" left="false" right="false"/>
       </appearance>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" description="Description of the site structure as a mind-map.. Creating a site with the left vertical navigation panel." id="ddd93399-82a3-45b1-9ea5-1fd4c3bccd60" text="&lt;b>Описание структуры сайта в виде mind-map.  Создаем сайт с левой вертикальной навигацией&lt;/b> " role="Context" activator="./Lecture_4_SiteStructure/index.html">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" description="Description of the site structure as a mind-map.. Creating a site with the left vertical navigation panel." id="ddd93399-82a3-45b1-9ea5-1fd4c3bccd60" text="&lt;b>Элементы модели. Базовый (вертикальный) навигационный каркас. &lt;/b>" role="Context" activator="./Lecture_4_SiteStructure/index.html">
         <appearance>
           <text color="Dark"/>
         </appearance>
@@ -68,6 +68,11 @@
       <appearance>
         <margin size="3" top="false" left="false" right="false"/>
       </appearance>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конспект" description="Description of the site structure as a mind-map.. Creating a site with the left vertical navigation panel." id="f014681b-5e9d-4f4f-87d7-0f0efd040678" text="&lt;b>Роль элемента модели. Контекстный (горизонтальный) навигационный каркас.&lt;/b>" role="Context" activator="./Lecture_5_SiteStructure_Context/index.html">
+        <appearance>
+          <text color="Dark"/>
+        </appearance>
+      </elements>
       <content xsi:type="org.nasdanika.ncore:Value" title="отбивка" value="&lt;p>&lt;/p>"/>
       <content xsi:type="org.nasdanika.ncore:Value" title="Пятая лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/AzA4yL39krA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>

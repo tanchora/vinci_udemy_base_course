@@ -17,6 +17,7 @@
     <semanticResources>courseprogram/Lecture_4_SiteStructure.vinci</semanticResources>
     <semanticResources>courseprogram/Lecture_3_NewProject.vinci</semanticResources>
     <semanticResources>courseprogram/Lecture_5_SiteStructure_Context.vinci</semanticResources>
+    <semanticResources>courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_kZaZcIkmEeqT-OdzlrtRDg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_y-P74YkmEeqT-OdzlrtRDg" name="courseprogram" repPath="#_y-PU0IkmEeqT-OdzlrtRDg">
@@ -91,13 +92,21 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']"/>
         <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#index"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_cHYloJ4eEeqNLaHriwG9Eg" name="4л_основная нав" repPath="#_cHR38J4eEeqNLaHriwG9Eg" changeId="e53958dc-1b12-42db-b64c-bb25afea27ac">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_cHYloJ4eEeqNLaHriwG9Eg" name="4л_основная нав" repPath="#_cHR38J4eEeqNLaHriwG9Eg" changeId="d45ef801-c61f-4f73-9a99-5123df936a78">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']"/>
         <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#a075f0da-f569-4186-857f-b691782ab1d7"/>
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_ltMAIJ-8Eeq9-ZsRjFrj6Q" name="L5" repPath="#_ltIVwJ-8Eeq9-ZsRjFrj6Q">
         <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
         <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_5_SiteStructure_Context.vinci#index"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_idE7MKB1EeqcbfLZTxDI7w" name="ScarletFlower" repPath="#_idBQ0KB1EeqcbfLZTxDI7w">
+        <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#index"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_q_BHEKB1EeqcbfLZTxDI7w" name="SF_4L" repPath="#_q-N10KB1EeqcbfLZTxDI7w" changeId="e7560fee-bc5d-4ff5-8379-ed7651c01905">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#index"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
@@ -1982,7 +1991,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vMenMp4eEeqNLaHriwG9Eg"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_vMeAIZ4eEeqNLaHriwG9Eg" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vMeAIp4eEeqNLaHriwG9Eg" x="960" y="155" width="90" height="40"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vMeAIp4eEeqNLaHriwG9Eg" x="1215" width="90" height="40"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_6pakkJ4eEeqNLaHriwG9Eg" type="2001" element="_6pSowJ4eEeqNLaHriwG9Eg">
           <children xmi:type="notation:Node" xmi:id="_6pakk54eEeqNLaHriwG9Eg" type="5002">
@@ -1993,7 +2002,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6pbLop4eEeqNLaHriwG9Eg"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_6pakkZ4eEeqNLaHriwG9Eg" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6pakkp4eEeqNLaHriwG9Eg" x="960" y="76" width="90" height="40"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6pakkp4eEeqNLaHriwG9Eg" x="1215" y="55" width="90" height="40"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_0EvyIJ4oEeqNLaHriwG9Eg" type="2001" element="_0EodYJ4oEeqNLaHriwG9Eg">
           <children xmi:type="notation:Node" xmi:id="_0EwZMJ4oEeqNLaHriwG9Eg" type="5002">
@@ -2105,6 +2114,138 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="_H6cQkZ4xEeqNLaHriwG9Eg" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H6cQkp4xEeqNLaHriwG9Eg" x="120" y="388" width="90" height="40"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_eGMx0KCGEeqcbfLZTxDI7w" type="2001" element="_eGFdEKCGEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_eGMx06CGEeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_eGMx1KCGEeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eGNY4KCGEeqcbfLZTxDI7w" type="3003" element="_eGFdEaCGEeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_eGNY4aCGEeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eGNY4qCGEeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_eGMx0aCGEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eGMx0qCGEeqcbfLZTxDI7w" x="1020" y="45" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Au-40KCJEeqcbfLZTxDI7w" type="2001" element="_Au4LIKCJEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_Au-406CJEeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Au-41KCJEeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Au-41aCJEeqcbfLZTxDI7w" type="3003" element="_Au4LIaCJEeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Au-41qCJEeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Au-416CJEeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Au-40aCJEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Au-40qCJEeqcbfLZTxDI7w" x="954" y="115" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_sAjFcKCJEeqcbfLZTxDI7w" type="2001" element="_sAc-0KCJEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_sAjsgKCJEeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_sAjsgaCJEeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_sAjsgqCJEeqcbfLZTxDI7w" type="3003" element="_sAdl4KCJEeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_sAjsg6CJEeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sAjshKCJEeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_sAjFcaCJEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sAjFcqCJEeqcbfLZTxDI7w" x="945" y="170" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_yeimIKCVEeqcbfLZTxDI7w" type="2001" element="_yecfgKCVEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_yeimI6CVEeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yeimJKCVEeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_yejNMKCVEeqcbfLZTxDI7w" type="3003" element="_yecfgaCVEeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_yejNMaCVEeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yejNMqCVEeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_yeimIaCVEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yeimIqCVEeqcbfLZTxDI7w" x="1215" y="115" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_20gg0KCVEeqcbfLZTxDI7w" type="2001" element="_20ZzIKCVEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_20gg06CVEeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_20gg1KCVEeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_20gg1aCVEeqcbfLZTxDI7w" type="3003" element="_20ZzIaCVEeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_20gg1qCVEeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_20gg16CVEeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_20gg0aCVEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_20gg0qCVEeqcbfLZTxDI7w" x="1215" y="190" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_mmMCoKCWEeqcbfLZTxDI7w" type="2001" element="_mmF8AKCWEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_mmMCo6CWEeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_mmMCpKCWEeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_mmMpsKCWEeqcbfLZTxDI7w" type="3003" element="_mmF8AaCWEeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_mmMpsaCWEeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mmMpsqCWEeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_mmMCoaCWEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mmMCoqCWEeqcbfLZTxDI7w" x="1215" y="250" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_uw6BUKCWEeqcbfLZTxDI7w" type="2001" element="_uw0hwKCWEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_uw6oYKCWEeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_uw6oYaCWEeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uw6oYqCWEeqcbfLZTxDI7w" type="3003" element="_uw0hwaCWEeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uw6oY6CWEeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uw6oZKCWEeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_uw6BUaCWEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uw6BUqCWEeqcbfLZTxDI7w" x="1215" y="320" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2pzQMKCWEeqcbfLZTxDI7w" type="2001" element="_2ptwoKCWEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_2pz3QKCWEeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2pz3QaCWEeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2pz3QqCWEeqcbfLZTxDI7w" type="3003" element="_2ptwoaCWEeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2pz3Q6CWEeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2pz3RKCWEeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2pzQMaCWEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2pzQMqCWEeqcbfLZTxDI7w" x="1215" y="395" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_SwpJoKCYEeqcbfLZTxDI7w" type="2001" element="_SwjDAKCYEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_SwpJo6CYEeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_SwpJpKCYEeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_SwpwsKCYEeqcbfLZTxDI7w" type="3003" element="_SwjDAaCYEeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_SwpwsaCYEeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SwpwsqCYEeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_SwpJoaCYEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SwpJoqCYEeqcbfLZTxDI7w" x="1215" y="451" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_nIGyAKCYEeqcbfLZTxDI7w" type="2001" element="_nH_dQKCYEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_nIHZEKCYEeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_nIHZEaCYEeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nIHZEqCYEeqcbfLZTxDI7w" type="3003" element="_nH_dQaCYEeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_nIHZE6CYEeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nIHZFKCYEeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_nIGyAaCYEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nIGyAqCYEeqcbfLZTxDI7w" x="1215" y="510" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_yhz1MKCYEeqcbfLZTxDI7w" type="2001" element="_yhtHgKCYEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_yhz1M6CYEeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yhz1NKCYEeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_yhz1NaCYEeqcbfLZTxDI7w" type="3003" element="_yhtukKCYEeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_yhz1NqCYEeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yhz1N6CYEeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_yhz1MaCYEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yhz1MqCYEeqcbfLZTxDI7w" x="1198" y="570" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_-f-3YKCYEeqcbfLZTxDI7w" type="2001" element="_-f4wwKCYEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_-f-3Y6CYEeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_-f-3ZKCYEeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-f_ecKCYEeqcbfLZTxDI7w" type="3003" element="_-f4wwaCYEeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_-f_ecaCYEeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-f_ecqCYEeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_-f-3YaCYEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-f-3YqCYEeqcbfLZTxDI7w" x="1175" y="620" width="90" height="40"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_cHky4p4eEeqNLaHriwG9Eg"/>
         <edges xmi:type="notation:Edge" xmi:id="_edTUIJ4eEeqNLaHriwG9Eg" type="4001" element="_edJjJJ4eEeqNLaHriwG9Eg" source="_cHky454eEeqNLaHriwG9Eg" target="_cHky6J4eEeqNLaHriwG9Eg">
           <children xmi:type="notation:Node" xmi:id="_edTUJJ4eEeqNLaHriwG9Eg" type="6001">
@@ -2121,38 +2262,6 @@
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_edTUI54eEeqNLaHriwG9Eg" points="[0, 0, 119, -30]$[-119, 30, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_edTUKp4eEeqNLaHriwG9Eg" id="(0.0,0.7333333333333333)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_edTUK54eEeqNLaHriwG9Eg" id="(1.0,0.75)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_zplrsJ4eEeqNLaHriwG9Eg" type="4001" element="_zpchxJ4eEeqNLaHriwG9Eg" source="_liU2EJ4eEeqNLaHriwG9Eg" target="_vMeAIJ4eEeqNLaHriwG9Eg">
-          <children xmi:type="notation:Node" xmi:id="_zplrtJ4eEeqNLaHriwG9Eg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zplrtZ4eEeqNLaHriwG9Eg" x="-28"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_zplrtp4eEeqNLaHriwG9Eg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zplrt54eEeqNLaHriwG9Eg" x="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_zplruJ4eEeqNLaHriwG9Eg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zplruZ4eEeqNLaHriwG9Eg" x="13" y="2"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zplrsZ4eEeqNLaHriwG9Eg"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_zplrsp4eEeqNLaHriwG9Eg" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zplrs54eEeqNLaHriwG9Eg" points="[0, 0, -95, -41]$[95, 41, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zplrup4eEeqNLaHriwG9Eg" id="(1.0,0.725)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zplru54eEeqNLaHriwG9Eg" id="(0.6111111111111112,1.0)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_9TCSMJ4eEeqNLaHriwG9Eg" type="4001" element="_9S6WaJ4eEeqNLaHriwG9Eg" source="_liU2EJ4eEeqNLaHriwG9Eg" target="_6pakkJ4eEeqNLaHriwG9Eg">
-          <children xmi:type="notation:Node" xmi:id="_9TCSNJ4eEeqNLaHriwG9Eg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9TCSNZ4eEeqNLaHriwG9Eg" y="-4"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_9TCSNp4eEeqNLaHriwG9Eg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9TCSN54eEeqNLaHriwG9Eg" x="-7" y="6"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_9TCSOJ4eEeqNLaHriwG9Eg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9TCSOZ4eEeqNLaHriwG9Eg" x="-7" y="6"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_9TCSMZ4eEeqNLaHriwG9Eg"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_9TCSMp4eEeqNLaHriwG9Eg" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9TCSM54eEeqNLaHriwG9Eg" points="[0, 0, -40, 43]$[40, -43, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9TCSOp4eEeqNLaHriwG9Eg" id="(1.0,0.35)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9TCSO54eEeqNLaHriwG9Eg" id="(0.0,0.5)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_9xPsoJ4oEeqNLaHriwG9Eg" type="4001" element="_cHTtIJ4eEeqNLaHriwG9Eg" source="_0EvyIJ4oEeqNLaHriwG9Eg" target="_cHlZ8p4eEeqNLaHriwG9Eg">
           <children xmi:type="notation:Node" xmi:id="_9xPspJ4oEeqNLaHriwG9Eg" type="6001">
@@ -2391,6 +2500,230 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KvzUKp4xEeqNLaHriwG9Eg" id="(0.4444444444444444,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KvzUK54xEeqNLaHriwG9Eg" id="(0.5555555555555556,0.0)"/>
         </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_kmLtAKCGEeqcbfLZTxDI7w" type="4001" element="_kmEYhKCGEeqcbfLZTxDI7w" source="_liU2EJ4eEeqNLaHriwG9Eg" target="_eGMx0KCGEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_kmLtBKCGEeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kmLtBaCGEeqcbfLZTxDI7w" x="21" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kmLtBqCGEeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kmLtB6CGEeqcbfLZTxDI7w" x="-20" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kmMUEKCGEeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kmMUEaCGEeqcbfLZTxDI7w" x="-21" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_kmLtAaCGEeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_kmLtAqCGEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kmLtA6CGEeqcbfLZTxDI7w" points="[65, -38, -144, 82]$[209, -120, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kmMUEqCGEeqcbfLZTxDI7w" id="(0.2777777777777778,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kmMUE6CGEeqcbfLZTxDI7w" id="(0.4888888888888889,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_lIVX0KCGEeqcbfLZTxDI7w" type="4001" element="_9S6WaJ4eEeqNLaHriwG9Eg" source="_eGMx0KCGEeqcbfLZTxDI7w" target="_6pakkJ4eEeqNLaHriwG9Eg">
+          <children xmi:type="notation:Node" xmi:id="_lIVX1KCGEeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lIVX1aCGEeqcbfLZTxDI7w" x="13" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_lIVX1qCGEeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lIVX16CGEeqcbfLZTxDI7w" x="-18"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_lIVX2KCGEeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lIVX2aCGEeqcbfLZTxDI7w" x="-17"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_lIVX0aCGEeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_lIVX0qCGEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lIVX06CGEeqcbfLZTxDI7w" points="[24, -1, -105, 0]$[129, -1, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lIVX2qCGEeqcbfLZTxDI7w" id="(0.7333333333333333,0.775)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lIVX26CGEeqcbfLZTxDI7w" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_meddQKCGEeqcbfLZTxDI7w" type="4001" element="_zpchxJ4eEeqNLaHriwG9Eg" source="_eGMx0KCGEeqcbfLZTxDI7w" target="_vMeAIJ4eEeqNLaHriwG9Eg">
+          <children xmi:type="notation:Node" xmi:id="_meddRKCGEeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_meddRaCGEeqcbfLZTxDI7w" x="33" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_meddRqCGEeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_meddR6CGEeqcbfLZTxDI7w" x="13" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_meddSKCGEeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_meddSaCGEeqcbfLZTxDI7w" x="-1" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_meddQaCGEeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_meddQqCGEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_meddQ6CGEeqcbfLZTxDI7w" points="[27, -2, -160, 9]$[187, -11, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_meddSqCGEeqcbfLZTxDI7w" id="(0.7,0.15)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_meddS6CGEeqcbfLZTxDI7w" id="(0.6111111111111112,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_F9lrsKCJEeqcbfLZTxDI7w" type="4001" element="_F9eXPKCJEeqcbfLZTxDI7w" source="_liU2EJ4eEeqNLaHriwG9Eg" target="_Au-40KCJEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_F9mSwKCJEeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F9mSwaCJEeqcbfLZTxDI7w" x="1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_F9mSwqCJEeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F9mSw6CJEeqcbfLZTxDI7w" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_F9mSxKCJEeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F9mSxaCJEeqcbfLZTxDI7w" x="-1" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_F9lrsaCJEeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_F9lrsqCJEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_F9lrs6CJEeqcbfLZTxDI7w" points="[0, 0, -34, 5]$[34, -5, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_F9mSxqCJEeqcbfLZTxDI7w" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_F9m50KCJEeqcbfLZTxDI7w" id="(0.0,0.625)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_shKfMKCJEeqcbfLZTxDI7w" type="4001" element="_shEY4KCJEeqcbfLZTxDI7w" source="_liU2EJ4eEeqNLaHriwG9Eg" target="_sAjFcKCJEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_shLGQKCJEeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_shLGQaCJEeqcbfLZTxDI7w" x="-6" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_shLGQqCJEeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_shLGQ6CJEeqcbfLZTxDI7w" x="4" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_shLGRKCJEeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_shLGRaCJEeqcbfLZTxDI7w" x="4" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_shKfMaCJEeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_shKfMqCJEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_shKfM6CJEeqcbfLZTxDI7w" points="[0, 0, -25, -50]$[25, 50, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_shLGRqCJEeqcbfLZTxDI7w" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_shLGR6CJEeqcbfLZTxDI7w" id="(0.0,0.625)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1vqYoKCVEeqcbfLZTxDI7w" type="4001" element="_1vkSLKCVEeqcbfLZTxDI7w" source="_eGMx0KCGEeqcbfLZTxDI7w" target="_yeimIKCVEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_1vqYpKCVEeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1vqYpaCVEeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1vqYpqCVEeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1vqYp6CVEeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1vqYqKCVEeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1vqYqaCVEeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1vqYoaCVEeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1vqYoqCVEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1vqYo6CVEeqcbfLZTxDI7w" points="[0, 0, -105, -65]$[105, 65, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1vqYqqCVEeqcbfLZTxDI7w" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1vqYq6CVEeqcbfLZTxDI7w" id="(0.0,0.375)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_iFPnAKCWEeqcbfLZTxDI7w" type="4001" element="_iFKujqCWEeqcbfLZTxDI7w" source="_eGMx0KCGEeqcbfLZTxDI7w" target="_20gg0KCVEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_iFQOEKCWEeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iFQOEaCWEeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_iFQOEqCWEeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iFQOE6CWEeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_iFQOFKCWEeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iFQOFaCWEeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_iFPnAaCWEeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_iFPnAqCWEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iFPnA6CWEeqcbfLZTxDI7w" points="[0, 0, -165, -105]$[165, 105, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iFQOFqCWEeqcbfLZTxDI7w" id="(0.8333333333333334,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iFQOF6CWEeqcbfLZTxDI7w" id="(0.5,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uHt6YKCWEeqcbfLZTxDI7w" type="4001" element="_uHobLKCWEeqcbfLZTxDI7w" source="_eGMx0KCGEeqcbfLZTxDI7w" target="_mmMCoKCWEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_uHt6ZKCWEeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uHt6ZaCWEeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uHt6ZqCWEeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uHt6Z6CWEeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uHt6aKCWEeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uHt6aaCWEeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uHt6YaCWEeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uHt6YqCWEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uHt6Y6CWEeqcbfLZTxDI7w" points="[0, 0, -125, -180]$[125, 180, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uHt6aqCWEeqcbfLZTxDI7w" id="(0.7777777777777778,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uHt6a6CWEeqcbfLZTxDI7w" id="(0.0,0.375)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1DINUKCWEeqcbfLZTxDI7w" type="4001" element="_1DDU9qCWEeqcbfLZTxDI7w" source="_eGMx0KCGEeqcbfLZTxDI7w" target="_uw6BUKCWEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_1DI0YKCWEeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1DI0YaCWEeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1DI0YqCWEeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1DI0Y6CWEeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1DI0ZKCWEeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1DI0ZaCWEeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1DINUaCWEeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1DINUqCWEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1DINU6CWEeqcbfLZTxDI7w" points="[0, 0, -185, -235]$[185, 235, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1DI0ZqCWEeqcbfLZTxDI7w" id="(0.5555555555555556,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1DI0Z6CWEeqcbfLZTxDI7w" id="(0.4444444444444444,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_645t4KCWEeqcbfLZTxDI7w" type="4001" element="_6401xKCWEeqcbfLZTxDI7w" source="_eGMx0KCGEeqcbfLZTxDI7w" target="_2pzQMKCWEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_646U8KCWEeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_646U8aCWEeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_646U8qCWEeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_646U86CWEeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_646U9KCWEeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_646U9aCWEeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_645t4aCWEeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_645t4qCWEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_645t46CWEeqcbfLZTxDI7w" points="[0, 0, -170, -310]$[170, 310, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_646U9qCWEeqcbfLZTxDI7w" id="(0.5555555555555556,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_646U96CWEeqcbfLZTxDI7w" id="(0.2777777777777778,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_lcZeIKCYEeqcbfLZTxDI7w" type="4001" element="_lcUmAKCYEeqcbfLZTxDI7w" source="_eGMx0KCGEeqcbfLZTxDI7w" target="_SwpJoKCYEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_lcaFMKCYEeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcaFMaCYEeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_lcaFMqCYEeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcaFM6CYEeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_lcaFNKCYEeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcaFNaCYEeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_lcZeIaCYEeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_lcZeIqCYEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lcZeI6CYEeqcbfLZTxDI7w" points="[0, 0, -150, -366]$[150, 366, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lcaFNqCYEeqcbfLZTxDI7w" id="(0.7222222222222222,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lcaFN6CYEeqcbfLZTxDI7w" id="(0.2222222222222222,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_sH1bYKCYEeqcbfLZTxDI7w" type="4001" element="_sHv8LKCYEeqcbfLZTxDI7w" source="_eGMx0KCGEeqcbfLZTxDI7w" target="_nIGyAKCYEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_sH2CcKCYEeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sH2CcaCYEeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_sH2CcqCYEeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sH2Cc6CYEeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_sH2CdKCYEeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sH2CdaCYEeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_sH1bYaCYEeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_sH1bYqCYEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sH1bY6CYEeqcbfLZTxDI7w" points="[0, 0, -155, -425]$[155, 425, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sH2CdqCYEeqcbfLZTxDI7w" id="(0.7777777777777778,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sH2Cd6CYEeqcbfLZTxDI7w" id="(0.3333333333333333,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_9bWKkKCYEeqcbfLZTxDI7w" type="4001" element="_9bQrDKCYEeqcbfLZTxDI7w" source="_eGMx0KCGEeqcbfLZTxDI7w" target="_yhz1MKCYEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_9bWxoqCYEeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9bWxo6CYEeqcbfLZTxDI7w" x="1" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_9bWxpKCYEeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9bWxpaCYEeqcbfLZTxDI7w" x="-3" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_9bWxpqCYEeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9bWxp6CYEeqcbfLZTxDI7w" x="-3" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_9bWKkaCYEeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_9bWxoKCYEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9bWxoaCYEeqcbfLZTxDI7w" points="[0, 0, -163, -485]$[163, 485, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9bWxqKCYEeqcbfLZTxDI7w" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9bWxqaCYEeqcbfLZTxDI7w" id="(0.3333333333333333,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="__FOScKCYEeqcbfLZTxDI7w" type="4001" element="__FIy-KCYEeqcbfLZTxDI7w" source="_eGMx0KCGEeqcbfLZTxDI7w" target="_-f-3YKCYEeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="__FOSdKCYEeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__FOSdaCYEeqcbfLZTxDI7w" x="1" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__FOSdqCYEeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__FOSd6CYEeqcbfLZTxDI7w" x="-3" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__FOSeKCYEeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__FOSeaCYEeqcbfLZTxDI7w" x="-3" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="__FOScaCYEeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="__FOScqCYEeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__FOSc6CYEeqcbfLZTxDI7w" points="[0, 0, -151, -535]$[151, 535, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__FOSeqCYEeqcbfLZTxDI7w" id="(0.3888888888888889,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__FOSe6CYEeqcbfLZTxDI7w" id="(0.34444444444444444,0.0)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_cHSfAJ4eEeqNLaHriwG9Eg" name="  Часть 1. Элементы модели. Базовый (вертикальный) навигационный каркас. " outgoingEdges="_edJjJJ4eEeqNLaHriwG9Eg _-2O-xp4oEeqNLaHriwG9Eg __aDEYJ4tEeqNLaHriwG9Eg _CydftJ4wEeqNLaHriwG9Eg _2CCEsJ4wEeqNLaHriwG9Eg" width="20" height="15" resizeKind="NSEW">
@@ -2431,7 +2764,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_liMTMJ4eEeqNLaHriwG9Eg" name="Свойства Action" outgoingEdges="_zpchxJ4eEeqNLaHriwG9Eg _9S6WaJ4eEeqNLaHriwG9Eg" incomingEdges="_ohTvuJ4eEeqNLaHriwG9Eg" width="9" height="4" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_liMTMJ4eEeqNLaHriwG9Eg" name="Свойства Action" outgoingEdges="_kmEYhKCGEeqcbfLZTxDI7w _F9eXPKCJEeqcbfLZTxDI7w _shEY4KCJEeqcbfLZTxDI7w" incomingEdges="_ohTvuJ4eEeqNLaHriwG9Eg" width="9" height="4" resizeKind="NSEW">
       <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#0f8a8d74-5864-4d41-9e36-ef2c1e7e810d"/>
       <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#0f8a8d74-5864-4d41-9e36-ef2c1e7e810d"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -2442,7 +2775,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vMU2MJ4eEeqNLaHriwG9Eg" name="Название в модели и на сайте" incomingEdges="_zpchxJ4eEeqNLaHriwG9Eg" width="9" height="4" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vMU2MJ4eEeqNLaHriwG9Eg" name="Title" incomingEdges="_zpchxJ4eEeqNLaHriwG9Eg" width="9" height="4" resizeKind="NSEW">
       <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#d5ac5a10-1871-430a-b448-ff5ee6001581"/>
       <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#d5ac5a10-1871-430a-b448-ff5ee6001581"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -2453,7 +2786,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_6pSowJ4eEeqNLaHriwG9Eg" name="Уникальное наименование  страницы" incomingEdges="_9S6WaJ4eEeqNLaHriwG9Eg" width="9" height="4" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_6pSowJ4eEeqNLaHriwG9Eg" name="ID" incomingEdges="_9S6WaJ4eEeqNLaHriwG9Eg" width="9" height="4" resizeKind="NSEW">
       <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#unicnumber"/>
       <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#unicnumber"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -2560,6 +2893,117 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
     </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_eGFdEKCGEeqcbfLZTxDI7w" name="Вкладка Main" outgoingEdges="_9S6WaJ4eEeqNLaHriwG9Eg _zpchxJ4eEeqNLaHriwG9Eg _1vkSLKCVEeqcbfLZTxDI7w _iFKujqCWEeqcbfLZTxDI7w _uHobLKCWEeqcbfLZTxDI7w _1DDU9qCWEeqcbfLZTxDI7w _6401xKCWEeqcbfLZTxDI7w _lcUmAKCYEeqcbfLZTxDI7w _sHv8LKCYEeqcbfLZTxDI7w _9bQrDKCYEeqcbfLZTxDI7w __FIy-KCYEeqcbfLZTxDI7w" incomingEdges="_kmEYhKCGEeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e9b1d3b2-a008-4dbb-bb12-7ccfca8e7082"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e9b1d3b2-a008-4dbb-bb12-7ccfca8e7082"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_eGFdEaCGEeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Au4LIKCJEeqcbfLZTxDI7w" name="Вкладка Description" incomingEdges="_F9eXPKCJEeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#61ee5c1b-5afd-4ad9-b643-9585e3b21baf"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#61ee5c1b-5afd-4ad9-b643-9585e3b21baf"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_Au4LIaCJEeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_sAc-0KCJEeqcbfLZTxDI7w" name="Вкладка Markdown" incomingEdges="_shEY4KCJEeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#da97b1de-1d4d-4335-9bc2-1318a352bfb7"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#da97b1de-1d4d-4335-9bc2-1318a352bfb7"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_sAdl4KCJEeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_yecfgKCVEeqcbfLZTxDI7w" name="Color" incomingEdges="_1vkSLKCVEeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#af8ee62d-7e99-4d3d-bce9-1bb6dd043ebf"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#af8ee62d-7e99-4d3d-bce9-1bb6dd043ebf"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_yecfgaCVEeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_20ZzIKCVEeqcbfLZTxDI7w" name="Text " incomingEdges="_iFKujqCWEeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#bbd1f34b-411e-4be2-901f-6c10759839f9"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#bbd1f34b-411e-4be2-901f-6c10759839f9"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_20ZzIaCVEeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_mmF8AKCWEeqcbfLZTxDI7w" name="Icon" incomingEdges="_uHobLKCWEeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#db5989cf-cd74-45d2-9d88-3d435c9ce111"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#db5989cf-cd74-45d2-9d88-3d435c9ce111"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_mmF8AaCWEeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_uw0hwKCWEeqcbfLZTxDI7w" name="Tooltip" incomingEdges="_1DDU9qCWEeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e8ae09ee-f07d-486f-8290-3a9e326dd5c7"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e8ae09ee-f07d-486f-8290-3a9e326dd5c7"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_uw0hwaCWEeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_2ptwoKCWEeqcbfLZTxDI7w" name="Notification" incomingEdges="_6401xKCWEeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#99a31b12-7626-4c05-8d04-76927215f30f"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#99a31b12-7626-4c05-8d04-76927215f30f"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_2ptwoaCWEeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_SwjDAKCYEeqcbfLZTxDI7w" name="Linked Elements" incomingEdges="_lcUmAKCYEeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e063cac5-effd-4ef0-ac31-b2497b02c2a0"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e063cac5-effd-4ef0-ac31-b2497b02c2a0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_SwjDAaCYEeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_nH_dQKCYEeqcbfLZTxDI7w" name="Role" incomingEdges="_sHv8LKCYEeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#9f9435f4-2252-46cc-bf1c-c01c8b222f52"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#9f9435f4-2252-46cc-bf1c-c01c8b222f52"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_nH_dQaCYEeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_yhtHgKCYEeqcbfLZTxDI7w" name="Section Style" incomingEdges="_9bQrDKCYEeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#59b85690-fbb5-4333-8450-34b999e64899"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#59b85690-fbb5-4333-8450-34b999e64899"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_yhtukKCYEeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_-f4wwKCYEeqcbfLZTxDI7w" name="Section Columns" incomingEdges="__FIy-KCYEeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#b92b911c-2f07-474d-83fb-ad14fdeee6c4"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#b92b911c-2f07-474d-83fb-ad14fdeee6c4"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_-f4wwaCYEeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_cHTtIJ4eEeqNLaHriwG9Eg" sourceNode="_0EodYJ4oEeqNLaHriwG9Eg" targetNode="_cHTGE54eEeqNLaHriwG9Eg">
       <target xmi:type="org.nasdanika.vinci.app:ActionCategory" href="courseprogram/Lecture_4_SiteStructure.vinci#7c5be373-fdd7-42f6-9272-fa765a9bf9f7"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_9xMpVJ4oEeqNLaHriwG9Eg" size="2" strokeColor="114,159,207">
@@ -2600,16 +3044,16 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_zpchxJ4eEeqNLaHriwG9Eg" sourceNode="_liMTMJ4eEeqNLaHriwG9Eg" targetNode="_vMU2MJ4eEeqNLaHriwG9Eg">
-      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#0f8a8d74-5864-4d41-9e36-ef2c1e7e810d"/>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_zpchxJ4eEeqNLaHriwG9Eg" sourceNode="_eGFdEKCGEeqcbfLZTxDI7w" targetNode="_vMU2MJ4eEeqNLaHriwG9Eg">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e9b1d3b2-a008-4dbb-bb12-7ccfca8e7082"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_07v3JJ4eEeqNLaHriwG9Eg" size="2">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_07v3JZ4eEeqNLaHriwG9Eg"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_9S6WaJ4eEeqNLaHriwG9Eg" sourceNode="_liMTMJ4eEeqNLaHriwG9Eg" targetNode="_6pSowJ4eEeqNLaHriwG9Eg">
-      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#0f8a8d74-5864-4d41-9e36-ef2c1e7e810d"/>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_9S6WaJ4eEeqNLaHriwG9Eg" sourceNode="_eGFdEKCGEeqcbfLZTxDI7w" targetNode="_6pSowJ4eEeqNLaHriwG9Eg">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e9b1d3b2-a008-4dbb-bb12-7ccfca8e7082"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_-KZYCJ4eEeqNLaHriwG9Eg" size="2">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_-KZYCZ4eEeqNLaHriwG9Eg"/>
@@ -2745,6 +3189,102 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
     </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_kmEYhKCGEeqcbfLZTxDI7w" sourceNode="_liMTMJ4eEeqNLaHriwG9Eg" targetNode="_eGFdEKCGEeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#0f8a8d74-5864-4d41-9e36-ef2c1e7e810d"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_kmE_UKCGEeqcbfLZTxDI7w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_kmE_UaCGEeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_F9eXPKCJEeqcbfLZTxDI7w" sourceNode="_liMTMJ4eEeqNLaHriwG9Eg" targetNode="_Au4LIKCJEeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#0f8a8d74-5864-4d41-9e36-ef2c1e7e810d"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_G6BpjKCKEeqcbfLZTxDI7w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_G6BpjaCKEeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_shEY4KCJEeqcbfLZTxDI7w" sourceNode="_liMTMJ4eEeqNLaHriwG9Eg" targetNode="_sAc-0KCJEeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#0f8a8d74-5864-4d41-9e36-ef2c1e7e810d"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_IdJpLKCKEeqcbfLZTxDI7w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_IdJpLaCKEeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_1vkSLKCVEeqcbfLZTxDI7w" sourceNode="_eGFdEKCGEeqcbfLZTxDI7w" targetNode="_yecfgKCVEeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e9b1d3b2-a008-4dbb-bb12-7ccfca8e7082"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_1vkSLaCVEeqcbfLZTxDI7w" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_1vkSLqCVEeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_iFKujqCWEeqcbfLZTxDI7w" sourceNode="_eGFdEKCGEeqcbfLZTxDI7w" targetNode="_20ZzIKCVEeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e9b1d3b2-a008-4dbb-bb12-7ccfca8e7082"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_iFKuj6CWEeqcbfLZTxDI7w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_iFKukKCWEeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_uHobLKCWEeqcbfLZTxDI7w" sourceNode="_eGFdEKCGEeqcbfLZTxDI7w" targetNode="_mmF8AKCWEeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e9b1d3b2-a008-4dbb-bb12-7ccfca8e7082"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_uHobLaCWEeqcbfLZTxDI7w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_uHobLqCWEeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_1DDU9qCWEeqcbfLZTxDI7w" sourceNode="_eGFdEKCGEeqcbfLZTxDI7w" targetNode="_uw0hwKCWEeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e9b1d3b2-a008-4dbb-bb12-7ccfca8e7082"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ffF9KqCZEeqcbfLZTxDI7w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ffF9K6CZEeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_6401xKCWEeqcbfLZTxDI7w" sourceNode="_eGFdEKCGEeqcbfLZTxDI7w" targetNode="_2ptwoKCWEeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e9b1d3b2-a008-4dbb-bb12-7ccfca8e7082"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_FD7-5KCXEeqcbfLZTxDI7w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_FD7-5aCXEeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_lcUmAKCYEeqcbfLZTxDI7w" sourceNode="_eGFdEKCGEeqcbfLZTxDI7w" targetNode="_SwjDAKCYEeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e9b1d3b2-a008-4dbb-bb12-7ccfca8e7082"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_oCkaGKCZEeqcbfLZTxDI7w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_oCkaGaCZEeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_sHv8LKCYEeqcbfLZTxDI7w" sourceNode="_eGFdEKCGEeqcbfLZTxDI7w" targetNode="_nH_dQKCYEeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e9b1d3b2-a008-4dbb-bb12-7ccfca8e7082"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_sHv8LaCYEeqcbfLZTxDI7w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_sHv8LqCYEeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_9bQrDKCYEeqcbfLZTxDI7w" sourceNode="_eGFdEKCGEeqcbfLZTxDI7w" targetNode="_yhtHgKCYEeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e9b1d3b2-a008-4dbb-bb12-7ccfca8e7082"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_u9zGjKCZEeqcbfLZTxDI7w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_u9zGjaCZEeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="__FIy-KCYEeqcbfLZTxDI7w" sourceNode="_eGFdEKCGEeqcbfLZTxDI7w" targetNode="_-f4wwKCYEeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure.vinci#e9b1d3b2-a008-4dbb-bb12-7ccfca8e7082"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v-HUYKCZEeqcbfLZTxDI7w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v-HUYaCZEeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_cHR38Z4eEeqNLaHriwG9Eg"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer"/>
@@ -2754,4 +3294,557 @@
     <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_5_SiteStructure_Context.vinci#index"/>
     <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
   </org.nasdanika.sirius.tree:AdapterFactoryTree>
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_idBQ0KB1EeqcbfLZTxDI7w">
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#index"/>
+    <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+  </org.nasdanika.sirius.tree:AdapterFactoryTree>
+  <diagram:DSemanticDiagram uid="_q-N10KB1EeqcbfLZTxDI7w">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_q--q0KB1EeqcbfLZTxDI7w" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_q--q0aB1EeqcbfLZTxDI7w"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_q_VQIKB1EeqcbfLZTxDI7w" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_q_VQIaB1EeqcbfLZTxDI7w" type="Sirius" element="_q-N10KB1EeqcbfLZTxDI7w" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_q_iEcKB1EeqcbfLZTxDI7w" type="2001" element="_q-pToKB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_q_oyIKB1EeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q_oyIaB1EeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q_2NgKB1EeqcbfLZTxDI7w" type="3016" element="_q-rv4KB1EeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q_2NgaB1EeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_2NgqB1EeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q_iEcaB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_iEcqB1EeqcbfLZTxDI7w" x="320" y="300" width="200" height="150"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q_xVAKB1EeqcbfLZTxDI7w" type="2001" element="_q-vaQKB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_q_xVA6B1EeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q_xVBKB1EeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q_20kKB1EeqcbfLZTxDI7w" type="3003" element="_q-vaQaB1EeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q_20kaB1EeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_20kqB1EeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q_xVAaB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_xVAqB1EeqcbfLZTxDI7w" x="525" y="200" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q_x8EKB1EeqcbfLZTxDI7w" type="2001" element="_q-vaQ6B1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_q_x8E6B1EeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q_x8FKB1EeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q_3boKB1EeqcbfLZTxDI7w" type="3003" element="_q-vaRKB1EeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q_3boaB1EeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_3boqB1EeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q_x8EaB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_x8EqB1EeqcbfLZTxDI7w" x="225" y="200" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q_x8FaB1EeqcbfLZTxDI7w" type="2001" element="_q-vaRqB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_q_x8GKB1EeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q_x8GaB1EeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q_3bo6B1EeqcbfLZTxDI7w" type="3003" element="_q-vaR6B1EeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q_3bpKB1EeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_3bpaB1EeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q_x8FqB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_x8F6B1EeqcbfLZTxDI7w" x="375" y="200" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q_yjIKB1EeqcbfLZTxDI7w" type="2001" element="_q-vaSaB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_q_yjI6B1EeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q_yjJKB1EeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q_4CsKB1EeqcbfLZTxDI7w" type="3003" element="_q-vaSqB1EeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q_4CsaB1EeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_4CsqB1EeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q_yjIaB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_yjIqB1EeqcbfLZTxDI7w" x="450" y="100" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q_yjJaB1EeqcbfLZTxDI7w" type="2001" element="_q-vaTKB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_q_yjKKB1EeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q_yjKaB1EeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q_4Cs6B1EeqcbfLZTxDI7w" type="3003" element="_q-vaTaB1EeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q_4CtKB1EeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_4CtaB1EeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q_yjJqB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_yjJ6B1EeqcbfLZTxDI7w" x="600" y="100" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q_yjKqB1EeqcbfLZTxDI7w" type="2001" element="_q-wBUaB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_q_zKMKB1EeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q_zKMaB1EeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q_4CtqB1EeqcbfLZTxDI7w" type="3003" element="_q-wBUqB1EeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q_4Ct6B1EeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_4CuKB1EeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q_yjK6B1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_yjLKB1EeqcbfLZTxDI7w" x="150" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q_zKMqB1EeqcbfLZTxDI7w" type="2001" element="_q-wBVKB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_q_zKNaB1EeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q_zKNqB1EeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q_4CuaB1EeqcbfLZTxDI7w" type="3003" element="_q-wBVaB1EeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q_4CuqB1EeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_4Cu6B1EeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q_zKM6B1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_zKNKB1EeqcbfLZTxDI7w" x="450" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q_zKN6B1EeqcbfLZTxDI7w" type="2001" element="_q-wBV6B1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_q_zxQKB1EeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q_zxQaB1EeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q_4pwKB1EeqcbfLZTxDI7w" type="3003" element="_q-wBWKB1EeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q_4pwaB1EeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_4pwqB1EeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q_zKOKB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_zKOaB1EeqcbfLZTxDI7w" x="900" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q_zxQqB1EeqcbfLZTxDI7w" type="2001" element="_q-wBWqB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_q_zxRaB1EeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q_zxRqB1EeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q_4pw6B1EeqcbfLZTxDI7w" type="3003" element="_q-wBW6B1EeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q_4pxKB1EeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_4pxaB1EeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q_zxQ6B1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_zxRKB1EeqcbfLZTxDI7w" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q_0YUKB1EeqcbfLZTxDI7w" type="2001" element="_q-wBXaB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_q_0YU6B1EeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q_0YVKB1EeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q_4pxqB1EeqcbfLZTxDI7w" type="3003" element="_q-wBXqB1EeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q_4px6B1EeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_4pyKB1EeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q_0YUaB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_0YUqB1EeqcbfLZTxDI7w" x="750" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q_0YVaB1EeqcbfLZTxDI7w" type="2001" element="_q-wBYKB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_q_0YWKB1EeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q_0YWaB1EeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q_4pyaB1EeqcbfLZTxDI7w" type="3003" element="_q-wBYaB1EeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q_4pyqB1EeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_4py6B1EeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q_0YVqB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_0YV6B1EeqcbfLZTxDI7w" x="300" width="90" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q_0_YKB1EeqcbfLZTxDI7w" type="2001" element="_q-woYaB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_q_0_Y6B1EeqcbfLZTxDI7w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q_0_ZKB1EeqcbfLZTxDI7w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q_5Q0KB1EeqcbfLZTxDI7w" type="3003" element="_q-woYqB1EeqcbfLZTxDI7w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q_5Q0aB1EeqcbfLZTxDI7w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_5Q0qB1EeqcbfLZTxDI7w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q_0_YaB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_0_YqB1EeqcbfLZTxDI7w" x="600" width="90" height="40"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_q_VQIqB1EeqcbfLZTxDI7w"/>
+        <edges xmi:type="notation:Edge" xmi:id="_rAGsMKB1EeqcbfLZTxDI7w" type="4001" element="_q-1g4KB1EeqcbfLZTxDI7w" source="_q_iEcKB1EeqcbfLZTxDI7w" target="_q_xVAKB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_rAH6UKB1EeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAH6UaB1EeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAIhYKB1EeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAIhYaB1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAJIcKB1EeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAJIcaB1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rAGsMaB1EeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rAGsMqB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rAGsM6B1EeqcbfLZTxDI7w" points="[0, 0, -150, 60]$[150, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAVVsKB1EeqcbfLZTxDI7w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAVVsaB1EeqcbfLZTxDI7w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_rAVVsqB1EeqcbfLZTxDI7w" type="4001" element="_q-4kMKB1EeqcbfLZTxDI7w" source="_q_iEcKB1EeqcbfLZTxDI7w" target="_q_x8EKB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_rAV8wKB1EeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAV8waB1EeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAV8wqB1EeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAV8w6B1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAV8xKB1EeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAV8xaB1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rAVVs6B1EeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rAVVtKB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rAVVtaB1EeqcbfLZTxDI7w" points="[0, 0, 150, 60]$[-150, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAV8xqB1EeqcbfLZTxDI7w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAV8x6B1EeqcbfLZTxDI7w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_rAV8yKB1EeqcbfLZTxDI7w" type="4001" element="_q-5LRKB1EeqcbfLZTxDI7w" source="_q_iEcKB1EeqcbfLZTxDI7w" target="_q_x8FaB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_rAWj0KB1EeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAWj0aB1EeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAWj0qB1EeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAWj06B1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAWj1KB1EeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAWj1aB1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rAV8yaB1EeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rAV8yqB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rAV8y6B1EeqcbfLZTxDI7w" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAWj1qB1EeqcbfLZTxDI7w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAWj16B1EeqcbfLZTxDI7w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_rAWj2KB1EeqcbfLZTxDI7w" type="4001" element="_q-5yVKB1EeqcbfLZTxDI7w" source="_q_xVAKB1EeqcbfLZTxDI7w" target="_q_yjIKB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_rAWj3KB1EeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAWj3aB1EeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAWj3qB1EeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAWj36B1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAWj4KB1EeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAWj4aB1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rAWj2aB1EeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rAWj2qB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rAWj26B1EeqcbfLZTxDI7w" points="[0, 0, 75, 60]$[-75, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAXK4KB1EeqcbfLZTxDI7w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAXK4aB1EeqcbfLZTxDI7w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_rAXK4qB1EeqcbfLZTxDI7w" type="4001" element="_q-5yWaB1EeqcbfLZTxDI7w" source="_q_xVAKB1EeqcbfLZTxDI7w" target="_q_yjJaB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_rAXK5qB1EeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAXK56B1EeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAXK6KB1EeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAXK6aB1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAXK6qB1EeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAXK66B1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rAXK46B1EeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rAXK5KB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rAXK5aB1EeqcbfLZTxDI7w" points="[0, 0, -75, 60]$[75, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAXK7KB1EeqcbfLZTxDI7w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAXK7aB1EeqcbfLZTxDI7w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_rAXx8KB1EeqcbfLZTxDI7w" type="4001" element="_q-6ZYqB1EeqcbfLZTxDI7w" source="_q_yjIKB1EeqcbfLZTxDI7w" target="_q_yjKqB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_rAXx9KB1EeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAXx9aB1EeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAXx9qB1EeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAXx96B1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAXx-KB1EeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAXx-aB1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rAXx8aB1EeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rAXx8qB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rAXx86B1EeqcbfLZTxDI7w" points="[0, 0, 300, 60]$[-300, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAXx-qB1EeqcbfLZTxDI7w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAXx-6B1EeqcbfLZTxDI7w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_rAXx_KB1EeqcbfLZTxDI7w" type="4001" element="_q-6ZZ6B1EeqcbfLZTxDI7w" source="_q_yjIKB1EeqcbfLZTxDI7w" target="_q_zKMqB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_rAXyAKB1EeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAXyAaB1EeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAXyAqB1EeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAXyA6B1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAXyBKB1EeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAXyBaB1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rAXx_aB1EeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rAXx_qB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rAXx_6B1EeqcbfLZTxDI7w" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAYZAKB1EeqcbfLZTxDI7w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAYZAaB1EeqcbfLZTxDI7w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_rAYZAqB1EeqcbfLZTxDI7w" type="4001" element="_q-6ZbKB1EeqcbfLZTxDI7w" source="_q_yjIKB1EeqcbfLZTxDI7w" target="_q_zKN6B1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_rAYZBqB1EeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAYZB6B1EeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAYZCKB1EeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAYZCaB1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAYZCqB1EeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAYZC6B1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rAYZA6B1EeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rAYZBKB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rAYZBaB1EeqcbfLZTxDI7w" points="[0, 0, -450, 60]$[450, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAYZDKB1EeqcbfLZTxDI7w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAYZDaB1EeqcbfLZTxDI7w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_rAYZDqB1EeqcbfLZTxDI7w" type="4001" element="_q-6ZcaB1EeqcbfLZTxDI7w" source="_q_yjIKB1EeqcbfLZTxDI7w" target="_q_zxQqB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_rAZAEKB1EeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAZAEaB1EeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAZAEqB1EeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAZAE6B1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAZAFKB1EeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAZAFaB1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rAYZD6B1EeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rAYZEKB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rAYZEaB1EeqcbfLZTxDI7w" points="[0, 0, 450, 60]$[-450, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAZAFqB1EeqcbfLZTxDI7w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAZAF6B1EeqcbfLZTxDI7w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_rAZAGKB1EeqcbfLZTxDI7w" type="4001" element="_q-7AdKB1EeqcbfLZTxDI7w" source="_q_yjIKB1EeqcbfLZTxDI7w" target="_q_0YUKB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_rAZAHKB1EeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAZAHaB1EeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAZAHqB1EeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAZAH6B1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAZAIKB1EeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAZAIaB1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rAZAGaB1EeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rAZAGqB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rAZAG6B1EeqcbfLZTxDI7w" points="[0, 0, -300, 60]$[300, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAZnIKB1EeqcbfLZTxDI7w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAZnIaB1EeqcbfLZTxDI7w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_rAZnIqB1EeqcbfLZTxDI7w" type="4001" element="_q-7AeaB1EeqcbfLZTxDI7w" source="_q_yjIKB1EeqcbfLZTxDI7w" target="_q_0YVaB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_rAZnJqB1EeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAZnJ6B1EeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAZnKKB1EeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAZnKaB1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAZnKqB1EeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAZnK6B1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rAZnI6B1EeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rAZnJKB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rAZnJaB1EeqcbfLZTxDI7w" points="[0, 0, 150, 60]$[-150, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAZnLKB1EeqcbfLZTxDI7w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAZnLaB1EeqcbfLZTxDI7w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_rAZnLqB1EeqcbfLZTxDI7w" type="4001" element="_q-7AfqB1EeqcbfLZTxDI7w" source="_q_yjIKB1EeqcbfLZTxDI7w" target="_q_0_YKB1EeqcbfLZTxDI7w">
+          <children xmi:type="notation:Node" xmi:id="_rAZnMqB1EeqcbfLZTxDI7w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAZnM6B1EeqcbfLZTxDI7w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAZnNKB1EeqcbfLZTxDI7w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAZnNaB1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rAZnNqB1EeqcbfLZTxDI7w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAZnN6B1EeqcbfLZTxDI7w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rAZnL6B1EeqcbfLZTxDI7w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rAZnMKB1EeqcbfLZTxDI7w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rAZnMaB1EeqcbfLZTxDI7w" points="[0, 0, -150, 60]$[150, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAaOMKB1EeqcbfLZTxDI7w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rAaOMaB1EeqcbfLZTxDI7w" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q-pToKB1EeqcbfLZTxDI7w" name="Аленький цветочек" outgoingEdges="_q-1g4KB1EeqcbfLZTxDI7w _q-4kMKB1EeqcbfLZTxDI7w _q-5LRKB1EeqcbfLZTxDI7w" width="20" height="15" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#index"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#index"/>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_q-rv4KB1EeqcbfLZTxDI7w" labelSize="12" showIcon="false" labelPosition="node" horizontalDiameter="20" verticalDiameter="15" color="209,209,209">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='RootNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='RootNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q-vaQKB1EeqcbfLZTxDI7w" name="Моя коллекция" outgoingEdges="_q-5yVKB1EeqcbfLZTxDI7w _q-5yWaB1EeqcbfLZTxDI7w" incomingEdges="_q-1g4KB1EeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#ea53df74-bac0-49cb-a9c4-7bcac5cc8029"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#ea53df74-bac0-49cb-a9c4-7bcac5cc8029"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_q-vaQaB1EeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q-vaQ6B1EeqcbfLZTxDI7w" name="Хитрости и секреты" incomingEdges="_q-4kMKB1EeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#a8b8f2fd-5b19-4cf1-be31-a00e17aec62f"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#a8b8f2fd-5b19-4cf1-be31-a00e17aec62f"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_q-vaRKB1EeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q-vaRqB1EeqcbfLZTxDI7w" name="Как купить растения?" incomingEdges="_q-5LRKB1EeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#5468585e-5931-42ec-83c2-68f91071d2b9"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#5468585e-5931-42ec-83c2-68f91071d2b9"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_q-vaR6B1EeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q-vaSaB1EeqcbfLZTxDI7w" name="Адениум" outgoingEdges="_q-6ZYqB1EeqcbfLZTxDI7w _q-6ZZ6B1EeqcbfLZTxDI7w _q-6ZbKB1EeqcbfLZTxDI7w _q-6ZcaB1EeqcbfLZTxDI7w _q-7AdKB1EeqcbfLZTxDI7w _q-7AeaB1EeqcbfLZTxDI7w _q-7AfqB1EeqcbfLZTxDI7w" incomingEdges="_q-5yVKB1EeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#28b303bb-ba63-4b67-b79b-7498563084c7"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#28b303bb-ba63-4b67-b79b-7498563084c7"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_q-vaSqB1EeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q-vaTKB1EeqcbfLZTxDI7w" name="Шлюмбергера" incomingEdges="_q-5yWaB1EeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#a16db863-1266-4bc3-8209-3e9e32b7dae8"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#a16db863-1266-4bc3-8209-3e9e32b7dae8"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_q-vaTaB1EeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q-wBUaB1EeqcbfLZTxDI7w" name="Описание" incomingEdges="_q-6ZYqB1EeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#f3bc65a9-aa2f-4301-b08b-4f4e1cb99e53"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#f3bc65a9-aa2f-4301-b08b-4f4e1cb99e53"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_q-wBUqB1EeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q-wBVKB1EeqcbfLZTxDI7w" name="Характеристика вида" incomingEdges="_q-6ZZ6B1EeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#c41df8eb-c69f-4785-af41-c189b52aea2b"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#c41df8eb-c69f-4785-af41-c189b52aea2b"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_q-wBVaB1EeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q-wBV6B1EeqcbfLZTxDI7w" name="Условия выращивания" incomingEdges="_q-6ZbKB1EeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#6ffdce1c-d69f-4342-a3b0-3cecba45c929"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#6ffdce1c-d69f-4342-a3b0-3cecba45c929"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_q-wBWKB1EeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q-wBWqB1EeqcbfLZTxDI7w" name="Способы размножения" incomingEdges="_q-6ZcaB1EeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#dcefda60-d6d5-43e1-90ea-2754ade8500f"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#dcefda60-d6d5-43e1-90ea-2754ade8500f"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_q-wBW6B1EeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q-wBXaB1EeqcbfLZTxDI7w" name="Галерея сортов" incomingEdges="_q-7AdKB1EeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#acf8b707-0608-468d-a4ed-b711805e97fd"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#acf8b707-0608-468d-a4ed-b711805e97fd"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_q-wBXqB1EeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q-wBYKB1EeqcbfLZTxDI7w" name="Растения в наличии" incomingEdges="_q-7AeaB1EeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#25924c80-a361-4610-89ac-b55b53de0e19"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#25924c80-a361-4610-89ac-b55b53de0e19"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_q-wBYaB1EeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q-woYaB1EeqcbfLZTxDI7w" name="Растения на продажу" incomingEdges="_q-7AfqB1EeqcbfLZTxDI7w" width="9" height="4" resizeKind="NSEW">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#b51fa645-7dc3-40d4-bb21-57a6355dc276"/>
+      <semanticElements xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#b51fa645-7dc3-40d4-bb21-57a6355dc276"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_q-woYqB1EeqcbfLZTxDI7w" showIcon="false" labelPosition="node" width="9" height="4" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q-1g4KB1EeqcbfLZTxDI7w" sourceNode="_q-pToKB1EeqcbfLZTxDI7w" targetNode="_q-vaQKB1EeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#index"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_q-39IKB1EeqcbfLZTxDI7w" size="4" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_q-39IaB1EeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q-4kMKB1EeqcbfLZTxDI7w" sourceNode="_q-pToKB1EeqcbfLZTxDI7w" targetNode="_q-vaQ6B1EeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#index"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_q-5LQKB1EeqcbfLZTxDI7w" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_q-5LQaB1EeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q-5LRKB1EeqcbfLZTxDI7w" sourceNode="_q-pToKB1EeqcbfLZTxDI7w" targetNode="_q-vaRqB1EeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#index"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_q-5yUKB1EeqcbfLZTxDI7w" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_q-5yUaB1EeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q-5yVKB1EeqcbfLZTxDI7w" sourceNode="_q-vaQKB1EeqcbfLZTxDI7w" targetNode="_q-vaSaB1EeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#ea53df74-bac0-49cb-a9c4-7bcac5cc8029"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_q-5yVaB1EeqcbfLZTxDI7w" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_q-5yVqB1EeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q-5yWaB1EeqcbfLZTxDI7w" sourceNode="_q-vaQKB1EeqcbfLZTxDI7w" targetNode="_q-vaTKB1EeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#ea53df74-bac0-49cb-a9c4-7bcac5cc8029"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_q-5yWqB1EeqcbfLZTxDI7w" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_q-5yW6B1EeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q-6ZYqB1EeqcbfLZTxDI7w" sourceNode="_q-vaSaB1EeqcbfLZTxDI7w" targetNode="_q-wBUaB1EeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#28b303bb-ba63-4b67-b79b-7498563084c7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_q-6ZY6B1EeqcbfLZTxDI7w" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_q-6ZZKB1EeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q-6ZZ6B1EeqcbfLZTxDI7w" sourceNode="_q-vaSaB1EeqcbfLZTxDI7w" targetNode="_q-wBVKB1EeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#28b303bb-ba63-4b67-b79b-7498563084c7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_q-6ZaKB1EeqcbfLZTxDI7w" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_q-6ZaaB1EeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q-6ZbKB1EeqcbfLZTxDI7w" sourceNode="_q-vaSaB1EeqcbfLZTxDI7w" targetNode="_q-wBV6B1EeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#28b303bb-ba63-4b67-b79b-7498563084c7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_q-6ZbaB1EeqcbfLZTxDI7w" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_q-6ZbqB1EeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q-6ZcaB1EeqcbfLZTxDI7w" sourceNode="_q-vaSaB1EeqcbfLZTxDI7w" targetNode="_q-wBWqB1EeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#28b303bb-ba63-4b67-b79b-7498563084c7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_q-7AcKB1EeqcbfLZTxDI7w" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_q-7AcaB1EeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q-7AdKB1EeqcbfLZTxDI7w" sourceNode="_q-vaSaB1EeqcbfLZTxDI7w" targetNode="_q-wBXaB1EeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#28b303bb-ba63-4b67-b79b-7498563084c7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_q-7AdaB1EeqcbfLZTxDI7w" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_q-7AdqB1EeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q-7AeaB1EeqcbfLZTxDI7w" sourceNode="_q-vaSaB1EeqcbfLZTxDI7w" targetNode="_q-wBYKB1EeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#28b303bb-ba63-4b67-b79b-7498563084c7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_q-7AeqB1EeqcbfLZTxDI7w" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_q-7Ae6B1EeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q-7AfqB1EeqcbfLZTxDI7w" sourceNode="_q-vaSaB1EeqcbfLZTxDI7w" targetNode="_q-woYaB1EeqcbfLZTxDI7w">
+      <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#28b303bb-ba63-4b67-b79b-7498563084c7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_q-7Af6B1EeqcbfLZTxDI7w" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_q-7AgKB1EeqcbfLZTxDI7w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer/@edgeMappings[name='ChildEdge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_q-Xm0KB1EeqcbfLZTxDI7w"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer"/>
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_4_SiteStructure/ScarletFlower.vici#index"/>
+  </diagram:DSemanticDiagram>
 </xmi:XMI>
