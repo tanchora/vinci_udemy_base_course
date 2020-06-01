@@ -70,10 +70,10 @@
               <span title="Creating a site with the left vertical navigation panel.">
                 <span class="fas fa-sitemap nsd-label-icon"></span>  Часть 1. Элементы модели. Базовый (вертикальный) навигационный каркас. </span>
             </span>
-            <button type="button" data-toggle="collapse" data-target="#nsd-kq" class="navbar-toggler">
+            <button type="button" data-toggle="collapse" data-target="#nsd-ak" class="navbar-toggler">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="nsd-kq" class="collapse navbar-collapse">
+            <div id="nsd-ak" class="collapse navbar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">Содержание курса</a>
@@ -179,7 +179,7 @@
 <p>Более подробно эти свойства описаны на иллюстрации. Еще более подробное описание  - под иллюстрацией.</p>
 <p><img src="img/Properties_Main.jpg" alt="Окно свойств элемента модели " title="Вкладка Main окна свойств элеменита модели" /></p>
 <hr />
-<p><strong>*  Для того, чтобы из элемента модели сгенерировалась HTML страница  - обязательно должно быть заполнено хотя бы одно из полей, отмеченных звёздочкой.</strong></p>
+<p><strong>!  Для того, чтобы из элемента модели сгенерировалась HTML страница  - обязательно должно быть заполнено хотя бы одно из полей, отмеченных звёздочкой.</strong></p>
 <hr /></div><p></p>
                     <div class="container-fluid mt-1">
                       <div class="row">
@@ -208,6 +208,7 @@
                             <a href="#nsd-action-content-9f9435f4-2252-46cc-bf1c-c01c8b222f52" data-toggle="list" role="tab" class="list-group-item list-group-action list-group-item-dark mb-3">Role</a>
                             <a href="#nsd-action-content-59b85690-fbb5-4333-8450-34b999e64899" data-toggle="list" role="tab" class="list-group-item list-group-action list-group-item-dark mb-3">Section Style</a>
                             <a href="#nsd-action-content-b92b911c-2f07-474d-83fb-ad14fdeee6c4" data-toggle="list" role="tab" class="list-group-item list-group-action list-group-item-dark mb-3">Section Columns</a>
+                            <a href="#nsd-action-content-e463f0d8-8f54-4a4f-b071-5a42a42b809e" data-toggle="list" role="tab" class="list-group-item list-group-action list-group-item-dark mb-3">Activator</a>
                           </div>
                         </div>
                         <div class="col">
@@ -255,9 +256,16 @@
                             </div>
                             <div id="nsd-action-content-99a31b12-7626-4c05-8d04-76927215f30f" role="tabpanel" class="tab-pane fade">
                               <a name="99a31b12-7626-4c05-8d04-76927215f30f"></a>
-                              <div class="markdown-body"><p>Текст введенный в это поле превращается в выделенный текст, оповещение на которое нужно обратить внимание размещается в навигационном каркасе, справа от основного названия, сформированного из поля Text.</p>
-<p>Звёздочка слева от слова Notification на кнопке по которой вы сюда перешли - сделана именно таким образом.</p></div>
-                            </div>
+                              <div class="markdown-body"><p>Текст введенный в это поле превращается в выделенный текст - оповещение на которое нужно обратить внимание.</p>
+<p>Размещается в навигационном каркасе, справа от основного названия, сформированного из поля Text.</p>
+<p>Звёздочка слева от слова Notification на кнопке по которой вы сюда перешли - сделана именно таким образом.</p></div><p></p>
+                              <div>
+                                <a name="4023690c-e146-4ff3-93e5-f9b76c93bae4"></a>
+                                <H3 data-nsd-action="4023690c-e146-4ff3-93e5-f9b76c93bae4" class="nsd-action">
+                                  <span style="margin-left:0.3em" class="badge badge-primary badge-pill">Этот элемент называется Bage</span>
+                                </H3>
+                                <div class="markdown-body"><p>он тоже сформирован из поля <strong>Notification</strong></p></div>
+                              </div></div>
                             <div id="nsd-action-content-e063cac5-effd-4ef0-ac31-b2497b02c2a0" role="tabpanel" class="tab-pane fade">
                               <a name="e063cac5-effd-4ef0-ac31-b2497b02c2a0"></a>
                               <div class="markdown-body"><p>В процессе постоения модели мы не только создаём элементы, но и строим их иерархию. Мы это делаем для того, чтобы сформировать навигационный каркас сайта и установить логическую последовательность получения информации. На диаграмме  иерархия элемнтов выглядит так:</p>
@@ -271,15 +279,55 @@
                             </div>
                             <div id="nsd-action-content-9f9435f4-2252-46cc-bf1c-c01c8b222f52" role="tabpanel" class="tab-pane fade">
                               <a name="9f9435f4-2252-46cc-bf1c-c01c8b222f52"></a>
-                              <div class="markdown-body"><p>Роль - это важнейший атрибут, который определяет поведение элемента модели. Например, ролью определяется то, в каком блоке страницы будет располагаться элемент и, в некоторых случаях то, каково будет “поведение” его дочерних и родительских элементов..</p>
-<p>У каждой Action может быть только одна роль.</p>
-<p>В текущей версии Nasdanika Vinci Action может иметь одну из пяти ролей: Navigation, Context и Section, Content left, Content Right . (В будущем предполагается использование двух дополнительных ролей под которые зарезервированы значения View и Edit ).</p></div>
+                              <div class="markdown-body"><p>Роль - это важнейший атрибут, который определяет:</p>
+<ol>
+<li>Какие функции, выполняет элемент модели (навигационную, контейнерную или информационную).</li>
+<li>Где располагается точка перехода к разделу сайта, формирумому элементом модели.</li>
+<li>Какие роли допустимы для дочерних элементов.</li>
+</ol>
+<p>То есть,  ролью определяется то, в каком блоке страницы будет располагаться элемент и, в некоторых случаях то, каково будет “поведение” его дочерних и родительских элементов.</p>
+<p>В текущей версии Nasdanika Vinci Action может иметь одну из шести ролей: Navigation, Context и Section, Content left, Content Right, None . (В будущем предполагается использование двух дополнительных ролей под которые зарезервированы значения View и Edit ).</p>
+<p>Рассмотрим три базовые роли: Navigation, Context и Section.</p>
+<p>По умолчанию всем <strong>Action</strong> присваивается роль <strong>Navigation</strong>.  Навигационные <strong>Action</strong> могут располагаться в шапке сайта (хедере) и в левой боковой навигационной панели. Они формируют базовый навигационный каркас сайта.</p>
+<p>Родительский элемент навигационной <strong>Action</strong> обязательно должен так же иметь роль <strong>Navigation</strong> и принадлежать к главной навигационной ветке модели сайта.</p>
+<p>А вот дочерние элементы навигационных <strong>Action</strong> могут иметь  любые роли.</p>
+<p><img src="img/basenavigationframe.svg" alt="" title="В хедере располагается корневая Action и втрой и последующие дочерние элементы, которым присвоена роль __Navigation__" /></p>
+<p>Роль <strong>Context</strong> - назначается элементам модели, которые не принадлежат к главной навигационной ветке сайта. Эти элементы могут размещаться в футере, горизонтальной навигационной панли или в контент панели - в зависимости от того, какому родительскому элементу они принадлежат.</p>
+<p><img src="img/contextnavigationframe.svg" alt="" /></p>
+<p>Action c ролью <strong>Section</strong> являются контейнерами, организующими размещение информации на странице. Возможность многократно вкладывать контейнеры друг в друга позволяет делить область содержания (content-panel) на отдельные блоки, в которых информация может быть представлена различными способами.</p>
+<p>В отличие от других ролей <strong>Section</strong> имеет несколько стилей, которые устанавливаются настройкой <strong>Section Style</strong>.</p>
+<p><img src="img/Section.svg" alt="" title="Секции располагаются в контент-панели и могут иметь дочерние элементы с ролями Context или Section" /></p></div>
                             </div>
                             <div id="nsd-action-content-59b85690-fbb5-4333-8450-34b999e64899" role="tabpanel" class="tab-pane fade">
                               <a name="59b85690-fbb5-4333-8450-34b999e64899"></a>
+                              <div class="markdown-body"><hr />
+<h2><a href="#стиль-секции-настраивается-в-ее-родительском-элементе-а-не-в-самой-секции" id="стиль-секции-настраивается-в-ее-родительском-элементе-а-не-в-самой-секции">! ! ! Стиль секции настраивается в ее родительском элементе, а не в самой секции.</a></h2>
+<p>Соответственно, каждая Action может дочернии секции только одного стиля.  Совмещать секции разных стилей на одной странице можно вкладывая их друг в друга.</p></div>
                             </div>
                             <div id="nsd-action-content-b92b911c-2f07-474d-83fb-ad14fdeee6c4" role="tabpanel" class="tab-pane fade">
                               <a name="b92b911c-2f07-474d-83fb-ad14fdeee6c4"></a>
+                              <div class="markdown-body"><p>Данная настройка устанавливает количество секций со стилем Card, которое может поместиться в контент-панели.</p>
+<p>Значение должно быть от 1 до 12.</p>
+<p>Чем больше это значение - тем мельче будут ваши карточки.</p></div>
+                            </div>
+                            <div id="nsd-action-content-e463f0d8-8f54-4a4f-b071-5a42a42b809e" role="tabpanel" class="tab-pane fade">
+                              <a name="e463f0d8-8f54-4a4f-b071-5a42a42b809e"></a>
+                              <div class="markdown-body"><p>Активатором страницы может быть ссылка (Reference) или скрипт (некий исполняемый код).</p>
+<ul>
+<li>
+<p>Если выбран тип активатора  <strong>Reference</strong>  и  поле <strong>Activator</strong> не заполнено, то генератор создает  HTML страницу, и активатором выступает адрес этой страницы. В результате  - мы щелкнем по ссылке на <strong>Action</strong> в навигационном каркасе и в области контент-панели отразится содержание данного элемента модели и дочерних элементов с ролью <strong>Section</strong>/</p>
+</li>
+<li>
+<p>Если выбран тип активатора  <strong>Reference</strong>  и  в поле <strong>Activator</strong> введен адрес какого либо внешнего  HTML ресурса, то  в навигационом каркасе сформируется точка перехода к этому внешнему ресурсу. Если мы щелкем по этому элементу, то уйдем с нашего сайта.  Если мы ссылаемся на внешний ресурс, то указываем к нему абсолютный путь:</p>
+</li>
+</ul>
+<p><img src="img/activator01.jpg" alt="" title="Так создана ссылка на сайт разработчика программы, которую вы видите в левом верхнем углу этой страницы." /></p>
+<ul>
+<li>Если выбран тип активатора  <strong>Reference</strong>  и  в поле <strong>Activator</strong> введен адрес HTML страницы, находящейся в рамках нашего проекта, то в навигационном каркасе сформируется точка перехода к этой странице. Таким образом мы можем сделать ссылку  на страницу сгенерированную из другой модели. Таким образом, в рамках одного проекта мы можем создать &ldquo;федерацию моделей&rdquo;, и с помощью связей через поле <strong>Activator</strong> объединять их в один сайт.</li>
+</ul>
+<p>Путь к локальному (находящемуся в рамках проекта) файлу должен начинаться с сочетания знаков <strong>./</strong></p>
+<p>Затем вводится относительный путь к файлу. Путь строится от папки, к которую генерируются HTML страницы из этой модели.</p>
+<p><img src="img/activator02.jpg" alt="" /></p></div>
                             </div>
                           </div>
                         </div>
