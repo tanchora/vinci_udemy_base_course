@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.bootstrap="urn:org.nasdanika.vinci.bootstrap" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Lecture_7_Section" id="index" text="Наполняем сайт" linkedElements="65085453-c78f-4dfe-909c-94b3b3944d17 7c159e6a-8121-45fb-a7c3-6d73014b5683 54cc754a-6167-478f-9ecd-2b8a8147535f 25cf744f-a786-4b89-9488-595de819ce80 0c385d36-3e73-45ce-a9bb-48c1dff5f31e" sectionStyle="Default" markdownContent="&#xD;&#xA;" pageTemplate="./../templ.1.vinci">
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.bootstrap="urn:org.nasdanika.vinci.bootstrap" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Lecture_7_Section" id="index" text=" Наполняем сайт. Секции страницы." sectionStyle="Default" markdownContent="&#xD;&#xA;" pageTemplate="./../templ.1.vinci">
   <appearance>
     <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
       <entries xsi:type="org.nasdanika.ncore:Property" value="none" name="text-decoration"/>
     </attributes>
   </appearance>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Секции страницы" id="65085453-c78f-4dfe-909c-94b3b3944d17" text="&lt;img src=&quot;004-web.png&quot; alt=&quot;Секции страницы&quot;>  Секции страницы: таблицы &amp; action group" linkedElements="ed3ecf62-b825-4214-8488-487c8921084f 44d54727-9f89-450e-b1e7-3b480d90b4e7 221f45a1-d4f7-4a93-b727-0de579bc0b27" activatorType="None">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Секции страницы" id="65085453-c78f-4dfe-909c-94b3b3944d17" text="&lt;img src=&quot;004-web.png&quot; alt=&quot;Секции страницы&quot;>  Секции страницы: таблицы &amp; action group" activatorType="None">
     <appearance>
       <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
         <entries xsi:type="org.nasdanika.ncore:Property" value="1.25rem" name="font-size"/>
       </attributes>
     </appearance>
+    <linkedElements xsi:type="org.nasdanika.vinci.app:ActionCategory" href="#ed3ecf62-b825-4214-8488-487c8921084f"/>
+    <linkedElements xsi:type="org.nasdanika.vinci.app:ActionCategory" href="#44d54727-9f89-450e-b1e7-3b480d90b4e7"/>
+    <linkedElements xsi:type="org.nasdanika.vinci.app:ActionCategory" href="#221f45a1-d4f7-4a93-b727-0de579bc0b27"/>
+    <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#6d499071-cdb5-49aa-b73a-8d3a50c7a64e"/>
   </elements>
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="Таблицы для примера" id="54cc754a-6167-478f-9ecd-2b8a8147535f" linkedElements="f72ce7ef-f4ca-4238-a51f-9dcee10be905 b05b6144-f878-4e32-9b74-f2757a162d5b 8255d47a-e48e-4125-ba00-841febaf9d59" role="Section" sectionStyle="Table"/>
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="Почему нужны таблицы?" id="f72ce7ef-f4ca-4238-a51f-9dcee10be905" color="Dark" text="Таблица" role="Section" markdownContent="Это форма представления информации, облегчающая её визуальное восприятие. Состоит из строк, столбцов и ячеек."/>
@@ -97,6 +101,12 @@
     </appearance>
   </elements>
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="ссылка на сайт разработчика" id="7c159e6a-8121-45fb-a7c3-6d73014b5683" text="nasdanika.org " activator="https://nasdanika.org/"/>
+  <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#65085453-c78f-4dfe-909c-94b3b3944d17"/>
+  <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#54cc754a-6167-478f-9ecd-2b8a8147535f"/>
+  <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#25cf744f-a786-4b89-9488-595de819ce80"/>
+  <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#0c385d36-3e73-45ce-a9bb-48c1dff5f31e"/>
+  <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#ec294346-3f29-4aac-9ca7-468ccfca49aa"/>
+  <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#7c159e6a-8121-45fb-a7c3-6d73014b5683"/>
   <content xsi:type="org.nasdanika.ncore:Value" title="Видео с Ю-туба" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-sHDrtPhzeI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
   <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="Вступительное слово" style="true" markdown="На этом уроке мы будем наполнять область содержания сайта (content panel)  специальными секциями: таблицами, текстовыми блоками с  вертикально расположенными кнопками переключения (action group).  &#xD;&#xA;&#xD;&#xA;Так же мы научимся создавать вложенные секции различного типа: таблицы вложенные в Action group и наоборот. &#xD;&#xA;&#xD;&#xA;И, заодно, раз уж у нас зашла речь о таблицах, мы бегло ознакомимся с другими способами их создания:&#xD;&#xA;&#xD;&#xA;1.  Мы можем собрать таблицу из строк и ячеек, как из деталей конструктора. К таким таблицам могут применяться различные Bootstrap  классы, позволяющие быстро менять оформление и поведение таблиц.&#xD;&#xA;&#xD;&#xA;2. Можем создать классическую HTML-таблицу, используя встроенный в Vinci редактор HTML.&#xD;&#xA;&#xD;&#xA;3. Также, можно сохранить таблицу, созданную в каком-либо внешнем табличном редакторе, в формате HTML. А затем встроить эту таблицу в область содержания сайта. &#xD;&#xA;&#xD;&#xA;Кроме того, мы научимся встраивать изображения с использованием HTML синтаксиса не только внутрь секции, но и в ее заголовок.&#xD;&#xA;&#xD;&#xA;У нас должны получиться примерно вот такие таблицы и текстовые блоки, переключающиеся по нажатию вертикальных кнопок.">
     <appearance>
