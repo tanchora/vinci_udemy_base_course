@@ -70,10 +70,10 @@
               <span title="Creating a site with the left vertical navigation panel.">
                 <span class="fas fa-sitemap nsd-label-icon"></span>  Часть 1. Элементы модели. Базовый (вертикальный) навигационный каркас. </span>
             </span>
-            <button type="button" data-toggle="collapse" data-target="#nsd-fb" class="navbar-toggler">
+            <button type="button" data-toggle="collapse" data-target="#nsd-11v" class="navbar-toggler">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="nsd-fb" class="collapse navbar-collapse">
+            <div id="nsd-11v" class="collapse navbar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">Содержание курса</a>
@@ -167,15 +167,19 @@
             <div class="row nsd-app-content-panel-body-row">
               <div class="col nsd-app-content-panel-body">
                 <div class="markdown-body"><p>Для создания контента воспользуемся самым простым способом: введем текст в поле Markdown content на вкладке Markdown свойств активного элемента.</p>
-<p>У меня введу в это поле реальный текст, который собираюсь разместить на сайте. Если у вас нет подходящего текста -  вы можете использовать специальную &ldquo;болванку&rdquo; - сгенерированный текст <a href="https://ru.lipsum.com/">Lorem Ipsum</a>.</p>
+<p>Я написала в этом поле текст про цветоводство, вы можете написать про своё творчество или бизнес: пластиковые окна, украшения ручной работы и т.д. Если нет подходящего текста -  можно использовать специальный текст для заполнения страниц <a href="https://ru.lipsum.com/">Lorem Ipsum</a>.</p>
 <blockquote>
 <p><strong>! Обратите внимание на то, что синтаксис языка Маркдаун чувствителен к пробелам в начале строки. Поэтому, не пытайтесь создать пробелами абзацный отступ и не делайте пробелы перед новой строкой, чтобы не получить неожиданные результаты.</strong></p>
 </blockquote>
-<p>Кроме простого текста я вставлю на страницу картинку. Для этого я нашла на бесплатном стоке изображений <a href="https://www.pexels.com/">https://www.pexels.com/</a> картинку и скопировала ссылку на неё.</p>
-<p>Затем ввожу сочетание символов:</p>
-<p><strong><img src="" alt="" /></strong></p>
-<p>В квадратные скобки вводится альтернативный текст, в круглые скобки вводится ссылка, которую мы скопировали.</p>
-<p><strong>![Это картинка](Ссылка на картинку - <a href="https://images.pexels.com/photos/1809340/pexels-photo-1809340.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260">https://images.pexels.com/photos/1809340/pexels-photo-1809340.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260</a>)</strong></p>
+<p>Кроме простого текста вставим на страницу картинку. Для этого найдем на бесплатном стоке изображений <a href="https://www.pexels.com/">https://www.pexels.com/</a> картинку, скопируем ссылку (щелкаем правой кнопкой мыши по картинке и выбираем пункт &ldquo;Копировать URL страницы&rdquo;.</p>
+<p>Затем введём сочетание символов:</p>
+<pre><code>![]()
+</code></pre>
+<p>В квадратные скобки вводится альтернативный текст, в круглые скобки вводится ссылка, которую мы скопировали и через пробел, в кавычках - всплывающая подсказка. Всплывающая подсказка - не обязательный элемент.</p>
+<pre><code>![Это картинка](Ссылка на картинку &quot;Всплывающая подсказка&quot;)
+
+![Это картинка](https://images.pexels.com/photos/1809340/pexels-photo-1809340.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260 &quot;Всплывающая подсказка&quot;) 
+</code></pre>
 <p>Теперь мы можем сгенерировать первую страницу сайта <a href="ace6cd84-f2c2-45dc-9ebe-06c8192ff84f.html">&gt;&gt;&gt;</a></p>
 <p><img src="img/markdowntext.jpg" alt="Пример ввода текстав в поле Markdown content" /></p></div>
               </div>
