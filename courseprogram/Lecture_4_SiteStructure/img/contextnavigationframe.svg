@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="428.43218"
-     inkscape:cy="185.49676"
+     inkscape:zoom="2.8"
+     inkscape:cx="280.93679"
+     inkscape:cy="176.94277"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -143,39 +143,39 @@
          id="tspan853-7">Контекстный навигационный каркас</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.76742244px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.09418555"
-       x="68.80407"
-       y="205.93062"
+       style="font-style:normal;font-weight:normal;font-size:4.15829468px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.10395736"
+       x="62.296841"
+       y="227.29604"
        id="text851-9"
-       transform="scale(0.91146743,1.0971319)"><tspan
+       transform="scale(1.0060327,0.9940035)"><tspan
          sodipodi:role="line"
-         x="68.80407"
-         y="205.93062"
-         style="font-size:2.00929189px;fill:#ffffff;stroke-width:0.09418555"
-         id="tspan853-5">Контекстный навигационный каркас</tspan></text>
+         x="62.296841"
+         y="227.29604"
+         style="font-size:2.21775699px;fill:#ffffff;stroke-width:0.10395736"
+         id="tspan853-5">Контекстный навигационный каркас секции</tspan></text>
+    <text
+       transform="scale(1.0060327,0.99400348)"
+       id="text836"
+       y="245.92877"
+       x="62.296841"
+       style="font-style:normal;font-weight:normal;font-size:4.15829468px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.10395736"
+       xml:space="preserve"><tspan
+         id="tspan834"
+         style="font-size:2.21775699px;fill:#ffffff;stroke-width:0.10395736"
+         y="245.92877"
+         x="62.296841"
+         sodipodi:role="line">Контекстный навигационный каркас секции</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.76742244px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.09418555"
-       x="68.80407"
-       y="222.82903"
-       id="text851-9-0"
-       transform="scale(0.91146743,1.0971319)"><tspan
+       style="font-style:normal;font-weight:normal;font-size:4.15829468px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.10395736"
+       x="62.296841"
+       y="269.35239"
+       id="text840"
+       transform="scale(1.0060327,0.99400348)"><tspan
          sodipodi:role="line"
-         x="68.80407"
-         y="222.82903"
-         style="font-size:2.00929189px;fill:#ffffff;stroke-width:0.09418555"
-         id="tspan853-5-1">Контекстный навигационный каркас</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.76742244px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.09418555"
-       x="68.80407"
-       y="244.11855"
-       id="text851-9-6"
-       transform="scale(0.91146743,1.0971319)"><tspan
-         sodipodi:role="line"
-         x="68.80407"
-         y="244.11855"
-         style="font-size:2.00929189px;fill:#ffffff;stroke-width:0.09418555"
-         id="tspan853-5-4">Контекстный навигационный каркас</tspan></text>
+         x="62.296841"
+         y="269.35239"
+         style="font-size:2.21775699px;fill:#ffffff;stroke-width:0.10395736"
+         id="tspan838">Контекстный навигационный каркас секции</tspan></text>
   </g>
 </svg>

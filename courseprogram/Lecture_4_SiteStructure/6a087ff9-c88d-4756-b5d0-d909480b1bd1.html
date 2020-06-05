@@ -70,10 +70,10 @@
               <span title="Creating a site with the left vertical navigation panel.">
                 <span class="fas fa-sitemap nsd-label-icon"></span>  Часть 1. Элементы модели. Базовый (вертикальный) навигационный каркас. </span>
             </span>
-            <button type="button" data-toggle="collapse" data-target="#nsd-7z" class="navbar-toggler">
+            <button type="button" data-toggle="collapse" data-target="#nsd-gi" class="navbar-toggler">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="nsd-7z" class="collapse navbar-collapse">
+            <div id="nsd-gi" class="collapse navbar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">Содержание курса</a>
@@ -132,8 +132,9 @@
             <div style="font-size:1.25rem" class="card-header bg-secondary bg-dark text-light font-weight-bold">
               <span class="fas fa-hammer nsd-label-icon"></span>  Практика. <br >Многостраничный сайт</div>
             <div class="list-group list-group-flush">
-              <a href="4e6aca5d-4820-4e49-bd23-6fc9ed2cdc1e.html" class="list-group-item list-group-action list-group-item-secondary">Структура модели</a>
-              <a href="f029c10b-f98e-4b91-80a2-6dc698aaad20.html" class="list-group-item list-group-action list-group-item-secondary">Изменение порядка связей элементов модели</a>
+              <a href="4e6aca5d-4820-4e49-bd23-6fc9ed2cdc1e.html" class="list-group-item list-group-action list-group-item-secondary">Создаём новые элементы (разделы сайта)</a>
+              <a href="f029c10b-f98e-4b91-80a2-6dc698aaad20.html" class="list-group-item list-group-action list-group-item-secondary">Навигация в хедере (шапке) сайта</a>
+              <a href="a7dd1997-f143-4517-b81e-126260a744fb.html" class="list-group-item list-group-action">Навигация в левой вертикальной навигационной панели</a>
             </div>
           </div>
         </div>
@@ -154,6 +155,44 @@
             <div class="row">
               <div class="col nsd-app-content-panel-header-col">
                 <h2 data-nsd-action="6a087ff9-c88d-4756-b5d0-d909480b1bd1" class="nsd-action nsd-app-content-panel-header">Создание новых элементов модели</h2>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-body-row">
+              <div class="col nsd-app-content-panel-body">
+                <table class="table table-hover">
+                  <tr>
+                    <td>
+                      <a data-nsd-action="818aefdb-627f-4637-aba2-7b417ba5ec83" href="818aefdb-627f-4637-aba2-7b417ba5ec83.html#818aefdb-627f-4637-aba2-7b417ba5ec83" class="nsd-action"> В диаграмме</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a data-nsd-action="23e58a89-e5e3-4658-9c92-2dfc593abcd3" href="23e58a89-e5e3-4658-9c92-2dfc593abcd3.html#23e58a89-e5e3-4658-9c92-2dfc593abcd3" class="nsd-action">В дереве элементов</a>
+                    </td>
+                  </tr>
+                </table>
+                <div>
+                  <a name="818aefdb-627f-4637-aba2-7b417ba5ec83"></a>
+                  <H3 data-nsd-action="818aefdb-627f-4637-aba2-7b417ba5ec83" class="nsd-action"> В диаграмме</H3>
+                  <div class="markdown-body"><p>Для создания новых элементов в диаграмме  есть специальная палитра, она расположена у правого края окна диаграммы и содержит те элементы модели, которые могут быть созданы в этой репрезентации.</p>
+<p>Мы можем выбрать один из трёх способов создания элемента:</p>
+<ol>
+<li>Выделить нужный элемент в палитре, затем переместить мышку в область диаграммы и щелкнуть в пустом пространстве.</li>
+<li>Схватить нужный элемент мышкой и перетащить его в пустое пространство диаграммы.</li>
+<li>Навести мышь на холст диаграммы (пустое пространство) и дождаться пока появится всплывающая палитра инструментов. Навести мышь на нужный элемент и щелкнуть по нему левой кнопкой.</li>
+</ol>
+<p><img src="img/Cr_action01.jpg" alt="" /></p>
+<hr />
+<p><img src="img/Cr_action02.jpg" alt="" /></p></div><p></p></div>
+                <div>
+                  <a name="23e58a89-e5e3-4658-9c92-2dfc593abcd3"></a>
+                  <H3 data-nsd-action="23e58a89-e5e3-4658-9c92-2dfc593abcd3" class="nsd-action">В дереве элементов</H3>
+                  <div class="markdown-body"><p>В дереве элементов все новые объекты создаются из контекстного меню. Пункты, доступные для выбора зависят от того, из какого элемента модели мы вызываем контекстное меню.</p>
+<p>У каждой <strong>Action</strong> во внутренней структуре есть папка <strong>Elements</strong>. В этой папке хранятся дочерние <strong>Action</strong>.  Вызвав контекстное меню щелчком на папке <strong>Elements</strong> и выбрав пункт <strong>New Child</strong> мы увидим доступные для создания элементы.  Выберем пункт <strong>Action</strong></p>
+<p><img src="img/Cr_action03.jpg" alt="Создание новой Action из контекстного меню папки Elements" title="Создание новой Action из контекстного меню папки Elements" /></p>
+<p>Мы можем создать новую <strong>Action</strong> из контекстного меню родительской <strong>Action</strong>. Для этого нам потребуется выбрать пункт меню <strong>New Child -&gt; Elements -&gt; Action</strong></p>
+<p><img src="img/Cr_action04.jpg" alt="Создение  новой Action из контекстного меню  родительской Action" title="Создение  новой Action из контекстного меню  родительской Action" /></p></div>
+                </div>
               </div>
             </div>
           </div>
