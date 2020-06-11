@@ -70,10 +70,10 @@
               <span title="Creating a site with the left vertical navigation panel.">
                 <span class="fas fa-sitemap nsd-label-icon"></span>  Часть 1. Элементы модели. Базовый (вертикальный) навигационный каркас. </span>
             </span>
-            <button type="button" data-toggle="collapse" data-target="#nsd-1cx" class="navbar-toggler">
+            <button type="button" data-toggle="collapse" data-target="#nsd-s" class="navbar-toggler">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="nsd-1cx" class="collapse navbar-collapse">
+            <div id="nsd-s" class="collapse navbar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">Содержание курса</a>
@@ -292,11 +292,11 @@
 <p>То есть,  ролью определяется то, в каком блоке страницы будет располагаться элемент и, в некоторых случаях то, каково будет “поведение” его дочерних и родительских элементов.</p>
 <p>В текущей версии Nasdanika Vinci Action может иметь одну из шести ролей: Navigation, Context и Section, Content left, Content Right, None . (В будущем предполагается использование двух дополнительных ролей под которые зарезервированы значения View и Edit ).</p>
 <p>Рассмотрим три базовые роли: Navigation, Context и Section.</p>
-<p>По умолчанию всем <strong>Action</strong> присваивается роль <strong>Navigation</strong>.  Навигационные <strong>Action</strong> могут располагаться в шапке сайта (хедере) и в левой боковой навигационной панели. Они формируют базовый навигационный каркас сайта.</p>
+<p>По умолчанию всем <strong>Action</strong> присваивается роль <a href="./../Lecture_5_SiteStructure_Context/a95f8b86-10b1-4093-abbf-dcea04a519f7.html" title="Подробнее о роли Navigation"><strong>Navigation</strong></a>.  Навигационные <strong>Action</strong> могут располагаться в шапке сайта (хедере) и в левой боковой навигационной панели. Они формируют базовый навигационный каркас сайта.</p>
 <p>Родительский элемент навигационной <strong>Action</strong> обязательно должен так же иметь роль <strong>Navigation</strong> и принадлежать к главной навигационной ветке модели сайта.</p>
 <p>А вот дочерние элементы навигационных <strong>Action</strong> могут иметь  любые роли.</p>
 <p><img src="img/basenavigationframe.svg" alt="" title="В хедере располагается корневая Action и втрой и последующие дочерние элементы, которым присвоена роль Navigation" /></p>
-<p>Роль <strong>Context</strong> - назначается элементам модели, которые не принадлежат к главной навигационной ветке сайта. Эти элементы могут размещаться в футере, горизонтальной навигационной панли или в контент панели - в зависимости от того, какому родительскому элементу они принадлежат.</p>
+<p>Роль <a href="./../Lecture_5_SiteStructure_Context/74b88939-b617-484e-b42b-7fb7d22f8d7a.html" title="Подробнее о роли Context"><strong>Context</strong></a> - назначается элементам модели, которые не принадлежат к главной навигационной ветке сайта. Эти элементы могут размещаться в футере, горизонтальной навигационной панли или в контент панели - в зависимости от того, какому родительскому элементу они принадлежат.</p>
 <p><img src="img/contextnavigationframe.svg" alt="" /></p>
 <p>Action c ролью <strong>Section</strong> являются контейнерами, организующими размещение информации на странице. Возможность многократно вкладывать контейнеры друг в друга позволяет делить область содержания (content-panel) на отдельные блоки, в которых информация может быть представлена различными способами.</p>
 <p>В отличие от других ролей <strong>Section</strong> имеет несколько стилей, которые устанавливаются настройкой <strong>Section Style</strong>.</p>
