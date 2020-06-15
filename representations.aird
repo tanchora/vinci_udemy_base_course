@@ -31,6 +31,7 @@
     <semanticResources>courseprogram/Lecture_5_SiteStructure_Context/RolesAndHierarchy.vinci</semanticResources>
     <semanticResources>courseprogram/Lecture_5_SiteStructure_Context/ScarletFlower_0502.vinci</semanticResources>
     <semanticResources>courseprogram/Lecture_5_SiteStructure_Context/ScarletFlower_0503.vinci</semanticResources>
+    <semanticResources>courseprogram/Lecture_6_Section_p.1/ScarletFlower_0601.vinci</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_kZaZcIkmEeqT-OdzlrtRDg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_y-P74YkmEeqT-OdzlrtRDg" name="courseprogram" repPath="#_y-PU0IkmEeqT-OdzlrtRDg">
@@ -208,6 +209,14 @@
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_1S7jYKuYEeqYZfqGQLmSqw" name="Шлюмбергера" repPath="#_1SrrwKuYEeqYZfqGQLmSqw" changeId="14157e6c-7ab6-4c89-a1fa-1d6d2fa396a3">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']"/>
         <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_5_SiteStructure_Context/ScarletFlower_0503.vinci#a16db863-1266-4bc3-8209-3e9e32b7dae8"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_hh5-wq6fEeqr3IpLvsH3cw" name="SF_0601" repPath="#_hh5-wK6fEeqr3IpLvsH3cw">
+        <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_6_Section_p.1/ScarletFlower_0601.vinci#index"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_MBKm4K6vEeqZc4AIQ-LNZQ" name="L6" repPath="#_MBIKoK6vEeqZc4AIQ-LNZQ">
+        <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_6_Section_p.1.vinci#index"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
@@ -8822,4 +8831,12 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer"/>
     <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_5_SiteStructure_Context/ScarletFlower_0503.vinci#a16db863-1266-4bc3-8209-3e9e32b7dae8"/>
   </diagram:DSemanticDiagram>
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_hh5-wK6fEeqr3IpLvsH3cw">
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_6_Section_p.1/ScarletFlower_0601.vinci#index"/>
+    <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+  </org.nasdanika.sirius.tree:AdapterFactoryTree>
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_MBIKoK6vEeqZc4AIQ-LNZQ">
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="courseprogram/Lecture_6_Section_p.1.vinci#index"/>
+    <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+  </org.nasdanika.sirius.tree:AdapterFactoryTree>
 </xmi:XMI>
