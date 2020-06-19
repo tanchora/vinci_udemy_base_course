@@ -39,7 +39,7 @@
     $('.nsd-app-footer').addClass(['text-center']);
 });
 </script><meta name="yandex-verification" content="7379f2eb997a0f8b" />
-    <title>Как сделать карточку с вкладками - Наполняем сайт. Секции страницы</title>
+    <title>Как сделать карточку с вкладками или кнопками - Наполняем сайт. Секции страницы</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.8/themes/default/style.min.css"/>
@@ -68,10 +68,10 @@
               <span title="Creating a site with the left vertical navigation panel.">
                 <span class="las la-align-justify nsd-label-icon"></span>  Часть 1. Параграфы, вкладки, кнопки переключения, карточки</span>
             </span>
-            <button type="button" data-toggle="collapse" data-target="#nsd-3w" class="navbar-toggler">
+            <button type="button" data-toggle="collapse" data-target="#nsd-my" class="navbar-toggler">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="nsd-3w" class="collapse navbar-collapse">
+            <div id="nsd-my" class="collapse navbar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">Содержание курса</a>
@@ -125,7 +125,7 @@
               <span class="far fa-window-maximize nsd-label-icon"></span> Bootstrap Cards (карточки)</div>
             <div class="list-group list-group-flush">
               <a href="75a78652-3db3-4b9e-aeff-383c7573ddc2.html" class="list-group-item list-group-action list-group-item-dark"> Что такое Bootstrap Card?</a>
-              <a href="ef51b006-dab3-40ea-acf0-0c2c92623f21.html" class="list-group-item list-group-action active list-group-item-dark"> Как сделать карточку с вкладками</a>
+              <a href="ef51b006-dab3-40ea-acf0-0c2c92623f21.html" class="list-group-item list-group-action active list-group-item-dark"> Как сделать карточку с вкладками или кнопками</a>
               <a href="9ba81b40-97a2-4fa5-a505-f273b907c019.html" class="list-group-item list-group-action list-group-item-dark"> Как сделать много однотипных карточек</a>
               <a href="6c51d8e3-75cd-4923-9ca6-c8945d4febab.html" class="list-group-item list-group-action list-group-item-dark"> Как изменить количество карточек отображаемых на странице</a>
             </div>
@@ -161,7 +161,105 @@
             </div>
             <div class="row">
               <div class="col nsd-app-content-panel-header-col">
-                <h2 data-nsd-action="ef51b006-dab3-40ea-acf0-0c2c92623f21" class="nsd-action nsd-app-content-panel-header"> Как сделать карточку с вкладками</h2>
+                <h2 data-nsd-action="ef51b006-dab3-40ea-acf0-0c2c92623f21" class="nsd-action nsd-app-content-panel-header"> Как сделать карточку с вкладками или кнопками</h2>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-body-row">
+              <div class="col nsd-app-content-panel-body">
+                <div style="column-count:2" class="card-columns">
+                  <div class="card">
+                    <H3 data-nsd-action="ebbf1313-2382-4df7-b714-055420b6e2c7" class="nsd-action card-header">Простая карточка</H3>
+                    <div class="card-body">
+                      <div class="markdown-body"><p>Для того чтобы сделать простую карточку:</p>
+<ol>
+<li>Создаем <strong>Action</strong></li>
+<li>Присваиваем ей роль <strong>Section</strong></li>
+<li>В родительском элементе устанавливаем <strong>Section Style</strong> = <strong>Card</strong></li>
+</ol></div><p></p>
+                      <div class="markdown-body"><p> </p>
+<p><img src="img/simplecard.jpg" alt="" /></p></div></div>
+                  </div>
+                  <div class="card">
+                    <H3 data-nsd-action="2da62b26-13d2-4cd9-abbb-814145525fb3" class="nsd-action card-header">Карточка с вкладками</H3>
+                    <div class="card-body">
+                      <div class="card">
+                        <div class="card-header">
+                          <div role="tablist" class="nav nav-tabs card-header-tabs">
+                            <a href="#nsd-action-content-6ad095db-5228-4604-b8c4-511b54a1889f" data-toggle="tab" role="tab" class="nav-item nav-link active">Алгоритм</a>
+                            <a href="#nsd-action-content-0a825994-d3fa-47cf-99a2-9d1e4d80a952" data-toggle="tab" role="tab" class="nav-item nav-link">
+                              <span class="las la-sitemap nsd-label-icon"></span> Диаграмма</a>
+                            <a href="#nsd-action-content-390f56ee-15b0-4426-8a4f-710bcda3da8d" data-toggle="tab" role="tab" class="nav-item nav-link">
+                              <span class="las la-stream nsd-label-icon"></span> Дерево</a>
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <div class="tab-content">
+                            <div id="nsd-action-content-6ad095db-5228-4604-b8c4-511b54a1889f" role="tabpanel" class="tab-pane fade show active">
+                              <a name="6ad095db-5228-4604-b8c4-511b54a1889f"></a>
+                              <div class="markdown-body"><p>Для того чтобы сделать карточку с дочерними контент-блоками в виде вкладок:</p>
+<ol>
+<li>Создаем <strong>Action</strong></li>
+<li>Связываем с родительским элементом</li>
+<li>В родительском элементе устанавливаем <strong>Section Style</strong> = <strong>Card</strong></li>
+<li>Присваиваем созданной  <strong>Action</strong> роль = <strong>Section</strong>, <strong>Section Style</strong> = <strong>Card Tab</strong></li>
+<li>Создаем два (или несколько) дочерних по отношению к карточке элемента</li>
+<li>Устанавливаем им роль = <strong>Section</strong></li>
+</ol>
+<p>Генерируем сайт и получаем карточку с вкладками.</p></div>
+                            </div>
+                            <div id="nsd-action-content-0a825994-d3fa-47cf-99a2-9d1e4d80a952" role="tabpanel" class="tab-pane fade">
+                              <a name="0a825994-d3fa-47cf-99a2-9d1e4d80a952"></a>
+                            </div>
+                            <div id="nsd-action-content-390f56ee-15b0-4426-8a4f-710bcda3da8d" role="tabpanel" class="tab-pane fade">
+                              <a name="390f56ee-15b0-4426-8a4f-710bcda3da8d"></a>
+                              <div class="markdown-body"><p><img src="img/cardtab.jpg" alt="" /></p></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <H3 data-nsd-action="aee85236-643f-4250-8113-e70d79a5c95c" class="nsd-action card-header">Карточка с кнопками</H3>
+                    <div class="card-body">
+                      <div class="card">
+                        <div class="card-header">
+                          <div role="tablist" class="nav nav-pills card-header-pills">
+                            <a href="#nsd-action-content-26c36627-0b83-4322-a127-e7249a7f1769" data-toggle="tab" role="tab" class="nav-item nav-link active">Алгоритм</a>
+                            <a href="#nsd-action-content-a9552ca5-e578-4d40-986f-7e787b72c8fa" data-toggle="tab" role="tab" class="nav-item nav-link">
+                              <span class="las la-sitemap nsd-label-icon"></span> Диаграмма</a>
+                            <a href="#nsd-action-content-9ce0c8ad-e4a9-4340-901f-1abb0a7f5e13" data-toggle="tab" role="tab" class="nav-item nav-link">
+                              <span class="las la-stream nsd-label-icon"></span> Дерево</a>
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <div class="tab-content">
+                            <div id="nsd-action-content-26c36627-0b83-4322-a127-e7249a7f1769" role="tabpanel" class="tab-pane fade show active">
+                              <a name="26c36627-0b83-4322-a127-e7249a7f1769"></a>
+                              <div class="markdown-body"><p>Для того чтобы сделать карточку с дочерними контент-блоками в виде вкладок:</p>
+<ol>
+<li>Создаем <strong>Action</strong></li>
+<li>Связываем с родительским элементом</li>
+<li>В родительском элементе устанавливаем <strong>Section Style</strong> = <strong>Card</strong></li>
+<li>Присваиваем созданной  <strong>Action</strong> роль = <strong>Section</strong>, <strong>Section Style</strong> = <strong>Card Pill</strong></li>
+<li>Создаем два (или несколько) дочерних по отношению к карточке элемента</li>
+<li>Устанавливаем им роль = <strong>Section</strong></li>
+</ol>
+<p>Генерируем сайт и получаем карточку с кнопками-таблетками.</p></div>
+                            </div>
+                            <div id="nsd-action-content-a9552ca5-e578-4d40-986f-7e787b72c8fa" role="tabpanel" class="tab-pane fade">
+                              <a name="a9552ca5-e578-4d40-986f-7e787b72c8fa"></a>
+                            </div>
+                            <div id="nsd-action-content-9ce0c8ad-e4a9-4340-901f-1abb0a7f5e13" role="tabpanel" class="tab-pane fade">
+                              <a name="9ce0c8ad-e4a9-4340-901f-1abb0a7f5e13"></a>
+                              <div class="markdown-body"><p><img src="img/Cardpill.jpg" alt="" /></p></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
