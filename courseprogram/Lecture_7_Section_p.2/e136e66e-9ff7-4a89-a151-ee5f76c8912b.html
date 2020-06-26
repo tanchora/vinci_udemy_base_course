@@ -67,10 +67,10 @@
             <span data-nsd-action="65085453-c78f-4dfe-909c-94b3b3944d17" style="font-size:1.25rem" class="nsd-action navbar-brand">
               <span title="./004-web.png">Секции страницы: таблицы & action group</span>
             </span>
-            <button type="button" data-toggle="collapse" data-target="#nsd-6m" class="navbar-toggler">
+            <button type="button" data-toggle="collapse" data-target="#nsd-xl" class="navbar-toggler">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="nsd-6m" class="collapse navbar-collapse">
+            <div id="nsd-xl" class="collapse navbar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">Содержание курса</a>
@@ -137,10 +137,6 @@
             </div>
             <div class="row">
               <div class="col nsd-app-content-panel-header-col">
-                <div class="nav float-right">
-                  <a href="ScarletFlower-sections-l.2.vinci" class="nav-item nav-link">
-                    <span class="fa fa-download nsd-label-icon"></span> Скачать модель</a>
-                </div>
                 <h2 data-nsd-action="e136e66e-9ff7-4a89-a151-ee5f76c8912b" class="nsd-action nsd-app-content-panel-header">Создание Action Group</h2>
               </div>
             </div>
@@ -150,17 +146,15 @@
 <p>Давайте для примера немного поменяем наш раздел <strong>&ldquo;Шлюмбергера&rdquo;</strong>.</p>
 <p>Наша задача: сократить количество переходов между страницами и создать более компактное представление информации.</p>
 <p>Сейчас элемент модели <strong>&ldquo;Описание&rdquo;</strong>  имеет контекстную роль и открывается в отдельной странице. В то же время, у нас есть куча места на странице раздела <strong>&ldquo;Шлюмбергера&rdquo;</strong>, которое никак не используется.</p>
-<p>Давайте сделаем так, чтобы информация была представлена более компактно.</p>
 <ol>
 <li>В Элементе модели <strong>&ldquo;Шлюмбергера&rdquo;</strong> установим  <strong>Section style</strong>  = <strong>default</strong>  для того чтобы все его дочерние элементы с ролью <strong>Section</strong> формировались в виде параграфов.</li>
 <li>Элементу модели <strong>Описание</strong> присвоим роль =  <strong>Section</strong>. Это нужно для того, чтобы этот элемент модели стал частью страницы <strong>&ldquo;Шлюмбергера&rdquo;</strong>.</li>
 <li>В разделе <strong>Условия выращивания</strong> у нас текст разбит на небольшие абзацы, которые как раз подходят для того, чтобы создать элементы со стилем Action Grope. Поэтому мы создадим дочерние Action к разделу <strong>Условия выращивания</strong>.</li>
+<li>Создаём новую Action, присваиваем ей роль <strong>Section</strong>. Название Action  и текст можно  скопировать прямо со сгенерированной ранее страницы, чтобы не переключаться лишний раз между элементами модели.<br />
+Таким образом, мы создаем пять дочерних элементов, сохраняемся и генерируем сайт заново.</li>
 </ol>
-<p>Создаёс новую Action, присваиваем ей роль <strong>Section</strong>. Название Action  и текст можно  скопировать прямо со сгенерированной ранее страницы, чтобы не переключаться лишний раз между элементами модели.</p>
-<p>Таким образом мы создаем пять дочерних элементов, сохраняемся и генерируем сайт заново.</p>
 <p>Переходим в описании в условия выращивания и видим наши текстовые блоки, которые переключаются при нажатии вертикальных кнопок с типом Pills.</p>
-<p>Чего мы добились за счет использования такого типа секций?</p>
-<p>Мы добились более компактного представления информации: посетителю страницы не надо прокручивасть страницу вниз, и  он сразу видит: какую информацию он может получить нажимая на ту или иную кнопку.</p>
+<p>Теперь  посетителю страницы не надо прокручивасть страницу вниз, и  он сразу видит: какую информацию он может получить нажимая на ту или иную кнопку.</p>
 <p><img src="img/razdel_schlumbergera01.jpg" alt="Стартовая модель содержит раздел Условия выращивания, в котором есть большой объем текста." title="Стартовая модель содержит раздел Условия выращивания, в котором есть большой объем текста" /></p>
 <p><img src="img/razdel_schlumbergera02.jpg" alt="" title="" /></p>
 <p>Оценить результат можно переключившись на вкладку &ldquo;Условия выращивания&rdquo;.</p></div><p></p><iframe  src="ScarletFlower-sections-l.2/a16db863-1266-4bc3-8209-3e9e32b7dae8.html" width="100%" height="100%"></iframe></div>
