@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Lecture_8_Value" id="index" text="Наполняем сайт" linkedElements="65085453-c78f-4dfe-909c-94b3b3944d17 0c385d36-3e73-45ce-a9bb-48c1dff5f31e c78ad207-742a-4784-aacf-91310cebf8ff 297d78fc-e66e-44ac-8ae0-43c811305ab9" sectionStyle="Default" markdownContent="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" pageTemplate="./../templ.1.vinci">
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Lecture_8_Value" id="index" text="Наполняем сайт" sectionStyle="Default" markdownContent="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" pageTemplate="./../templ.1.vinci">
   <appearance>
     <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
       <entries xsi:type="org.nasdanika.ncore:Property" value="none" name="text-decoration"/>
     </attributes>
   </appearance>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Встраиваем произвольный код" id="65085453-c78f-4dfe-909c-94b3b3944d17" text="&lt;img src=&quot;img/path7.png&quot; alt=&quot;Встраиваем интерактивные элементы и произвольный код&quot;>  Встраиваем интерактивные элементы  и произвольный код" linkedElements="ed3ecf62-b825-4214-8488-487c8921084f 44d54727-9f89-450e-b1e7-3b480d90b4e7 221f45a1-d4f7-4a93-b727-0de579bc0b27 80ee4f55-ec49-4d13-aeb9-e96c57b332da" activatorType="None"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Встраиваем произвольный код" id="65085453-c78f-4dfe-909c-94b3b3944d17" text="&lt;img src=&quot;img/path7.png&quot; alt=&quot;Встраиваем интерактивные элементы и произвольный код&quot;>  Встраиваем интерактивные элементы  и произвольный код" activatorType="None">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Полезные ресурсы" id="78465584-4487-4d69-9f0c-0dd8c5082c6e" text="Полезные ресурсы" role="Context"/>
+    <linkedElements xsi:type="org.nasdanika.vinci.app:ActionCategory" href="#ed3ecf62-b825-4214-8488-487c8921084f"/>
+    <linkedElements xsi:type="org.nasdanika.vinci.app:ActionCategory" href="#44d54727-9f89-450e-b1e7-3b480d90b4e7"/>
+    <linkedElements xsi:type="org.nasdanika.vinci.app:ActionCategory" href="#221f45a1-d4f7-4a93-b727-0de579bc0b27"/>
+    <linkedElements xsi:type="org.nasdanika.vinci.app:ActionCategory" href="#80ee4f55-ec49-4d13-aeb9-e96c57b332da"/>
+    <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#6d499071-cdb5-49aa-b73a-8d3a50c7a64e"/>
+    <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#78465584-4487-4d69-9f0c-0dd8c5082c6e"/>
+  </elements>
   <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Контент-элемент Value" id="ed3ecf62-b825-4214-8488-487c8921084f" text="Контент-элемент Value" linkedElements="ab6dded9-bdd3-485b-b02b-6eaf3624f25c">
     <appearance background="Dark">
       <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
@@ -145,8 +153,11 @@
     </appearance>
   </elements>
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="ссылка на сайт разработчика" id="c78ad207-742a-4784-aacf-91310cebf8ff" text="nasdanika.org " activator="https://nasdanika.org/"/>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Об авторе" id="297d78fc-e66e-44ac-8ae0-43c811305ab9" text="Об авторе"/>
-  <content xsi:type="org.nasdanika.ncore:Value" title="Видео на ю-тубе" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0gFxXMV9O0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
+  <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#65085453-c78f-4dfe-909c-94b3b3944d17"/>
+  <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#0c385d36-3e73-45ce-a9bb-48c1dff5f31e"/>
+  <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="soderjanie.vinci#ec294346-3f29-4aac-9ca7-468ccfca49aa"/>
+  <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#c78ad207-742a-4784-aacf-91310cebf8ff"/>
+  <content xsi:type="org.nasdanika.ncore:Value" title="Видео на ю-тубе" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vSNOX9wlj-k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
   <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="Вступительное слово" style="true" markdown="Как следует из названия программного продукта, который мы изучаем, Nasdanika Vinci является генератором __СТАТИЧЕСКИХ__ сайтов. &#xD;&#xA;&#xD;&#xA;Это, с одной стороны, является огромным плюсом, так как снижает нагрузку на каналы передачи информации, снижает требования к квалификации того, кто будет обслуживать и поддерживать сайт, а следовательно делает веб - публикацию инструментом, доступным самым широким массам :).&#xD;&#xA; &#xD;&#xA;Но, что же делать, если нам всё-таки понадобится осуществить какое-то взаимодействие с пользователем? Например, разместить опрос, или дать пользователю возможность сделать заказ, или указать на карте расположение какой либо точки в пространстве.&#xD;&#xA;&#xD;&#xA;А если, например, вы оказываете какие - то услуги, то вам может понадобиться календарь, в котором будет отображаться занятое и свободное время. И пользователь сможет сам забронировать какой - то временной промежуток и оставить свои контактные данные для связи.&#xD;&#xA;&#xD;&#xA;Самостоятельное создание таких инструментов требует умения программировать, устанавливать базы данных, управлять ими, думть о том, где эти базы данных будут размещаться (хоститься) и еще о куче вещей.&#xD;&#xA;&#xD;&#xA;Но, хвала всевышнему, мы живем во времена, когда славные корпорации Гугул и Яндекс предоставляют кучу инструментов совершенно бесплатно. Нам остается только научиться пользоваться этими инструментами и встраивать их в наш сайт.&#xD;&#xA;&#xD;&#xA;Итак,  на этом уроке мы будем встраивать в наш сайт интерактивные элементы, такие как формы, календари и карты.&#xD;&#xA;&#xD;&#xA;Для этого мы будем использовать специальный контент-элемент модели  - __Value__.&#xD;&#xA;">
     <appearance>
       <margin size="2" breakpoint="Large" bottom="false" left="false" right="false"/>
