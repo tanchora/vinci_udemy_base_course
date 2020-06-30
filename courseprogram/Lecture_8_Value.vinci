@@ -102,7 +102,7 @@
         <margin size="6" breakpoint="Large" left="false" right="false"/>
         <text color="" weight="Bold"/>
       </appearance>
-      <content xsi:type="org.nasdanika.ncore:Value" value="&lt;video src=&quot;https://youtu.be/Fq2SMQJF-Yk&quot; controls width=&quot;100%&quot; >"/>
+      <content xsi:type="org.nasdanika.ncore:Value" value="&lt;video src=&quot;img/value.mp4&quot; controls width=&quot;100%&quot; >"/>
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Карты" id="5bf86fd1-0672-4dd4-823b-3c0f4aad9899" text="Карты" role="Section">
       <appearance background="">
