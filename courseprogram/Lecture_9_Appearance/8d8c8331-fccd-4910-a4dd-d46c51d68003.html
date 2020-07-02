@@ -39,7 +39,7 @@
     $('.nsd-app-footer').addClass(['text-center']);
 });
 </script><meta name="yandex-verification" content="7379f2eb997a0f8b" />
-    <title>Отступы и границы - Оформление сайта</title>
+    <title>Полезные ресурсы - Оформление сайта</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.8/themes/default/style.min.css"/>
@@ -65,10 +65,10 @@
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <span data-nsd-action="65085453-c78f-4dfe-909c-94b3b3944d17" class="nsd-action text-center navbar-brand">
               <span class="fas fa-pencil-ruler nsd-label-icon"></span> Текст, цвет и  отступы</span>
-            <button type="button" data-toggle="collapse" data-target="#nsd-8e" class="navbar-toggler">
+            <button type="button" data-toggle="collapse" data-target="#nsd-8i" class="navbar-toggler">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="nsd-8e" class="collapse navbar-collapse">
+            <div id="nsd-8i" class="collapse navbar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">Содержание курса</a>
@@ -87,7 +87,7 @@
                     <a data-nsd-action="5f52bf5f-62b3-44ed-b78d-a77505a17a33" href="../Lecture_10_Publication/index.html" class="nsd-action dropdown-item">Лекция 10 Публикация</a>
                   </div>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a href="8d8c8331-fccd-4910-a4dd-d46c51d68003.html" disabled="false" class="nav-link">Полезные ресурсы</a>
                 </li>
               </ul>
@@ -109,7 +109,7 @@
             <div class="list-group list-group-flush">
               <a href="c02d95c2-e4ce-4b15-a1b7-0911e80ec03f.html" class="list-group-item list-group-action list-group-item-dark">Элемент модели  Appearance</a>
               <a href="2bb6c8cc-d7e3-4832-9245-02ee368da016.html" class="list-group-item list-group-action list-group-item-dark">Цветовые акценты</a>
-              <a href="7e79f58e-646c-4991-ba87-53b36b5f1c83.html" class="list-group-item list-group-action active list-group-item-dark">Отступы и границы</a>
+              <a href="7e79f58e-646c-4991-ba87-53b36b5f1c83.html" class="list-group-item list-group-action list-group-item-dark">Отступы и границы</a>
               <a href="543d04ed-394f-4e11-9836-239a8e0e6004.html" class="list-group-item list-group-action list-group-item-dark">Текст</a>
             </div>
           </div>
@@ -124,46 +124,8 @@
         <div class="nsd-app-content-panel col-md-10 col-lg-9 pb-lg-2 pl-lg-2 pr-lg-2 pt-lg-4">
           <div class="container-fluid">
             <div class="row">
-              <div class="col nsd-app-content-panel-breadcrumb">
-                <nav aria-label="breadcrumb" class="mt-1">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item">
-                      <span>Настройки оформления в модели сайта</span>
-                    </li>
-                  </ol>
-                </nav>
-              </div>
-            </div>
-            <div class="row">
               <div class="col nsd-app-content-panel-header-col">
-                <h2 data-nsd-action="7e79f58e-646c-4991-ba87-53b36b5f1c83" class="nsd-action nsd-app-content-panel-header">Отступы и границы</h2>
-              </div>
-            </div>
-            <div class="row nsd-app-content-panel-body-row">
-              <div class="col nsd-app-content-panel-body">
-                <div class="markdown-body"><h3><a href="#отступы" id="отступы">Отступы</a></h3>
-<p>Страницы нашего сайта сформированы из различных блоков,  эти блоки могут иметь содержимое в виде текста, картинок или других блоков.  И нам может понадобиться визуально отделить один блок от другого, либо установить расстояние, которое отделяет содержимое блока от его границы. То есть, необходимо установить  поля и отступы.</p>
-<p>Поля — это расстояние между контентом (content) и границей блока (border).</p>
-<p>А отступы это расстояние между границей блока и границей соседнего или родительского элемента.</p>
-<p>Для создания полей мы создаем к Apperance дочерний элемент с типом <strong>Padding</strong>. А для создания отступов - дочерний элемент с типом <strong>Margin</strong>.</p>
-<p>Для демонстрации того, как это делается перейдем в раздел <strong>Шлюмбергера</strong>.</p>
-<p>Мы видим, что на нашей странице много текста, много букв и весь этот текст как бы &ldquo;сливается&rdquo; в единый блок, а нам бы хотелось &ldquo;добавить воздуха&rdquo; на страницу, сделать так, чтобы текстовые блоки не прилипали друг к другу.</p>
-<p>Для того чтобы отделить раздел <strong>Описание</strong> от находящегося выше него раздела <strong>Шлюмбергера</strong>  давайте зададим верхний отсуп. Для этого разделу <strong>Описание</strong> создадим дочерний элемент  <strong>Apperance</strong>, а к нему создадим дочерний элемент с типом <strong>Margin</strong>.</p>
-<p>Выделим вновь созданный элемент и посмотрим на его свойства. Мы видим, что Vinci предлагает нам установить размер отступа (в относительных единицах, которые называются rem, каждая единица составляет 0,25 rem). Так же нам необходимо выбрать: для какой стороны блока устанавливается отступ.</p>
-<p>Мы можем указать, что отступ устанавливается для каждой стороны по отдельности, а можем задать горизонтальные и вертикальные отступы. Горизонтальные отступы  - это отступы по оси x, а вертикальные отступы - соответственно по оси y.</p>
-<p>Кроме размера отступа и стороны для которой он задаётся мы можем установить какое либо значение в загадочное поле breakepoint. В выпадающем списке мы видим значения: маленький, средний, большой и экстра большой. О чем идет речь? В этом поле мы можем выбрать: применять отступы и поля на устройствах всех размеров или только начиная с какого-то определенного размера. Либо, мы можем для каждого размера устройства задать свои определенные поля и отступы.</p>
-<p>Мы установим в поле брэйкпоинт значение <strong>большой (Lage)</strong> и посмотрим на результат.</p>
-<p>Как мы видим,   элемент <strong>Описание</strong> теперь отделяется от верхнего текстового блока отступом.  Откроем инструменты разработчика и посмотрим: что показывает нам браузер?</p>
-<p>Выберем тот элемент который мы изменияли, перейдём на панель выбора размера устройства  и установим в поле Ширина значение 1000 -  после этого посмотрим: какие отступы формирует браузер для этого элемента.</p>
-<p>Изменим значение в поле ширина 980 и увидим, что верхний отступ пропал, остался только нижний.</p>
-<p>Таким образом, для устройств разного размера мы можем установить различные отступы, а если брэйкпоинт не выбран, то отступы будут отображаться на устройствах любого размера. То есть, можно настроить их так, чтобы при просмотре страницы с телефона или планшета отступов не было, а при просмотре на большом мониторе - они были.</p>
-<p>Если необходимо установить разные размеры отступов для разных сторон элемента, то создаются несколько элементов с типом <strong>Margin</strong>: например, верхний отступ будет иметь значение 5  что составит 1,25 rem , нижний - 2 (или 0,5 rem),  а левый отступ - 4. Сгенерируем и посмотрим на результат.</p>
-<p>Скопируем настройки внешнего вида элемента <strong>Описание</strong> и вставим их в раздел <strong>Характеристика вида</strong> - в результате группа кнопок переключающих нас между текстовыми блоками будет отделена от самого текстового  блока.</p>
-<p>А теперь посмотрим как работает свойство <strong>Padding</strong>.<br />
-Создадим соответствующий дочерний элемент к разделу <strong>Агротехника</strong>  и установим в поле Size в значение  4 .  Как мы видим, элемент <strong>Агротехника</strong> в навбаре отделился от других элементов - боковые поля стали больше чем между другими элементами на той же навигационной панели.</p>
-<h3><a href="#границы" id="границы">Границы</a></h3>
-<p>Границы создаются и применяются аналогично элементам <strong>Margin</strong> и <strong>Padding</strong>, в том смысле, что элементов с типом Border можно создать несколько: по одному для каждой стороны. И для каждого из этих элементов установить свой цвет, например.</p>
-<p>Наличие или отсутствие границы не может быть установлено для устройств какого либо определенного размера, поэтому поля Брэйкпоинт в этом элементе нету.</p></div>
+                <h2 data-nsd-action="8d8c8331-fccd-4910-a4dd-d46c51d68003" class="nsd-action nsd-app-content-panel-header">Полезные ресурсы</h2>
               </div>
             </div>
           </div>
