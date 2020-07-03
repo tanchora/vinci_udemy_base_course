@@ -39,7 +39,7 @@
     $('.nsd-app-footer').addClass(['text-center']);
 });
 </script><meta name="yandex-verification" content="7379f2eb997a0f8b" />
-    <title>Что такое контейнер (div) - Оформление сайта</title>
+    <title>Markdoun контент-элементы - Оформление сайта</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.8/themes/default/style.min.css"/>
@@ -65,10 +65,10 @@
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <span data-nsd-action="65085453-c78f-4dfe-909c-94b3b3944d17" class="nsd-action text-center navbar-brand">
               <span class="fas fa-pencil-ruler nsd-label-icon"></span> Текст, цвет и  отступы</span>
-            <button type="button" data-toggle="collapse" data-target="#nsd-uz" class="navbar-toggler">
+            <button type="button" data-toggle="collapse" data-target="#nsd-9w" class="navbar-toggler">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="nsd-uz" class="collapse navbar-collapse">
+            <div id="nsd-9w" class="collapse navbar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">Содержание курса</a>
@@ -98,11 +98,11 @@
       <div class="row nsd-app-content-row">
         <div class="nsd-app-navigation-panel col-md-2 col-lg-3 bg-light pl-2">
           <div class="card mt-1">
-            <div style="font-size:1.25rem" class="card-header bg-dark text-light font-weight-bold"> Теория. <br>CSS и Bootstrap</div>
+            <div style="font-size:1.25rem" class="card-header bg-dark text-light font-weight-bold">От чего зависит оформление сайта?</div>
             <div class="list-group list-group-flush">
-              <a href="09e28027-8019-4533-937b-867ece56bc6d.html" class="list-group-item list-group-action list-group-item-dark">От чего зависит оформление страницы?</a>
-              <a href="0bf222b4-26aa-4894-b9e9-dab95c7cb2f3.html" class="list-group-item list-group-action list-group-item-dark">Что такое шаблон оформления (Page Tamplate)?</a>
-              <a href="f42fea24-6a18-4c7e-9d5c-e1cb9926e435.html" class="list-group-item list-group-action list-group-item-dark">Как применить шаблон оформления к странице?</a>
+              <a href="09e28027-8019-4533-937b-867ece56bc6d.html" class="list-group-item list-group-action list-group-item-dark">Стили (CSS) и фреймворк Bootstrap</a>
+              <a href="0bf222b4-26aa-4894-b9e9-dab95c7cb2f3.html" class="list-group-item list-group-action list-group-item-dark">Шаблон оформления (Page Tamplate)</a>
+              <a href="f42fea24-6a18-4c7e-9d5c-e1cb9926e435.html" class="list-group-item list-group-action list-group-item-dark">Как применить шаблон оформления к странице</a>
             </div>
           </div>
           <div class="card mt-1">
@@ -117,8 +117,9 @@
           <div class="card mt-1">
             <div style="font-size:1.25rem" class="card-header bg-dark text-light font-weight-bold">Оформление markdown-контента</div>
             <div class="list-group list-group-flush">
-              <a href="8f4cd1e6-7531-4042-baf3-c63b97713b8b.html" class="list-group-item list-group-action active list-group-item-dark">Что такое контейнер  (div)</a>
-              <a href="64a2afe8-3e8d-47d2-b406-a14ba2ad0645.html" class="list-group-item list-group-action list-group-item-dark">Создание и оформление контент-блоков</a>
+              <a href="8f4cd1e6-7531-4042-baf3-c63b97713b8b.html" class="list-group-item list-group-action active list-group-item-dark">Markdoun контент-элементы</a>
+              <a href="64a2afe8-3e8d-47d2-b406-a14ba2ad0645.html" class="list-group-item list-group-action list-group-item-dark">Markdoun текст</a>
+              <a href="01bebd52-e1a3-4cbd-93e6-27e0d8024d89.html" class="list-group-item list-group-action list-group-item-dark">Markdoun ресурс</a>
             </div>
           </div>
         </div>
@@ -137,7 +138,23 @@
             </div>
             <div class="row">
               <div class="col nsd-app-content-panel-header-col">
-                <h2 data-nsd-action="8f4cd1e6-7531-4042-baf3-c63b97713b8b" class="nsd-action nsd-app-content-panel-header">Что такое контейнер  (div)</h2>
+                <h2 data-nsd-action="8f4cd1e6-7531-4042-baf3-c63b97713b8b" class="nsd-action nsd-app-content-panel-header">Markdoun контент-элементы</h2>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-body-row">
+              <div class="col nsd-app-content-panel-body">
+                <div class="markdown-body"><p>Возможно вы уже заметили, что при изменении настроек внешнего вида, которые созданы для <strong>Action</strong>, изменяется то представление элемента модели, которое находится в навигационном каркасе сайта, а если <strong>Action</strong> играет роль секции страницы, то изменяется только её заголовок, в то время как оформление текста  - не меняется.</p>
+<p>Это обусловлено тем, что элементы модели играют двоякую роль: они формируют точку перехода к своему содержанию и показывают нам своё содержание в области контент-панели. При этом содержание может принадлежать и самой <strong>Action</strong>  и её дочерним элементам, имеющим собственные настройки оформления. Поэтому генератор не применяет настройки оформления к тексту.</p>
+<p>Для того, чтобы применить какое-либо оформление к тексту, его необходимо выделить  в отдельный блок:</p>
+<ul>
+<li>создать новый контент-элемент (Markdown text или Markdown Resource);</li>
+<li>поместить в него текст;</li>
+<li>установить галочку <strong>Style</strong> в свойствах контент-элемента;</li>
+<li>создать для этого контент-элемента настройки оформления (Appearance).</li>
+</ul>
+<p>До сих пор мы, в основном, создавали маркдаун заметки непосредственно в самой Action. Это наиболее быстрый, но не единственный способ создания маркдаун-контента.</p>
+<p>Установим мышь на папку <strong>Content</strong> какого либо элемента модели, вызовем контекстное меню, выберем создание дочернего элемента из папки  <strong>Markdoun</strong>   и увидим, что система предлагает нам создать либо <a href="64a2afe8-3e8d-47d2-b406-a14ba2ad0645.html">маркдаун текст</a> либо <a href="01bebd52-e1a3-4cbd-93e6-27e0d8024d89.html">маркдаун ресурс</a>.</p>
+<p><img src="img/markdouncontent01.jpg" alt="Маркдаун контент-элементы" title="Маркдаун контент-элементы" /></p></div>
               </div>
             </div>
           </div>
