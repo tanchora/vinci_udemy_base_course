@@ -39,7 +39,7 @@
     $('.nsd-app-footer').addClass(['text-center']);
 });
 </script><meta name="yandex-verification" content="7379f2eb997a0f8b" />
-    <title>Оформление сайта - Оформление сайта</title>
+    <title>Оформление сайта</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.8/themes/default/style.min.css"/>
@@ -65,10 +65,10 @@
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <span data-nsd-action="65085453-c78f-4dfe-909c-94b3b3944d17" class="nsd-action text-center navbar-brand">
               <span class="fas fa-pencil-ruler nsd-label-icon"></span> Текст, цвет и  отступы</span>
-            <button type="button" data-toggle="collapse" data-target="#nsd-2a" class="navbar-toggler">
+            <button type="button" data-toggle="collapse" data-target="#nsd-2f" class="navbar-toggler">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="nsd-2a" class="collapse navbar-collapse">
+            <div id="nsd-2f" class="collapse navbar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">Содержание курса</a>
@@ -100,7 +100,7 @@
           <div class="card mt-1">
             <div style="font-size:1.25rem" class="card-header bg-dark text-light font-weight-bold"> Теория. <br>CSS и Bootstrap</div>
             <div class="list-group list-group-flush">
-              <a href="09e28027-8019-4533-937b-867ece56bc6d.html" class="list-group-item list-group-action list-group-item-dark">От чего зависит оформление страницы?</a>
+              <a href="09e28027-8019-4533-937b-867ece56bc6d.html" class="list-group-item list-group-action active list-group-item-dark">От чего зависит оформление страницы?</a>
               <a href="0bf222b4-26aa-4894-b9e9-dab95c7cb2f3.html" class="list-group-item list-group-action list-group-item-dark">Шаблон оформления (Page Tamplate)</a>
             </div>
           </div>
@@ -123,20 +123,66 @@
         </div>
         <div class="nsd-app-content-panel col-md-10 col-lg-9 pb-lg-2 pl-lg-2 pr-lg-2 pt-lg-4">
           <div class="container-fluid">
+            <div class="row">
+              <div class="col nsd-app-content-panel-breadcrumb">
+                <nav aria-label="breadcrumb" class="mt-1">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                      <span> Теория. <br>CSS и Bootstrap</span>
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col nsd-app-content-panel-header-col">
+                <h2 data-nsd-action="09e28027-8019-4533-937b-867ece56bc6d" class="nsd-action nsd-app-content-panel-header">От чего зависит оформление страницы?</h2>
+              </div>
+            </div>
             <div class="row nsd-app-content-panel-body-row">
-              <div class="col nsd-app-content-panel-body"><iframe width="560" height="315" src="https://www.youtube.com/embed/Fq2SMQJF-Yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p></p>
-                <div class="markdown-body mt-lg-2 mb-lg-4"><p>Эта лекция наконец - таки будет посвящена тому, что имеет хоть какое - то отношение к веб-дизайну.</p>
-<p>До сих пор мы в  основном занимались построением навигационного каркаса сайта и наполнением страниц различным контентом. И при этом не задумывались о том, как будут выглядеть созданные нами страницы: какой будет использован шрифт? Какой бэкграунд будет у различных блоков страницы? Vinci  определял это за нас руководствуясь настройками, которые установлены где-то внутри генератора по умолчанию.</p>
-<p>Цель этого урока - научиться изменять оформление генерируемого сайта.</p>
-<p>В целом, внешний вид генерируемого сайта задаётся стилями оформления элементов страницы, определенными в фреймворке  Bootstrap. Цветовые акценты, шрифты, стиль оформления элементов страницы так же определяется выбранной темой оформления Bootswatch.</p>
-<p>Для того чтобы изменить установленное по умолчанию оформление элементов страницы у пользователя есть несколько возможностей:</p>
-<ul>
-<li>подключить к сайту другой шаблон оформления;</li>
-<li>создать специальный элемент модели, который содержит настройки оформления. Этот элемент называется <strong>Appearance</strong> и позволяет настраивать внешний вид отдельной <strong>Action</strong> и формируемого этой  <strong>Action</strong> элемента страницы.</li>
-</ul>
-<p>Кроме того, к странице могут быть подключены таблицы стилей разработанные пользователем.</p>
-<p>Однако, хотелось бы сразу предупредить: Nasdanika Vinci не предназначен для вёрстки с точностью до пикселя и не является инструментом для воплощения дизайнерского полёта мысли.</p>
-<p><strong>Nasdanika Vinci</strong> -  это рабочая лошадка, которая позволит вам  быстро сконструировать сайт, быстро его опубликовать, протестировать качество восприятия информации пользователем, а потом уже задумываться о том, как навести дополнительную красоту. Оформление созданного сайта будет приемлемо для восприятия, и вам не придется платить деньги за дизайн и за HTML вёрстку, по крайней мере на первом этапе создания сайта.</p></div></div>
+              <div class="col nsd-app-content-panel-body">
+                <div>
+                  <a name="0f177792-1b0d-4ac8-bd5d-77df28e0c8a8"></a>
+                  <H3 data-nsd-action="0f177792-1b0d-4ac8-bd5d-77df28e0c8a8" class="nsd-action"></H3>
+                  <div class="markdown-body"><p>Для того чтобы сайт выглядел красиво, необходимо не только ввести текст и указать путь к изображениям, которые будут отображаться при открытии HTML страниц. Необходимо так же указать: какие элементы будут использоваться на страницах и прописать правила оформления этих элементов. Как оформить тот или иной элемент страницы описывается в каскадных таблицах стилей (по английски они называются CSS).</p></div>
+                </div>
+                <div>
+                  <a name="7d1dd349-26fe-4596-9990-99b100de7386"></a>
+                  <H3 data-nsd-action="7d1dd349-26fe-4596-9990-99b100de7386" class="nsd-action"></H3>
+                  <div class="container-fluid mt-1">
+                    <div class="row">
+                      <div class="col-auto">
+                        <div role="tablist" class="list-group">
+                          <a href="#nsd-action-content-21524314-a00a-4c1b-90ba-9371d6742273" data-toggle="list" role="tab" class="list-group-item list-group-action active bg-dark"><img src="img/styleandbody.svg" alt="тег head"></a>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="tab-content">
+                          <div id="nsd-action-content-21524314-a00a-4c1b-90ba-9371d6742273" role="tabpanel" class="tab-pane fade show active">
+                            <a name="21524314-a00a-4c1b-90ba-9371d6742273"></a>
+                            <div class="markdown-body"><p>Для того чтобы браузер знал, каким образом сформировать страницу, в теге head указывается путь: в какой файл надо сходить и посмотреть на правила оформления элементов. Пользователь не видит содержание тега Head, оно предназначено только для браузера.</p></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <a name="1b7673c4-b0b5-4f75-ab41-9034d3d05a0c"></a>
+                  <H3 data-nsd-action="1b7673c4-b0b5-4f75-ab41-9034d3d05a0c" class="nsd-action"></H3>
+                  <div class="markdown-body"><p>Теперь давайте посмотрим: что бы получилось без использования таблиц стилей и скриптов.</p>
+<p>Откроем любую страницу сайта. Например, раздел Адениум.  Включим просмотр кода и удалим всё, что находится между открывающим и закрывающим тегом head.</p>
+<p>А теперь посмотрим на результат и убедимся в том, что он поистине ужасен.</p>
+<p>Так вот, смысл использования фреймворка Bootstrap состоит в том, что некие добрые люди придумали: какие элементы могут использоваться на странице и дали этим элементам имена (или классы).</p>
+<p>Так же они создали каскадные таблицы стилей, в которых описано: как должны быть оформлены элементы страницы,  которым присвоены bootstrap классы.</p>
+<p>А другие добрые люди чуть чуть изменили эти правила оформления и предоставили всему миру 20 беспатных тем оформления, которые можно увидеть на сайте <a href="https://bootswatch.com">https://bootswatch.com</a>.</p>
+<p>Использование фреймворка Bootstrap позволяет нам не задумываться об  оформлении страницы  - мы можем просто сказать спасибо тем людям, которые за нас уже подумали о том как сделать красиво, Нам остаётся только  следовать тем правилам, которые эти люди установили.</p>
+<p>В то же время, если какие-то из настроек определённых в bootstrap-теме нам не нравятся или не подходят, то мы можем их переопределить для каждого конкретного элемента страницы.  Результат этого переопределения может быть не всегда удачным, но Nasdanika Vinci  не ограничивает свободы творчества - вы можете управлять внешним видом своей страницы, если у вас есть необходимые для этого знания.</p>
+<p><img src="img/codehtml.jpg" alt="просмотр кода" title="Щелкните правой кнопкой мыши по странице и в контекстном меню найдите пункт Просмотреть код" /></p>
+<p><img src="img/tagheadinhtml.jpg" alt="как развернуть тег" title="Чтобы просмотреть содержание тега его необходимо развернуть" /></p>
+<p><img src="img/tagheadinhtml01.jpg" alt="Содержание тега head" title="Содержание тега head" /></p></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
