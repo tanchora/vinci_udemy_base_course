@@ -57,6 +57,8 @@
               <span class="las la-poll-h nsd-label-icon"></span>  Наполняем сайт. Секции страницы</span>
           </a>
           <div class="nav float-right">
+            <a href="../index.html" class="nav-item nav-link">
+              <span class="fas fa-home nsd-label-icon"></span>  На главную</a>
             <a href="https://nasdanika.org/" class="nav-item nav-link">nasdanika.org </a>
           </div>
         </div>
@@ -68,10 +70,10 @@
               <span title="Creating a site with the left vertical navigation panel.">
                 <span class="las la-align-justify nsd-label-icon"></span>  Часть 1. Параграфы, вкладки, кнопки переключения, карточки</span>
             </span>
-            <button type="button" data-toggle="collapse" data-target="#nsd-uv" class="navbar-toggler">
+            <button type="button" data-toggle="collapse" data-target="#nsd-1df" class="navbar-toggler">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="nsd-uv" class="collapse navbar-collapse">
+            <div id="nsd-1df" class="collapse navbar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">Содержание курса</a>
@@ -118,7 +120,7 @@
             <div class="list-group list-group-flush">
               <a href="64a156c8-ea84-4fbf-b4d0-7784afe8c6aa.html" class="list-group-item list-group-action list-group-item-dark">Изменяем структуру раздела "Описание".  Создаём вкладки.</a>
               <a href="551790e5-723c-4051-9297-e8a8f9542205.html" class="list-group-item list-group-action list-group-item-dark">
-                <span class="fas fa-paragraph nsd-label-icon"></span>Изменяем стиль секций. Создаём параграфы.</a>
+                <span class="fas fa-paragraph nsd-label-icon"></span> Изменяем стиль секций. Создаём параграфы.</a>
               <a href="dc18c057-8f80-4f02-ad4d-fc0e7bddb939.html" class="list-group-item list-group-action list-group-item-dark">
                 <span class="far fa-folder nsd-label-icon"></span> Вкладки (Tabs) и кнопки (Pills)</a>
               <a href="de6246f0-4586-4544-984c-312ee61086ad.html" class="list-group-item list-group-action list-group-item-dark">Создаем раздел с разными стилями секций</a>
@@ -138,6 +140,7 @@
             <div style="font-size:1.25rem" class="card-header bg-dark text-light font-weight-bold">
               <span class="fas fa-question nsd-label-icon"></span> Как встроить картинку</div>
             <div class="list-group list-group-flush">
+              <a href="d4c68f97-f23c-41a4-9294-b50c6cb04980.html" class="list-group-item list-group-action list-group-item-dark">Как встроить картинку в название Action</a>
               <a href="75307166-ed85-44de-a294-f0a912e8e9ca.html" class="list-group-item list-group-action active list-group-item-dark">Встраивание изображений в HTML. Абсолютный и относительный путь к файлу.</a>
               <a href="963ab7bf-eeda-466a-b7eb-3a2a76106792.html" class="list-group-item list-group-action list-group-item-dark">Организуем хранение изображений в проекте</a>
               <a href="841925f0-15bb-4d47-a2e2-7502cc10b1c0.html" class="list-group-item list-group-action list-group-item-dark">Встариваем картинки в Markdown</a>
@@ -177,7 +180,14 @@
 <li>Не очень традиционный способ: хранить изображение непосредственно в коде проекта.</li>
 </ol>
 <p>Традиционный способ заключается в том, что мы говорим <a href="#" title="браузер -  программа для просмотра HTML страниц">браузеру</a>: &ldquo;пойди туда где лежит картинка и покажи ее пользователю&rdquo;.  Путь к изображению указывается в теге <code>&lt;img&gt;</code>.</p>
-<p>Следовательно, нам нужно знать путь по которому отправить браузер за картинкой.</p>
+<p>Рассмотрим структуру этого тега:</p>
+<ol>
+<li>Мы видим, что весь тег заключен в угловые скобки (знаки меньше/больше)</li>
+<li>После открывающей угловой скобки написан тег, а после пробела написан самый главный атрибут этого тега  - <strong>src=</strong>. С помощью этого атрибута указывается путь к файлу изображения. Сам путь к файлу заключен в кавычки.</li>
+<li>Затем мы видим атрибут <strong>alt</strong> - Для ввода альтернативного текста.  И атрибут <strong>Title</strong> - для ввода всплывающей подсказки.</li>
+</ol>
+<p>У тега <strong>img</strong> могут быть и другие атрибуты, например, задающие ширину и высоту изображения, но через маркдаун синтаксис мы их задать не можем.</p>
+<p>Таким образом, для правильного формирования тега <code>&lt;img&gt;</code> нам  ужно знать путь по которому отправить браузер за картинкой.</p>
 <p>Путь может быть абсолютный и относительный.  Абсолютный путь  похож на точный адрес:  планета Земля, Советский Союз,  3-я улица Строителей, дом 25, квартира 12.</p>
 <p>Относительный - на маршрут из одного места в другое: от этого дома поверни направо, пройди три дома и поверни налево. Через 100 метров будет  дом с номером 25, а в нём - квартира 12. Относительный путь строится от той страницы, в которую встраивается изображение.</p>
 <p>Абсолютный путь можно использовать, если вы хотите встроить картинку, которая хранится где-нибудь в интернете. В этом случае путь к изображению будет иметь вид:</p>
