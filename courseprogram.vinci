@@ -11,8 +11,9 @@
     <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="courseprogram/soderjanie.vinci#b0b20ee3-9414-44f9-8a35-2a7efcca7fe0"/>
   </elements>
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="Подготовка к работе" id="7d260877-5903-4b9a-9b6e-65474dc80b43" text="  Подготовка к работе" icon="fas fa-tools" linkedElements="d33035ac-23be-4798-a784-459899ac072c 8960d9f5-084c-4ec3-bcfc-3aebe5f881d6 ee609129-9677-496b-8e73-3c3121694ef2" role="Section" sectionStyle="Action group">
-    <appearance>
-      <margin size="3" top="false" left="false" right="false"/>
+    <appearance background="White">
+      <margin size="3" left="false" right="false"/>
+      <padding size="3"/>
     </appearance>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 1" id="d33035ac-23be-4798-a784-459899ac072c" color="Dark" text="Лекция 1 " linkedElements="b6109ebe-0bbc-49e3-b580-9688aa7a2ed6" role="Section" sectionStyle="Tab" markdownContent="">
       <appearance>

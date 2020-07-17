@@ -38,6 +38,7 @@
     <semanticResources>courseprogram/Lecture_8_Value/ScarletFlower_8_Value.vinci</semanticResources>
     <semanticResources>courseprogram/Lecture_9_Appearance/United.vinci</semanticResources>
     <semanticResources>courseprogram/Lecture_9_Appearance/Pulse.vinci</semanticResources>
+    <semanticResources>docs1111.vinci</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_kZaZcIkmEeqT-OdzlrtRDg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_y-P74YkmEeqT-OdzlrtRDg" name="courseprogram" repPath="#_y-PU0IkmEeqT-OdzlrtRDg">
