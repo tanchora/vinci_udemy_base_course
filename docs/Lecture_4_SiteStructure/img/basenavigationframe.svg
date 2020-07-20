@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="450"
+   height="404"
+   viewBox="0 0 119.0625 106.89167"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="basenavigationframe.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="216.14816"
+     inkscape:cy="268.86268"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="1912"
+     inkscape:window-y="-7"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-190.10832)">
+    <g
+       id="g848"
+       transform="translate(-10.412767,168.91434)">
+      <rect
+         y="21.751366"
+         x="10.662835"
+         height="105.80895"
+         width="118.19472"
+         id="rect815"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#782151;stroke-width:0.86778456;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="23.994621"
+         x="13.725443"
+         height="17.100805"
+         width="111.71928"
+         id="rect817"
+         style="opacity:1;fill:#782151;fill-opacity:1;stroke:#782151;stroke-width:0.09005695;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="53.469723"
+         x="13.729959"
+         height="69.618675"
+         width="33.222305"
+         id="rect817-6"
+         style="opacity:1;fill:#782151;fill-opacity:1;stroke:#782151;stroke-width:0.09908836;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="42.68293"
+         x="13.725443"
+         height="8.8812199"
+         width="33.285969"
+         id="rect817-6-7"
+         style="opacity:1;fill:#782151;fill-opacity:1;stroke:#782151;stroke-width:0.03542516;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text851"
+         y="33.071342"
+         x="16.944754"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           id="tspan853"
+           style="font-size:5.64444447px;fill:#ffffff;stroke-width:0.26458332"
+           y="33.071342"
+           x="16.944754"
+           sodipodi:role="line">Базовый навигационный каркас</tspan></text>
+      <text
+         transform="scale(0.9663847,1.0347846)"
+         id="text851-0"
+         y="65.348946"
+         x="20.740156"
+         style="font-style:normal;font-weight:normal;font-size:7.98961496px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19974037"
+         xml:space="preserve"><tspan
+           id="tspan877"
+           style="font-size:4.26112795px;fill:#ffffff;stroke-width:0.19974037"
+           y="65.348946"
+           x="20.740156"
+           sodipodi:role="line">ветка </tspan><tspan
+           id="tspan931"
+           style="font-size:4.26112795px;fill:#ffffff;stroke-width:0.19974037"
+           y="75.335968"
+           x="20.740156"
+           sodipodi:role="line">модели</tspan></text>
+      <text
+         transform="scale(1.0166522,0.98362055)"
+         id="text881"
+         y="49.378853"
+         x="17.515429"
+         style="font-style:normal;font-weight:normal;font-size:9.77398491px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.24434961"
+         xml:space="preserve"><tspan
+           style="font-size:5.21279192px;fill:#ffffff;stroke-width:0.24434961"
+           y="49.378853"
+           x="17.515429"
+           id="tspan879"
+           sodipodi:role="line">Главная</tspan></text>
+      <text
+         transform="scale(0.96594476,1.0352559)"
+         id="text887"
+         y="58.539955"
+         x="15.755636"
+         style="font-style:normal;font-weight:normal;font-size:8.05006409px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20125158"
+         xml:space="preserve"><tspan
+           id="tspan889"
+           style="font-size:3.75669646px;fill:#ffffff;stroke-width:0.20125158"
+           y="58.539955"
+           x="15.755636"
+           sodipodi:role="line">навигационная</tspan></text>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         id="path897"
+         d="m 16.234335,63.114664 -0.06225,14.052923"
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.39849883px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         id="path897-8"
+         d="m 16.293264,66.561757 2.622021,-0.03997"
+         style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.34624797px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         id="path914"
+         d="M 10.939968,42.29038 H 128.35515"
+         style="fill:none;fill-rule:evenodd;stroke:#782151;stroke-width:0.2680575px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         id="path914-5"
+         d="M 10.883601,52.56345 H 128.20427"
+         style="fill:none;fill-rule:evenodd;stroke:#782151;stroke-width:0.26794961px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         id="path897-8-0"
+         d="m 16.37355,76.957525 2.622021,-0.04"
+         style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.34624797px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
