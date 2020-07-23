@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" title="Корневой элемент модели" id="0f4563a9-5b29-48bf-a466-35a0c68d664e" linkedElements="591454d4-4a21-4915-bbab-ef020434d4d5 e794d67f-94d3-4493-9dce-c88fc559de26 281489c2-db0c-40d9-a5b7-d1fad52f6539">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Первый уровень иерархии 1" id="591454d4-4a21-4915-bbab-ef020434d4d5" linkedElements="057f7232-11a0-495f-af0a-c86cf45ce65c"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Первый уровень иерархии 2" id="e794d67f-94d3-4493-9dce-c88fc559de26" linkedElements="c992ba95-b68c-4759-a201-3ba04604f12c 0dc9f443-429e-4ea3-b78c-881e04062efa 057f7232-11a0-495f-af0a-c86cf45ce65c"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Первый уровень иерархии 3" id="281489c2-db0c-40d9-a5b7-d1fad52f6539" linkedElements="addba792-f79d-4388-878f-5be214e17247"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Второй уровень иерархии 1" id="057f7232-11a0-495f-af0a-c86cf45ce65c" linkedElements="cc19d422-0c4c-4259-8e0a-9453b608a687"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Второй уровень иерархии 2" id="c992ba95-b68c-4759-a201-3ba04604f12c" linkedElements="bfcd4d6e-1983-47f9-8d14-5bd6c03a7ca1"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Второй уровень иерархии 3" id="0dc9f443-429e-4ea3-b78c-881e04062efa" linkedElements="584c0062-c555-4281-8914-5e69cf04198b b113ed8d-27da-4f83-8629-aeb23bb77c52 addba792-f79d-4388-878f-5be214e17247"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Третий уровень иерархии 2" id="bfcd4d6e-1983-47f9-8d14-5bd6c03a7ca1"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Третий уровень иерархии 1" id="cc19d422-0c4c-4259-8e0a-9453b608a687"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Третий уровень иерархии 3" id="584c0062-c555-4281-8914-5e69cf04198b"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Третий уровень иерархии 4" id="b113ed8d-27da-4f83-8629-aeb23bb77c52"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Второй уровень иерархии 4" id="addba792-f79d-4388-878f-5be214e17247"/>
+</org.nasdanika.vinci.app:Action>

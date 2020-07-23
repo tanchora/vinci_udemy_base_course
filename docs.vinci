@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" title="Nasdanika Vinci: теоретические основы построения моделей и создания сайтов" description="Nasdanika Vinci: теоретические основы построения моделей и создания сайтов" id="index" text="Nasdanika Vinci: теоретические основы построения моделей и создания сайтов" linkedElements="9fea50da-d3c0-42ab-94d5-82e70c5bc816 7d260877-5903-4b9a-9b6e-65474dc80b43 4d41d35d-3a41-4722-8cb1-2327b76b39c0 7b69a71b-4cdd-43ba-a7b8-10c4a75b56fe ac94f369-74ba-4045-ab41-ba6f54f5a629" sectionStyle="Default" sectionColumns="1" pageTemplate="./templ.start.vinci">
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" title="Nasdanika Vinci: теоретические основы построения моделей и создания сайтов" description="Nasdanika Vinci: теоретические основы построения моделей и создания сайтов" id="index" text="Nasdanika Vinci: теоретические основы построения моделей и создания сайтов" linkedElements="tableofcontents 7d260877-5903-4b9a-9b6e-65474dc80b43 4d41d35d-3a41-4722-8cb1-2327b76b39c0 7b69a71b-4cdd-43ba-a7b8-10c4a75b56fe ac94f369-74ba-4045-ab41-ba6f54f5a629" sectionStyle="Default" sectionColumns="1" pageTemplate="./templ.start.vinci">
   <appearance>
     <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
       <entries xsi:type="org.nasdanika.ncore:Property" value="none" name="text-decoration"/>
       <entries xsi:type="org.nasdanika.ncore:Property" value="1.8rem" name="font-size"/>
     </attributes>
   </appearance>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Содержание" id="9fea50da-d3c0-42ab-94d5-82e70c5bc816" text=" Содержание" icon="fas fa-book-open" sectionStyle="Default">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Содержание" id="tableofcontents" text=" Содержание" icon="fas fa-book-open" sectionStyle="Default">
     <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#7d260877-5903-4b9a-9b6e-65474dc80b43"/>
     <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#4d41d35d-3a41-4722-8cb1-2327b76b39c0"/>
     <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#7b69a71b-4cdd-43ba-a7b8-10c4a75b56fe"/>
     <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="#ac94f369-74ba-4045-ab41-ba6f54f5a629"/>
-    <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="courseprogram/soderjanie.vinci#ae455ffd-71a9-4218-8ab4-d20de8fea4de"/>
-    <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="courseprogram/soderjanie.vinci#f532e334-acaf-4c5d-aa44-7a5ea305d9ce"/>
-    <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="courseprogram/soderjanie.vinci#65eb4df2-f4c9-4faf-9d6c-6544475a08eb"/>
-    <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="courseprogram/soderjanie.vinci#b0b20ee3-9414-44f9-8a35-2a7efcca7fe0"/>
+    <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="docs/soderjanie.vinci#ae455ffd-71a9-4218-8ab4-d20de8fea4de"/>
+    <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="docs/soderjanie.vinci#author"/>
+    <linkedElements xsi:type="org.nasdanika.vinci.app:Action" href="docs/soderjanie.vinci#b0b20ee3-9414-44f9-8a35-2a7efcca7fe0"/>
   </elements>
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="Подготовка к работе" id="7d260877-5903-4b9a-9b6e-65474dc80b43" text="  Подготовка к работе" icon="fas fa-tools" linkedElements="d33035ac-23be-4798-a784-459899ac072c 8960d9f5-084c-4ec3-bcfc-3aebe5f881d6 ee609129-9677-496b-8e73-3c3121694ef2" role="Section" sectionStyle="Action group">
     <appearance background="White">
@@ -55,11 +54,11 @@
       <content xsi:type="org.nasdanika.ncore:Value" title="третья  лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NsHWuncNZKU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
   </elements>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Описание структуры сайта в виде mind-map" id="4d41d35d-3a41-4722-8cb1-2327b76b39c0" text=" Описание структуры сайта в виде mind-map" icon="fas fa-sitemap  " role="Section">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Описание структуры сайта в виде mind-map" id="4d41d35d-3a41-4722-8cb1-2327b76b39c0" text=" Описание структуры сайта в виде mind-map" icon="fas fa-sitemap  " linkedElements="2e35e29b-1c29-4947-8bca-31cee3cfef42 2adb2ff8-8a94-45ea-b17a-4281e044d1e8" role="Section">
     <appearance>
       <margin size="3" left="false" right="false"/>
     </appearance>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 4" id="2e35e29b-1c29-4947-8bca-31cee3cfef42" color="Dark" text="Лекция 4" role="Section">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 4" id="2e35e29b-1c29-4947-8bca-31cee3cfef42" color="Dark" text="Лекция 4" linkedElements="ddd93399-82a3-45b1-9ea5-1fd4c3bccd60" role="Section">
       <appearance>
         <margin size="3" top="false" left="false" right="false"/>
       </appearance>
@@ -71,7 +70,7 @@
       <content xsi:type="org.nasdanika.ncore:Value" title="отбивка" value="&lt;p>&lt;/p>"/>
       <content xsi:type="org.nasdanika.ncore:Value" title="Четвертая лекция (ютуб)" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xytSnmOJM-Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen>&lt;/iframe>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 5" id="2adb2ff8-8a94-45ea-b17a-4281e044d1e8" color="Dark" text="Лекция 5" role="Section">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лекция 5" id="2adb2ff8-8a94-45ea-b17a-4281e044d1e8" color="Dark" text="Лекция 5" linkedElements="f014681b-5e9d-4f4f-87d7-0f0efd040678" role="Section">
       <appearance>
         <margin size="3" top="false" left="false" right="false"/>
       </appearance>

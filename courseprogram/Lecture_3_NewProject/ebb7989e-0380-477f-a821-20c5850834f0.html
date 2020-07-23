@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/united/bootstrap.min.css" id="nsd-bootstrap-theme-stylesheet"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <null name="generator" content="Nasdanika Vinci"/>
+    <style>.nsd-app-content-row {
+    min-height: 80vh;
+}
+.nsd-root-action {
+    text-decoration: none;
+}
+
+.jstree-anchor {
+    white-space : normal !important;
+    height : auto !important;
+    padding-right : 24px;
+}
+
+@media print {
+  div.nsd-app-navigation-panel {
+    display: none;
+  }
+}</style>
+    <script>$(document).ready( function() {
+    $('.nsd-app-container').addClass(['border-bottom', 'border-dark']);
+    $('.nsd-app-header .nav-link').addClass('text-dark');
+    $('.nsd-root-action').addClass(['display-4', 'text-dark']);
+
+    $('.nsd-app-navbar nav.navbar').removeClass(['bg-light', 'navbar-light']);
+    $('.nsd-app-navbar nav.navbar').addClass(['bg-dark', 'navbar-dark']);
+
+    $('.nsd-app-navigation-panel').addClass(['border-right', 'border-light', 'pt-2']); 
+    $('.nsd-app-content-panel').addClass(['col']);
+    $('.nsd-app-footer').addClass(['text-center']);
+});
+</script><meta name="yandex-verification" content="7379f2eb997a0f8b" />
+    <title>Создание Vinci-модели сайта - Создание нового проекта в IDE Eclipse.</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.8/themes/default/style.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.8/jstree.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script></head>
+  <body>
+    <div class="container-fluid nsd-app-container">
+      <div class="row">
+        <div class="nsd-app-header col bg-light">
+          <a data-nsd-action="index" href="index.html" class="nsd-action nsd-root-action">Создание нового проекта в IDE Eclipse. </a>
+          <div class="nav float-right">
+            <a href="../index.html" class="nav-item nav-link">
+              <span class="fas fa-home nsd-label-icon"></span>  На главную</a>
+            <a href="https://nasdanika.org/" class="nav-item nav-link">nasdanika.org </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="nsd-app-navbar col bg-primary navbar-dark bg-dark">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <span data-nsd-action="a075f0da-f569-4186-857f-b691782ab1d7" class="nsd-action navbar-brand">Создание модели сайта. Импорт готовых моделей</span>
+            <button type="button" data-toggle="collapse" data-target="#nsd-a8" class="navbar-toggler">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="nsd-a8" class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">Содержание курса</a>
+                  <div class="dropdown-menu">
+                    <a data-nsd-action="ec294346-3f29-4aac-9ca7-468ccfca49aa" href="../index.html" class="nsd-action dropdown-item">
+                      <span class="fas fa-home nsd-label-icon"></span>  На главную</a>
+                    <a data-nsd-action="4169a3da-0c8b-4adb-8c7a-09426629458f" href="../Lecture_1_websitegenerator/index.html" class="nsd-action dropdown-item">Лекция 1. Что такое Nasdanika Vinci?</a>
+                    <a data-nsd-action="d13024ab-34f0-4c56-8d9e-580c03ca6659" href="../Lecture_2_Installation/index.html" class="nsd-action dropdown-item">Лекция 2.  Установка Nasdanika Vinci</a>
+                    <a data-nsd-action="f557c4fa-3e08-4380-bbfa-c17e33a99cc6" href="index.html" class="nsd-action dropdown-item">Лекция 3.  Создание нового проекта в IDE Eclipse. Создание и импорт моделей.</a>
+                    <a data-nsd-action="fafc948d-3597-4c60-bc7e-96c76db740cc" href="../Lecture_4_SiteStructure/index.html" class="nsd-action dropdown-item">Лекция 4.  Элементы модели. Базовый навигационный каркас.</a>
+                    <a data-nsd-action="91dd3a00-a668-4376-aa81-4b7e204bf500" href="../Lecture_5_SiteStructure_Context/index.html" class="nsd-action dropdown-item">Лекция 5. Роль элемента модели. Контекстный (горизонтальный) навигационный каркас.</a>
+                    <a data-nsd-action="fd07ebc1-837d-463e-9c55-7c0c0a67f324" href="../Lecture_6_Section_p.1/index.html" class="nsd-action dropdown-item">Лекция  6.  Секции страницы  Вкладки, параграфы, карточки, pills</a>
+                    <a data-nsd-action="28099477-f050-4110-b548-f870be73d629" href="../Lecture_7_Section_p.2/index.html" class="nsd-action dropdown-item">Лекция 7  Наполняем сайт: Секции страницы: таблицы & action group</a>
+                    <a data-nsd-action="2e847356-faea-40e6-9fe9-dc8253cfa7cd" href="../Lecture_8_Value/index.html" class="nsd-action dropdown-item">Лекция 8. Наполняем сайт. Встраиваем интерактивные элементы и произвольный код.</a>
+                    <a data-nsd-action="e096f76e-634f-4dc5-9129-777549943750" href="../Lecture_9_Appearance/index.html" class="nsd-action dropdown-item">Лекция 9 Оформление сайта. Цвет, текст  и отступы</a>
+                    <a data-nsd-action="5f52bf5f-62b3-44ed-b78d-a77505a17a33" href="../Lecture_10_Publication/index.html" class="nsd-action dropdown-item">Лекция 10 Публикация</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row nsd-app-content-row">
+        <div class="nsd-app-navigation-panel col-md-2 col-lg-3 bg-light pl-2">
+          <div class="list-group list-group-flush">
+            <a href="e7eedbd1-8cf0-4628-b657-bc8c42a6f186.html" class="list-group-item list-group-action list-group-item-dark">Создание нового проекта</a>
+            <a href="ebb7989e-0380-477f-a821-20c5850834f0.html" class="list-group-item list-group-action active list-group-item-dark">Создание Vinci-модели сайта</a>
+            <a href="4986d897-9787-4d44-8406-0303f88bd118.html" class="list-group-item list-group-action list-group-item-dark">Импорт модели</a>
+            <a href="e44952ff-3bfe-4717-9a71-d3522feea4f4.html" class="list-group-item list-group-action list-group-item-dark">Настраиваем  Viewpoint и создаём репрезентации</a>
+          </div>
+        </div>
+        <div class="nsd-app-content-panel col-md-10 col-lg-9 pb-lg-2 pl-lg-2 pr-lg-2 pt-lg-4">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col nsd-app-content-panel-header-col">
+                <h2 data-nsd-action="ebb7989e-0380-477f-a821-20c5850834f0" class="nsd-action nsd-app-content-panel-header">Создание Vinci-модели сайта</h2>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-body-row">
+              <div class="col nsd-app-content-panel-body">
+                <div class="markdown-body"><p>После создания проекта нам необходимо создать файл модели. Мы уже знаем, что файл модели имеет расширение <strong>.vinci</strong>, хранится либо в корневой папке проекта либо в дочерних папках (поддирректориях). Процесс создания модели уже рассматривался <a href="./../Lecture_2_Installation/20f66a14-ad56-43c0-8b19-a7235bec7820.html">во второй лекции</a>, но не полностью - мы не затронули процесс выбора шаблона оформления для нашего сайта.</p>
+<p>Поэтому рассмотрим процесс создания модели еще раз:</p>
+<p>Для того чтобы создать файл модели выделяем корневой каталог (папку) проекта -&gt; <img src="./../MRC01.svg" alt="" />  -&gt; New -&gt; Other</p>
+<p><img src="./../Lecture_2_Installation/img/Newinprjject.jpg" alt="Открываем мастер создания Vinci-модели" title="Открываем мастер создания Vinci-модели" /></p>
+<p>В открывшемся диалоговом окне выбраем мастер создания модели. Прокручиваем вниз, находим папку Nasdanika -&gt; раскрываем папку -&gt; выделяем Vinci Model -&gt; Next</p>
+<p><img src="./../Lecture_2_Installation/img/SelectWizard.jpg" alt="" /></p>
+<p>По умолчанию модель называется My.vinci. Присвойте модели новое имя,  при этом я рекомендую использовать латиницу и название должно быть без пробелов между словами.</p>
+<p>Потому что потом из этого названия генератор создаст папку и в неё будут сгенерированы  HTML  файлы сайта. Затем, название этой папки станет частью URL-адреса, по которому мы будем образаться к страницам сайта. А URL-адрес не должен содержать пробелов.</p>
+<p><img src="img/ModelName01.jpg" alt="" /></p>
+<p>Далее  мы выбираем корневой объект модели.  Мы будем строить модель от элемента, который называется Action (Построение модели от других объектов используется, например, для создания шаблонов оформления и будет рассматриваться в курсах более высокого уровня).</p>
+<p>В диалоговом окне мы видим список тех объектов, от которых мы можем построить модель. Нажмем на стрелочку рядом с пунктом списка <strong>Actions</strong>. Раскроется список, в котором мы выберем пункт <strong>Action</strong>.</p>
+<p>Затем, мы можем нажать кнопку Next и перейти к выбору настроек оформления для  сайта. Либо можем нажать кнопку Finish и использовать предустановленные настройки оформления</p>
+<p><img src="img/rootobject01.jpg" alt="Выбираем корневой объект модели" /></p>
+<p>Переходим к следующему диалоговому окну, в котором мы будем настраивать внешний вид нашего сайта.  Мы должны указать генератору: какую тему оформления использовать для страниц сайта: базовую тему Bootstrap (Default) или  Bootswatch тему  Cerulian (что значит - лазурный).</p>
+<blockquote>
+<p>Тема оформления определяет: какие цветовые оттенки будут использоваться для оформления отдельных элементов сайта.<br />
+В прогрмму встроено 4 варианта оформления, которые получаются в результате комбинации светлого/тёмного хедера и светлой/темной навигационной панели.<br />
+Для того чтобы использовать другие цветовые темы  необходимо научиться подключать шаблоны оформления к модели.</p>
+</blockquote>
+<p><img src="img/tamplate.jpg" alt="" /></p>
+<p>Выбираем цвет хедера (шапки страницы) темный, а навигационную панель - светлую.</p>
+<p>Установим галочку  fluid. Эта галочка отвечает за то, что содержимое сайта будет занимать 100% от окна браузера. Если я она не будет установлена, то содержимое сайта будет  собираться в центре страницы.</p>
+<p>Нажимаем кнопочку finish.</p>
+<p><strong>В области Model explorer появится файл модели, а в области редактирования открывается древовидная репрезентация модели.</strong></p>
+<p>Доступные бесплатные варианты оформления:</p>
+<p><img src="img/var1.jpg" alt="Тема оформления DEFAULT, светлый навбар " title="Тема оформления DEFAULT, светлый навбар" /> <img src="img/var2.jpg" alt="Тема оформления Cerulian, тёмный хедер/светлый навбар " title="Тема оформления Cerulian, тёмный хедер/светлый навбар" /> <img src="img/var3.jpg" alt="Тема оформления Cerulian, primary header/ тёмный навбар " title="Тема оформления Cerulian, primary header/ тёмный навбар " /> <img src="img/var4.jpg" alt="Тема оформления Cerulian, primary header/ светлый навбар " title="Тема оформления Cerulian, primary header/ светлый навбар" /></p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
