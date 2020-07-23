@@ -3,41 +3,7 @@
   <viewpoint:DAnalysis uid="_PZitQIkmEeqT-OdzlrtRDg" selectedViews="_kZaZcIkmEeqT-OdzlrtRDg" version="14.3.0.201909031200">
     <semanticResources>courseprogram.vinci</semanticResources>
     <semanticResources>templ.1.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_7_Section_p.2.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_8_Value.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_1_websitegenerator.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_1_websitegenerator/Solarsystem.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_1_websitegenerator/Дипломная%20работа.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_2_Installation.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_10_Publication.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_9_Appearance/ScarletFlower-Appearance_start.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_9_Appearance.vinci</semanticResources>
-    <semanticResources>courseprogram/soderjanie.vinci</semanticResources>
     <semanticResources>templ.start.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_4_SiteStructure.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_3_NewProject.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_5_SiteStructure_Context.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_4_SiteStructure/My.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_6_Section_p.1.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_4_SiteStructure/ScarletFlower_0401.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_4_SiteStructure/ScarletFlower_0402.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_4_SiteStructure/ScarletFlower_0403.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_4_SiteStructure/ScarletFlower_0404.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_4_SiteStructure/ScarletFlower.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_4_SiteStructure/ScarletFlower_0405.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_4_SiteStructure/ScarletFlower_0406.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_4_SiteStructure/ScarletFlower_0407.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_5_SiteStructure_Context/ScarletFlower_0501.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_5_SiteStructure_Context/RolesAndHierarchy.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_5_SiteStructure_Context/ScarletFlower_0502.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_5_SiteStructure_Context/ScarletFlower_0503.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_6_Section_p.1/ScarletFlower_0601.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_6_Section_p.1/ScarletFlower_0602.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_6_Section_p.1/Cardtab.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_7_Section_p.2/ScarletFlower-sections-l.2.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_8_Value/ScarletFlower_8_Value.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_9_Appearance/United.vinci</semanticResources>
-    <semanticResources>courseprogram/Lecture_9_Appearance/Pulse.vinci</semanticResources>
     <semanticResources>docs.vinci</semanticResources>
     <semanticResources>docs/Lecture_10_Publication.vinci</semanticResources>
     <semanticResources>docs/soderjanie.vinci</semanticResources>
